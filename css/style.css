@@ -1,0 +1,572 @@
+        /***************** COMMON *******************/
+    
+    html {
+        box-sizing: border-box;
+    }
+    
+    *,
+    *:before,
+    *:after {
+        box-sizing: inherit;
+    }
+    
+    input:focus,
+    textarea:focus {
+        outline: none;
+    }
+    
+    body {
+        font-family: 'Roboto', sans-serif;
+        margin: 0;
+        background: #fff;
+    }
+    
+    .container-top {
+        background: url(../img/3.jpg) no-repeat center center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+        height: 805px;
+    }
+    
+    .wrapper {
+        max-width: 980px;
+        margin: 0 auto;
+        text-align: center;
+        width: 90%;
+        padding: 6.5% 0;
+    }
+    
+    a:link,
+    a:visited {
+        color: #333;
+    }
+    
+    a {
+        text-decoration: none;
+    }
+    
+    h3 {
+        font-size: 18px;
+        font-weight: 700;
+        margin: 0 0 2em 0;
+        letter-spacing: 3px;
+    }
+    
+    h4 {
+        font-size: 12px;
+        font-weight: 700;
+        letter-spacing: 3px;
+    }
+    /***************** HOME *******************/
+    
+    header.name {
+        margin-top: 200px;
+    }
+    
+    h1 {
+        font-size: 22px;
+        letter-spacing: 11px;
+        margin-bottom: 20px;
+    }
+    
+    h2 {
+        font-size: 13px;
+        letter-spacing: 3px;
+    }
+    /***************** NAVIGATION *******************/
+    
+    /*nav ul {
+        padding-top: 50px;
+    }*/
+    
+    nav ul li {
+        list-style: none;
+        display: inline-block;
+        padding-right: 50px;
+        letter-spacing: 5px;
+    }
+    
+    nav ul li a {
+        font-size: 10px;
+        font-weight: 700;
+    }
+    
+    .hamburgler-menu {
+        display: none;
+    }
+    /***************** PORTFOLIO *******************/
+    
+    .container.container-portfolio {
+        padding-bottom: 5%
+    }
+    
+    #portfoliolist .portfolio {
+        width: 30%;
+    }
+    
+    #filters {
+        display: inline-block;
+        margin: 3% 0 5% 0;
+    }
+    
+    #filters li {
+        border: 2px solid #333;
+        margin-right: 15px;
+    }
+    
+    #filters li span {
+        color: #000;
+        font-weight: 700;
+        letter-spacing: 3px;
+        padding: 10px 25px;
+    }
+    
+    span.filter.active {
+        background: #edf4f4;
+        color: #000;
+    }
+    
+    .portfolio .label-text {
+        color: #000;
+        letter-spacing: 3px;
+        text-transform: uppercase;
+    }
+
+    .wrapper-work p.tc{
+        text-align: center;
+    }
+
+    /***************** ABOUT *******************/
+    
+    .container-about {
+        background: #edf4f4;
+    }
+    
+    .container-about p {
+        text-align: left;
+        letter-spacing: 1px;
+        line-height: 2em;
+        font-size: 14px;
+    }
+    /***************** BLOG *******************/
+    
+    .container-blog h4 {
+        width: 215px;
+        display: block;
+        margin: 0 auto;
+        border: 2px solid #000;
+        padding: 12px;
+    }
+    
+    .container-blog {
+        padding: 5% 0;
+    }
+    /***************** CONTACT *******************/
+    
+    .container-contact {
+        background: url(../img/2.jpg) no-repeat center center;
+        background-size: cover;
+    }
+    
+    .row {
+        width: 100%;
+    }
+    
+    .column-half {
+        width: 49%;
+        float: left;
+    }
+    
+    .column-half.name {
+        margin-right: 2%;
+    }
+    
+    .wrapper form input,
+    .wrapper input#submit {
+        height: 3.2em;
+        font-weight: 700;
+        border: 2.0px solid #333;
+        padding: 5px;
+        letter-spacing: 2px;
+    }
+    
+    .wrapper form input {
+        width: 100%;
+        margin-bottom: 13px;
+    }
+    
+    .wrapper textarea {
+        width: 100%;
+        height: 15em;
+        font-weight: 700;
+        border: 2.0px solid #333;
+        margin-bottom: 13px;
+        resize: none;
+        padding: 5px;
+        letter-spacing: 2px;
+    }
+    
+    .wrapper input#submit {
+        width: 30%;
+        background: #fff;
+    }
+    
+    ::-webkit-input-placeholder {
+        color: #333;
+    }
+    
+    :-moz-placeholder {
+        /* Firefox 18- */
+        color: #333;
+    }
+    
+    ::-moz-placeholder {
+        /* Firefox 19+ */
+        color: #333;
+    }
+    
+    :-ms-input-placeholder {
+        color: #333;
+    }
+    
+    textarea,
+    input[type="text"],
+    input[type="email"],
+    input[type="submit"] {
+        -webkit-appearance: none;
+        border-radius: 0;
+    }
+    
+    input:-webkit-autofill {
+        -webkit-box-shadow: 0 0 0 1000px #fff inset !important;
+    }
+    
+    p.name-error,
+    p.email-error,
+    p.subject-error,
+    p.message-error {
+        color: #333;
+        font-weight: 700;
+        letter-spacing: 2px;
+        font-size: 12px;
+        text-transform: uppercase;
+        text-align: left;
+    }
+    /***************** FOOTER *******************/
+    
+    .container-footer {
+        height: 10em;
+        background: #edf4f4;
+        font-size: 12px;
+    }
+    
+    .wrapper-footer {
+        max-width: 980px;
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    ul.footer {
+        list-style: none;
+        padding: 0;
+        float: left;
+        margin-top: 35px;
+    }
+    
+    ul.footer li {
+        display: inline-block;
+        margin-right: 2em;
+        letter-spacing: 2px;
+    }
+    
+    ul.footer li a {
+        font-weight: 700;
+        font-size: 10px;
+    }
+    
+    .icons {
+        float: right;
+        margin-top: 28px;
+        font-size: 12px;
+    }
+    
+    .icons a {
+        padding-right: 15px;
+    }
+    
+    .copy p {
+        clear: both;
+        text-align: center;
+        letter-spacing: 2px;
+        padding-top: 1.68em;
+        font-size: 10px;
+    }
+    /***************** INDIVISUAL PORTFOLIO WORK PAGE *******************/
+    
+    #top.container-ind {
+        max-height: 130px;
+    }
+    
+    .container-work nav ul.nav-main {
+        padding-top: 0;
+    }
+    
+    .container-work p {
+        text-align: left;
+        letter-spacing: 1px;
+        line-height: 2em;
+        width: 80%;
+        margin: 0 auto;
+        font-size: 14px;
+    }
+    
+    .wrapper-work {
+        max-width: 980px;
+        margin: 0 auto;
+        text-align: center;
+        width: 90%;
+        padding-bottom: 6.5%;
+    }
+    
+    .wrapper-work h3 {
+        line-height: 1.5em;
+        text-transform: uppercase;
+    }
+    
+    img.work-project,
+    video.work-project {
+        width: 80%;
+        margin: 5% 0;
+        max-width: 600px;
+    }
+
+    img.work-cards{
+        width: 80%;
+        margin: 5% 0;
+        max-width: 400px;
+        margin-right:30px;
+    }
+
+
+
+    
+    .data {
+        width: 40%;
+        margin: 0 auto 50px auto;
+        border: 1.5px solid #333;
+        padding: 5px;
+        min-width: 220px;
+    }
+    
+    .data p {
+        font-size: 12px;
+        font-weight: 500;
+    }
+    
+    img.work-project.tile {
+        border: solid 1px #CCCCCC;
+        padding: 18px;
+    }
+    
+    img.work-project.ptf_mockup {
+        border: solid 1px #CCCCCC;
+    }
+    
+    .btn_visit {
+        margin-top: 2em;
+    }
+    
+    .btn_visit p {
+        border: solid 2px #333;
+        letter-spacing: 3px;
+        padding: 6px;
+        font-size: 12px;
+        text-align: center;
+        width: 125px;
+        font-weight: 700;
+    }
+    /*.arrow {
+    margin-top: 50px;
+}*/
+    
+    .fa.fa-chevron-left {
+        margin-right: 16em;
+    }
+    /***************** Thank you *******************/
+    
+    .wrapper-work.thanks {
+        margin-top: 14%;
+    }
+    /***************** MEDIA QUERY *******************/
+    @media (max-width:930px){
+        img.work-cards{
+            margin-right: 0;
+        }
+    }
+
+
+    /********* HUMBERGER MENU *********/
+    
+    @media (max-width:767px) {
+        .hamburgler-icon-wrapper {
+            position: absolute;
+            top: 1em;
+            left: 1em;
+            height: 26px;
+            width: 26px;
+            cursor: pointer
+        }
+        .hamburgler-icon,
+        .hamburgler-icon:before,
+        .hamburgler-icon:after {
+            content: '';
+            position: absolute;
+            border-radius: 1em;
+            height: 2px;
+            width: 26px;
+            background: black;
+            -webkit-transition: all 0.2s ease;
+            transition: all 0.2s ease
+        }
+        .hamburgler-icon {
+            top: 0.75em
+        }
+        .hamburgler-icon:before {
+            top: -0.55em
+        }
+        .hamburgler-icon:after {
+            top: 0.55em
+        }
+        .hamburgler-active .hamburgler-icon {
+            background: transparent;
+            -webkit-transform: rotate(-135deg);
+            transform: rotate(-135deg)
+        }
+        .hamburgler-active .hamburgler-icon:before,
+        .hamburgler-active .hamburgler-icon:after {
+            top: 0
+        }
+        .hamburgler-active .hamburgler-icon:before {
+            -webkit-transform: rotate(90deg);
+            transform: rotate(90deg)
+        }
+        .hamburgler-active .hamburgler-icon,
+        .hamburgler-active .hamburgler-icon:before,
+        .hamburgler-active .hamburgler-icon:after {
+            background: white
+        }
+        .hamburgler-menu {
+            -webkit-transition: all 0.4s ease;
+            transition: all 0.4s ease;
+            opacity: 0;
+            pointer-events: none;
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            background-color: rgba(0, 0, 0, 0.9);
+            color: white;
+            text-align: center;
+        }
+        .hamburgler-active .hamburgler-menu {
+            opacity: 1;
+            pointer-events: initial;
+        }
+        .hamburgler-menu-list {
+            display: block;
+            -webkit-transition: all 0.4s ease;
+            transition: all 0.4s ease;
+            padding: 0;
+            list-style-type: none;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -webkit-transform: translate(-50%, -50%) scale(1.2);
+            transform: translate(-50%, -50%) scale(1.2)
+        }
+        .hamburgler-active .hamburgler-menu-list {
+            -webkit-transform: translate(-50%, -50%) scale(1);
+            transform: translate(-50%, -50%) scale(1)
+        }
+        .hamburgler-menu a {
+            color: #fff;
+        }
+        .hamburgler-menu-list {
+            width: 100px;
+        }
+        .hamburgler-menu-list li {
+            padding-bottom: 20px;
+        }
+        /*STACK ORDER*/
+        #hamburgler.hamburgler-icon-wrapper {
+            z-index: 2;
+        }
+        .hamburgler-menu {
+            z-index: 1;
+            height: 300px;
+        }
+        /* hide menu */
+        ul.nav-main {
+            display: none;
+        }
+        /* show hamburgler menu */
+        .hamburgler-menu {
+            display: block;
+        }
+        /* Fill up the background*/
+        .container-top {
+            padding-top: 10px;
+            height: 300px;
+        }
+        /***** NAME *****/
+        header.name {
+            margin-top: 7em;
+        }
+        /***** PORTFOLIO FILTER *****/
+        #filters li {
+            float: none;
+            margin-bottom: 8px;
+            width: 250px;
+        }
+        #portfoliolist .portfolio {
+            width: 100%;
+        }
+        /***** CONTACT *****/
+        input,
+        textarea {
+            width: 100%;
+        }
+        input#submit {
+            width: 50%;
+        }
+        /***** WORK *****/
+        .wrapper-work {
+            padding-top: 6.5%;
+        }
+        @media (max-width:560px) {
+            /****************** FOOTER *****************/
+            .container-footer {
+                height: 14em;
+            }
+          
+        }
+        @media (max-width:425px) {
+            #filters li {
+                margin-right: 0;
+            }
+            .container-footer {
+                height: 18em;
+            }
+            ul.footer li {
+                margin: 0;
+                display: block;
+                padding-bottom: 10px;
+            }
+
+            .column-half{
+                width:100%;
+            }
+        }
