@@ -163,6 +163,10 @@
     .container-blog {
         padding: 5% 0;
     }
+
+    .fa-dribbble:before{
+        color: #e91e63;
+    }
     /***************** CONTACT *******************/
     
     .container-contact {
