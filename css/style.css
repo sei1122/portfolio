@@ -22,12 +22,12 @@
     }
     
     .container-top {
-        background: url(../img/3.jpg) no-repeat center center;
+        background: url(../img/1.jpg) no-repeat center center;
         -webkit-background-size: cover;
         -moz-background-size: cover;
         -o-background-size: cover;
         background-size: cover;
-        height: 805px;
+        height: 650px;
     }
     
     .wrapper {
