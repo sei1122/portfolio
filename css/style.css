@@ -410,9 +410,9 @@
         }
     }
 
-    @media (max-width:792px){
+    @media (max-width:793px){
         nav ul li a {
-    font-size: 11px;
+    font-size: 10px;
     font-weight: 700;
     }
 }
