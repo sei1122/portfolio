@@ -89,7 +89,7 @@
     }
     
     nav ul li a {
-        font-size: 10px;
+        font-size: 12px;
         font-weight: 700;
     }
     
@@ -218,21 +218,21 @@
     }
     
     ::-webkit-input-placeholder {
-        color: #333;
+        color: gray;
     }
     
     :-moz-placeholder {
         /* Firefox 18- */
-        color: #333;
+        color: gray;
     }
     
     ::-moz-placeholder {
         /* Firefox 19+ */
-        color: #333;
+        color: gray;
     }
     
     :-ms-input-placeholder {
-        color: #333;
+        color: gray;
     }
     
     textarea,
@@ -409,6 +409,13 @@
             margin-right: 0;
         }
     }
+
+    @media (max-width:792px){
+        nav ul li a {
+    font-size: 11px;
+    font-weight: 700;
+    }
+}
 
 
     /********* HUMBERGER MENU *********/
