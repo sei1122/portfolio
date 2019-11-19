@@ -103,7 +103,7 @@
     }
     
     #portfoliolist .portfolio {
-        width: 30%;
+        width: 45%;
     }
     
     #filters {
@@ -136,6 +136,10 @@
 
     .wrapper-work p.tc{
         text-align: center;
+    }
+
+    #portfoliolist .portfolio{
+        margin: 2%
     }
 
     /***************** ABOUT *******************/
@@ -545,6 +549,7 @@
         }
         #portfoliolist .portfolio {
             width: 100%;
+            max-width: 400px;
         }
         /***** CONTACT *****/
         input,
