@@ -36,6 +36,7 @@
         text-align: center;
         width: 90%;
         padding: 6.5% 0;
+        overflow: auto;
     }
     
     a:link,
@@ -100,6 +101,10 @@
     
     .container.container-portfolio {
         padding-bottom: 5%
+    }
+
+    #portfoliolist{
+        overflow: auto;
     }
     
     #portfoliolist .portfolio {
@@ -280,7 +285,6 @@
     ul.footer {
         list-style: none;
         padding: 0;
-        float: left;
         margin-top: 35px;
     }
     
@@ -550,6 +554,7 @@
         #portfoliolist .portfolio {
             width: 100%;
             max-width: 400px;
+            margin-left: 30px;
         }
         /***** CONTACT *****/
         input,
@@ -563,6 +568,16 @@
         .wrapper-work {
             padding-top: 6.5%;
         }
+
+
+        @media (max-width:685px){
+            #portfoliolist .portfolio{
+                margin: 2%;
+            }
+        }
+
+
+
         @media (max-width:560px) {
             /****************** FOOTER *****************/
             .container-footer {
