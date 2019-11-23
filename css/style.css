@@ -333,7 +333,7 @@ padding-right: 15px;
 }
 
 .icons a:hover{
-  color:#ad74ed;
+    color:#ad74ed;
 }
 
 .copy p {
@@ -574,11 +574,14 @@ header.name {
     float: none;
     margin-bottom: 8px;
     width: 250px;
+    margin-right:0;
 }
+
 #portfoliolist .portfolio {
     width: 100%;
     max-width: 400px;
-    margin-left: 30px;
+   /* margin-left: 30px;*/
+   float:none;
 }
 /***** CONTACT *****/
 input,
