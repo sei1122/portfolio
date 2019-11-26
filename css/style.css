@@ -428,6 +428,10 @@ font-weight: 700;
 margin-top: 50px;
 }*/
 
+.arrow a:hover{
+    color:#ad74ed;
+}
+
 .fa.fa-chevron-left {
 margin-right: 16em;
 }
