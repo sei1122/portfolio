@@ -132,6 +132,10 @@ letter-spacing: 3px;
 padding: 10px 25px;
 }
 
+#filters li span:hover{
+    background: #cdcdffde;
+}
+
 span.filter.active {
 background: #cdcdffde;
 color: #000;
@@ -379,7 +383,7 @@ img.work-project,
 video.work-project {
 width: 80%;
 margin: 5% 0;
-max-width: 600px;
+max-width: 980px;
 }
 
 img.work-cards{
