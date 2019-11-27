@@ -134,6 +134,11 @@ padding: 10px 25px;
 
 #filters li span:hover{
     background: #cdcdffde;
+    color : #fff;
+}
+
+#filters li:hover{
+    border: solid 2px #cdcdffde;
 }
 
 span.filter.active {
