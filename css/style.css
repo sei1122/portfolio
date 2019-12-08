@@ -161,6 +161,10 @@ text-align: center;
 margin: 2%
 }
 
+mark{
+   background: linear-gradient(to top, #CFEEEF 50%, transparent 50%);
+}
+
 /***************** ABOUT *******************/
 
 .container-about {
