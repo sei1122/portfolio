@@ -34,7 +34,7 @@ Roboto
 INDEX PAGE
 
 navigation
-font-size: 12px;
+font-size: 13px;
 nav ul li a {
 font-size: 12px;
 font-weight: 700;
@@ -42,14 +42,14 @@ font-weight: 700;
 
 seiko igi
 h1.myname {
-    font-size: 22px;
+    font-size: 30px;
     letter-spacing: 11px;
     margin-bottom: 20px;
 }
 
 PRODUCT DESIGNER BASED IN BAY AREA, CALIFORNIA
 h2.title {
-    font-size: 13px;
+    font-size: 14px;
     letter-spacing: 3px;
 } 
 
@@ -63,9 +63,44 @@ h3 {
 
 description
 h4 {
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: 500;
+    letter-spacing: 3px;
+}
+
+FILTER
+#filters li span {
+    color: #000;
     font-weight: 700;
     letter-spacing: 3px;
+    padding: 10px 25px;
+    font-size: 13px;
+}
+
+.dribbble h4 {
+    width: 215px;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #000;
+    padding: 12px;
+    font-size:13px;
+}
+
+EMAIL SUBMIT
+.wrapper form input, .wrapper input#submit {
+    height: 3.2em;
+    font-weight: 700;
+    border: 2.0px solid #fff;
+    padding: 5px;
+    letter-spacing: 2px;
+}
+
+.wrapper input#submit
+.wrapper input#submit {
+    width: 30%;
+    background: #fff;
+    border: 2.0px solid #333;
+    font-size: 13px;
 }
 
 

@@ -69,8 +69,8 @@ h3 {
 }
 
 h4 {
-    font-size: 12px;
-    font-weight: 700;
+    font-size: 14px;
+    font-weight: 500;
     letter-spacing: 3px;
 }
 
@@ -81,13 +81,13 @@ header.name {
 }
 
 h1.myname {
-    font-size: 22px;
+    font-size: 30px;
     letter-spacing: 11px;
     margin-bottom: 20px;
 }
 
 h2.title {
-    font-size: 13px;
+    font-size: 14px;
     letter-spacing: 3px;
 }
 
@@ -105,7 +105,7 @@ nav ul li {
 }
 
 nav ul li a {
-    font-size: 12px;
+    font-size: 13px;
     font-weight: 700;
 }
 
@@ -143,6 +143,7 @@ nav ul li a:hover {
 
 #filters li span {
     color: #000;
+    font-size: 13px;
     font-weight: 700;
     letter-spacing: 3px;
     padding: 10px 25px;
@@ -196,22 +197,24 @@ mark {
 
 /***************** DRIBBBLE *******************/
 
-.container-blog h4 {
+.dribbble h4 {
     width: 215px;
     display: block;
     margin: 0 auto;
     border: 2px solid #000;
     padding: 12px;
+    font-weight:700;
+    font-size:13px;
 }
 
-.container-blog h4:hover {
+.dribbble h4:hover {
     background: #cdcdffde;
     border: none;
     border: 2px solid #fff;
     color: #fff;
 }
 
-.container-blog {
+.dribbble {
     padding: 5% 0;
 }
 
@@ -268,6 +271,7 @@ mark {
     width: 30%;
     background: #fff;
     border: 2.0px solid #333;
+    font-size: 13px;
 }
 
 input#submit:hover {
@@ -664,19 +668,16 @@ margin-top: 50px;
 
 }
 
-/* @media (max-width:685px){
-    #portfoliolist .portfolio{
-        margin: 2%;
-    }
-}
-*/
-
-
 @media (max-width:560px) {
 
     /****************** FOOTER *****************/
     .container-footer {
         height: 14em;
+    }
+
+    
+    .wrapper input#submit{
+        width:100%;
     }
 
 }
@@ -708,4 +709,6 @@ margin-top: 50px;
     .column-half {
         width: 100%;
     }
+
+
 }
