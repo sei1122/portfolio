@@ -49,7 +49,7 @@ a {
 }
 
 h1 {
-    font-size: 22px;
+    font-size: 20px;
     letter-spacing: 3px;
     margin-bottom: 20px;
 }
@@ -58,6 +58,7 @@ h2 {
     font-size: 18px;
     letter-spacing: 3px;
     text-transform: uppercase;
+    /*font-weight: 400;*/
 }
 
 h3 {
@@ -410,7 +411,7 @@ ul.footer li a:hover {
 
 img.work-project,
 video.work-project {
-    width: 90%;
+    width: 80%;
     margin: 1% 0 10% 0;
     max-width: 980px;
 }

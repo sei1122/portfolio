@@ -1,0 +1,165 @@
+
+updated style
+
+consistant style across the pages
+take enough margin
+
+************************************
+COLOR CODE
+
+text
+black : #000000
+
+navigation, social links, footer nav
+purple: #ad74ed
+
+
+sorting button, submit button
+light purple:#cdcdffde
+(This color code has opacity setting color. This color code is not working Ai and Photoshop )
+
+
+section title mark
+<mark></mark>
+mark {
+    background: linear-gradient(to top, #CFEEEF 50%, transparent 50%);
+}
+
+
+************************************
+TEXT 
+Roboto
+
+************************************
+INDEX PAGE
+
+navigation
+font-size: 12px;
+nav ul li a {
+font-size: 12px;
+font-weight: 700;
+}
+
+seiko igi
+h1.myname {
+    font-size: 22px;
+    letter-spacing: 11px;
+    margin-bottom: 20px;
+}
+
+PRODUCT DESIGNER BASED IN BAY AREA, CALIFORNIA
+h2.title {
+    font-size: 13px;
+    letter-spacing: 3px;
+} 
+
+section titile
+h3 {
+    font-size: 18px;
+    font-weight: 700;
+    margin: 0 0 2em 0;
+    letter-spacing: 3px;
+}
+
+description
+h4 {
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 3px;
+}
+
+
+footer nav
+ul.footer {
+    list-style: none;
+    padding: 0;
+    margin-top: 35px;
+    float: left;
+}
+
+copy right
+font-size: 10px;
+************************************
+INDIVISUAL PORTFOLIO PAGE
+
+navigation
+
+project name
+h1 {
+    font-size: 20px;
+    letter-spacing: 3px;
+    margin-bottom: 20px;
+}
+
+
+description
+.container-work p {
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 2em;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 14px;
+}
+
+image
+img.work-project, video.work-project {
+    width: 80%;
+    margin: 1.2% 0 10% 0;
+    max-width: 980px;
+}
+
+section title
+h2 {
+    font-size: 18px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+<mark></mark>
+mark {
+    background: linear-gradient(to top, #CFEEEF 50%, transparent 50%);
+}
+
+
+data
+.data {
+    width: 40%;
+    margin: 0 auto 50px auto;
+    border: 1.5px solid #333;
+    padding: 5px;
+    min-width: 220px;
+}
+
+
+************************************
+FOOTER
+
+footer navi
+ul.footer li a {
+    font-weight: 700;
+    font-size: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
