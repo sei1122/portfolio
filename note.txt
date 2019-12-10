@@ -31,6 +31,12 @@ TEXT
 Roboto
 
 ************************************
+STRUCTURE
+
+
+
+
+************************************
 INDEX PAGE
 
 navigation
@@ -75,6 +81,17 @@ FILTER
     letter-spacing: 3px;
     padding: 10px 25px;
     font-size: 13px;
+}
+
+button{
+	width: 215px;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #000;
+    padding: 12px;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 3px;
 }
 
 .dribbble h4 {
@@ -122,8 +139,11 @@ navigation
 project name
 h1 {
     font-size: 20px;
+    font-weight:500;
     letter-spacing: 3px;
     margin-bottom: 20px;
+    text-transform: uppercase;
+
 }
 
 
@@ -149,11 +169,24 @@ h2 {
     font-size: 18px;
     letter-spacing: 3px;
     text-transform: uppercase;
+    font-weight: 500;
 }
 
 <mark></mark>
 mark {
     background: linear-gradient(to top, #CFEEEF 50%, transparent 50%);
+}
+
+.btn
+{
+	width: 215px;
+    display: block;
+    margin: 0 auto;
+    border: 2px solid #000;
+    padding: 12px;
+    font-weight: 700;
+    font-size: 13px;
+    letter-spacing: 3px;
 }
 
 
@@ -175,6 +208,16 @@ ul.footer li a {
     font-weight: 700;
     font-size: 10px;
 }
+
+
+************************************
+MOBILE
+
+nav font size
+12px
+
+
+
 
 
 
