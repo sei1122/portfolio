@@ -50,7 +50,7 @@ a {
 
 h1 {
     font-size: 20px;
-    font-weight:500;
+    font-weight: 500;
     letter-spacing: 3px;
     margin-bottom: 20px;
     text-transform: uppercase;
@@ -76,6 +76,14 @@ h4 {
     letter-spacing: 3px;
 }
 
+ul.nav-main {
+    margin-top: 3.5%;
+}
+
+ul.nav-main.mrg {
+    margin-top: 0;
+}
+
 /***************** HOME *******************/
 
 header.name {
@@ -94,12 +102,6 @@ h2.title {
 }
 
 /***************** NAVIGATION *******************/
-
-
-/*ul.nav-main{
-    margin-top:4%;
-}
-*/
 nav ul li {
     list-style: none;
     display: inline-block;
@@ -121,10 +123,6 @@ nav ul li a:hover {
 }
 
 /***************** PORTFOLIO *******************/
-
-/*.container.container-portfolio {
-    padding-bottom: 5%
-}*/
 
 #portfoliolist {
     overflow: auto;
@@ -173,10 +171,6 @@ span.filter.active {
     font-size: 14px;
 }
 
-/*.wrapper-work p.tc {
-    text-align: center;
-}*/
-
 #portfoliolist .portfolio {
     margin: 2%
 }
@@ -195,7 +189,7 @@ mark {
     text-align: left;
     letter-spacing: 1px;
     line-height: 2em;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 /***************** DRIBBBLE *******************/
@@ -204,26 +198,20 @@ mark {
     padding: 5% 0;
 }
 
-.btn{
+.btn {
     width: 215px;
     display: block;
     margin: 5% auto 5% auto;
     border: 2px solid #000;
     padding: 12px;
-    font-weight:700;
-    font-size:13px;
+    font-weight: 700;
+    font-size: 13px;
     letter-spacing: 3px;
 }
 
-/*.dribbble h4 {
-    width: 215px;
-    display: block;
-    margin: 0 auto;
-    border: 2px solid #000;
-    padding: 12px;
-    font-weight:700;
-    font-size:13px;
-}*/
+.btn.drb {
+    margin: 0 auto 0 auto;
+}
 
 a.btn:hover {
     background: #cdcdffde;
@@ -367,7 +355,7 @@ ul.footer li {
 
 ul.footer li a {
     font-weight: 700;
-    font-size: 10px;
+    font-size: 11px;
 }
 
 ul.footer li a:hover {
@@ -412,7 +400,7 @@ ul.footer li a:hover {
     line-height: 2em;
     width: 80%;
     margin: 0 auto;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .wrapper-work {
@@ -464,23 +452,9 @@ img.work-project.ptf_mockup {
     border: solid 1px #CCCCCC;
 }
 
-/*.btn_visit {
-    margin-top: 2em;
+.arrow {
+    font-size: 20px;
 }
-
-.btn_visit p {
-    border: solid 2px #333;
-    letter-spacing: 3px;
-    padding: 6px;
-    font-size: 13px;
-    text-align: center;
-    width: 125px;
-    font-weight: 700;
-}*/
-
-/*.arrow {
-margin-top: 50px;
-}*/
 
 .arrow a:hover {
     color: #ad74ed;
@@ -635,6 +609,7 @@ margin-top: 50px;
         display: none;
     }
 
+
     /* show hamburgler menu */
     .hamburgler-menu {
         display: block;
@@ -691,15 +666,15 @@ margin-top: 50px;
     }
 
 
-    .wrapper input#submit{
-        width:100%;
+    .wrapper input#submit {
+        width: 100%;
     }
 
 }
 
 @media (max-width:425px) {
 
-    h1{
+    h1 {
         font-size: 19px;
     }
 
@@ -710,6 +685,14 @@ margin-top: 50px;
     #filters li {
         margin-right: 0;
     }
+
+    .dribbble {
+    padding: 10% 0;
+    }
+
+   /* .container-about p{
+        line-height: 1.5em;
+    }*/
 
     .container-footer {
         height: 18em;
@@ -725,5 +708,10 @@ margin-top: 50px;
         width: 100%;
     }
 
+    .arrow {
+        font-size: 16px;
+    }
+
+    
 
 }

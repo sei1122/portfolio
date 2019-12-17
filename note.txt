@@ -30,6 +30,21 @@ mark {
 TEXT 
 Roboto
 
+Index page
+h1 title font-size: 30px;
+h2 subtitle to the section font-size: 14px;
+h3 18px
+p font-size: 15px;
+
+
+portfolio
+h1 project name font-size: 20px;
+h2 section font-size: 18px; font-weight:500;
+h3 title under neath of the h2 section font-size:16px; font-weight:500;
+h4 under h3's section
+p font-size: 15px;
+
+
 ************************************
 STRUCTURE
 
@@ -206,7 +221,7 @@ FOOTER
 footer navi
 ul.footer li a {
     font-weight: 700;
-    font-size: 10px;
+    font-size: 11px;
 }
 
 
