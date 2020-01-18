@@ -452,6 +452,16 @@ img.work-project.ptf_mockup {
     border: solid 1px #CCCCCC;
 }
 
+img.aki_inlogo{
+    float: left;
+    width: 20%;
+    margin-right: 5%;
+}
+
+section{
+    margin-bottom:10%;
+}
+
 .arrow {
     font-size: 20px;
 }
