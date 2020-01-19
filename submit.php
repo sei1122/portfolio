@@ -2,7 +2,7 @@
 
 	$to = "seikoigi@gmail.com"; #set addres to send for to 
 	$subject = "Message from Portfolio"; #set the subject line 
-	$headers = "From: Form Mailer"; #set the from address 
+	$headers = "From: FormMailer@seikoigi.com"; #set the from address 
 	$forward = 1; # redirect? 1 : yes || 0 : no 
 	$location = "thanks.html"; #set page to redirect to, if 1 is above 
 
@@ -18,7 +18,7 @@
 
 	mail($to, $subject, $msg, $headers); 
 	if ($forward == 1) { 
-	    header ("Location:$location"); 
+	    echo ('<script type="text/javascript">location.href = ' . $location . ';</script>');  
 	} 
 	else { 
 	    echo ("Thank you for submitting our form. I will get back to you as soon as possible."); 
