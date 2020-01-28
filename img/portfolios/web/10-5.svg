@@ -1,24 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 23.1.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
-	 viewBox="0 0 1669.4 413.4" style="enable-background:new 0 0 1669.4 413.4;" xml:space="preserve">
+	 viewBox="0 0 1669.4 558" style="enable-background:new 0 0 1669.4 558;" xml:space="preserve">
 <style type="text/css">
 	.st0{font-family:'SpecialElite-Regular';}
-	.st1{font-size:36.8812px;}
-	.st2{font-size:40.2497px;}
-	.st3{letter-spacing:8;}
-	.st4{font-size:52px;}
-	.st5{font-size:130px;}
-	.st6{letter-spacing:1;}
+	.st1{font-size:40.2497px;}
+	.st2{letter-spacing:8;}
+	.st3{stroke:#000000;stroke-miterlimit:10;}
+	.st4{font-size:33px;}
+	.st5{letter-spacing:3;}
+	.st6{font-size:52px;}
+	.st7{font-size:130px;}
+	.st8{letter-spacing:1;}
 </style>
-<text transform="matrix(1 0 0 1 1117.5564 67.7314)" class="st0 st1">Special Elite</text>
-<text transform="matrix(1 0 0 1 1117.5568 126.1506)" class="st0 st2 st3">ABCDEFGHIJKLM</text>
-<text transform="matrix(1 0 0 1 1117.5568 193.2346)" class="st0 st2 st3">NOPQRSTUVWXYZ</text>
-<text transform="matrix(1 0 0 1 118.6047 193.5118)" class="st0 st4">Blue Palette</text>
+<text transform="matrix(1 0 0 1 1117.5568 207.1609)" class="st0 st1 st2">ABCDEFGHIJKLM</text>
+<text transform="matrix(1 0 0 1 1117.5568 274.2449)" class="st0 st1 st2">NOPQRSTUVWXYZ</text>
+<text transform="matrix(1 0 0 1 1117.5573 143.5516)" class="st3 st0 st4 st5">Special Elite</text>
+<text transform="matrix(1 0 0 1 118.6047 274.2453)" class="st0 st6">Blue Palette</text>
 <g id="Group_1" transform="translate(-424 -3031)">
-	<text transform="matrix(1 0 0 1 1132.9972 3257.0117)" class="st0 st5 st6">B</text>
-	<text transform="matrix(1 0 0 1 1218.9972 3292.0117)" class="st0 st5 st6">P</text>
+	<text transform="matrix(1 0 0 1 1132.9973 3353.0059)" class="st0 st7 st8">B</text>
+	<text transform="matrix(1 0 0 1 1218.9973 3388.0059)" class="st0 st7 st8">P</text>
 </g>
-<text transform="matrix(1 0 0 1 1117.5568 280.4416)" class="st0 st2 st3">abcdefghijklm</text>
-<text transform="matrix(1 0 0 1 1117.5568 347.5237)" class="st0 st2 st3">nopqrstuvwxyz</text>
+<text transform="matrix(1 0 0 1 1117.5568 361.4519)" class="st0 st1 st2">abcdefghijklm</text>
+<text transform="matrix(1 0 0 1 1117.5568 428.534)" class="st0 st1 st2">nopqrstuvwxyz</text>
 </svg>

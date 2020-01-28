@@ -84,6 +84,11 @@ ul.nav-main.mrg {
     margin-top: 0;
 }
 
+/*img{
+    display:block;
+    width:100%;
+}*/
+
 /***************** HOME *******************/
 
 header.name {
@@ -454,7 +459,7 @@ img.work-project.ptf_mockup {
 
 img.aki_inlogo{
     float: left;
-    width: 20%;
+    width: 15%;
     margin-right: 5%;
 }
 
@@ -474,6 +479,14 @@ section{
     margin-right: 16em;
 }
 
+hr{
+    border: 0.5px solid #b8b8b8;
+}
+
+h2.hrLinespace{
+    margin-top:10%;
+}
+
 /***************** Thank you *******************/
 
 .wrapper-work.thanks {
@@ -486,14 +499,6 @@ section{
         margin-right: 0;
     }
 }
-
-@media (max-width:793px) {
-    nav ul li a {
-        font-size: 12px;
-        font-weight: 700;
-    }
-}
-
 
 /********* HUMBERGER MENU *********/
 
@@ -666,6 +671,22 @@ section{
         padding-top: 6.5%;
     }
 
+}
+
+@media (max-width:793px) {
+    nav ul li a {
+        font-size: 12px;
+        font-weight: 700;
+    }
+}
+
+@media (max-width:740px) {
+    img.aki_inlogo {
+    float: none;
+    width: 30%;
+    margin-right: 0;
+}
+    
 }
 
 @media (max-width:560px) {
