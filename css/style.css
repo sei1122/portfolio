@@ -423,7 +423,7 @@ ul.footer li a:hover {
 
 img.work-project,
 video.work-project {
-    width: 80%;
+    width: 100%;
     margin: 3% 0 10% 0;
     max-width: 980px;
 }
