@@ -1,90 +1,84 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1358" height="924" viewBox="0 0 1358 924">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1211.12" height="833.994" viewBox="0 0 1211.12 833.994">
   <defs>
     <clipPath id="clip-path">
       <rect width="1113" height="187" fill="none"/>
     </clipPath>
-    <clipPath id="clip-Web_1920_1">
-      <rect width="1358" height="924"/>
-    </clipPath>
   </defs>
-  <g id="Web_1920_1" data-name="Web 1920 – 1" clip-path="url(#clip-Web_1920_1)">
-    <rect width="1358" height="924" fill="#fff"/>
-    <g id="Group_1" data-name="Group 1" transform="translate(-152 -2889.185)">
-      <path id="Path_262" data-name="Path 262" d="M0,0H1123.387V797.908H0Z" transform="translate(264.326 2962.171)" fill="#fff"/>
-      <g id="Repeat_Grid_1" data-name="Repeat Grid 1" transform="translate(285 3086.185)" clip-path="url(#clip-path)">
-        <g transform="translate(-300 -2677.185)">
-          <g id="Component_1_1" data-name="Component 1 – 1" transform="translate(314 2677.185)">
-            <g id="Ellipse_5" data-name="Ellipse 5" fill="#505aa8" stroke="#707070" stroke-width="1">
-              <circle cx="61.5" cy="61.5" r="61.5" stroke="none"/>
-              <circle cx="61.5" cy="61.5" r="61" fill="none"/>
-            </g>
-          </g>
-          <g id="Component_2_1" data-name="Component 2 – 1" transform="translate(302 2822.185)">
-            <text id="CMYK" transform="translate(0 19)" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">CMYK</tspan></text>
-            <text id="_79_73_0_0" data-name=" 79/73/0/0" transform="translate(52 19)" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" xml:space="preserve"> 79/73/0/0</tspan></text>
+  <g id="Group_1" data-name="Group 1" transform="translate(-223.163 -2926.085)">
+    <path id="Path_262" data-name="Path 262" d="M0,0H1211.12V833.994H0Z" transform="translate(223.163 2926.085)" fill="#fff"/>
+    <g id="Repeat_Grid_1" data-name="Repeat Grid 1" transform="translate(285 3086.185)" clip-path="url(#clip-path)">
+      <g transform="translate(-300 -2677.185)">
+        <g id="Component_1_1" data-name="Component 1 – 1" transform="translate(314 2677.185)">
+          <g id="Ellipse_5" data-name="Ellipse 5" fill="#505aa8" stroke="#707070" stroke-width="1">
+            <circle cx="61.5" cy="61.5" r="61.5" stroke="none"/>
+            <circle cx="61.5" cy="61.5" r="61" fill="none"/>
           </g>
         </g>
-        <g transform="translate(-69 -2677.185)">
-          <g id="Component_1_1-2" data-name="Component 1 – 1" transform="translate(314 2677.185)">
-            <g id="Ellipse_5-2" data-name="Ellipse 5" fill="#1a2b44" stroke="#707070" stroke-width="1">
-              <circle cx="61.5" cy="61.5" r="61.5" stroke="none"/>
-              <circle cx="61.5" cy="61.5" r="61" fill="none"/>
-            </g>
-          </g>
-          <g id="Component_2_1-2" data-name="Component 2 – 1" transform="translate(293 2822.185)">
-            <text id="CMYK-2" data-name="CMYK" transform="translate(0 19)" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">CMYK</tspan></text>
-            <g id="Component_3_1" data-name="Component 3 – 1" transform="translate(52)">
-              <text id="_92_78_47_48" data-name=" 92/78/47/48" transform="translate(0 19)" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" xml:space="preserve"> 92/78/47/48</tspan></text>
-            </g>
+        <g id="Component_2_1" data-name="Component 2 – 1" transform="translate(302 2822.185)">
+          <text id="CMYK" transform="translate(0 19)" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">CMYK</tspan></text>
+          <text id="_79_73_0_0" data-name=" 79/73/0/0" transform="translate(52 19)" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" xml:space="preserve"> 79/73/0/0</tspan></text>
+        </g>
+      </g>
+      <g transform="translate(-69 -2677.185)">
+        <g id="Component_1_1-2" data-name="Component 1 – 1" transform="translate(314 2677.185)">
+          <g id="Ellipse_5-2" data-name="Ellipse 5" fill="#1a2b44" stroke="#707070" stroke-width="1">
+            <circle cx="61.5" cy="61.5" r="61.5" stroke="none"/>
+            <circle cx="61.5" cy="61.5" r="61" fill="none"/>
           </g>
         </g>
-        <g transform="translate(162 -2677.185)">
-          <g id="Component_1_1-3" data-name="Component 1 – 1" transform="translate(314 2677.185)">
-            <circle id="Ellipse_5-3" data-name="Ellipse 5" cx="61.5" cy="61.5" r="61.5" fill="#fedb00"/>
-          </g>
-          <g id="Component_2_1-3" data-name="Component 2 – 1" transform="translate(304 2822.185)">
-            <text id="CMYK-3" data-name="CMYK" transform="translate(0 19)" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">CMYK</tspan></text>
-            <text id="_2_11_97_0" data-name=" 2/11/97/0" transform="translate(52 19)" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" xml:space="preserve"> 2/11/97/0</tspan></text>
-          </g>
-        </g>
-        <g transform="translate(393 -2677.185)">
-          <g id="Component_1_1-4" data-name="Component 1 – 1" transform="translate(314 2677.185)">
-            <g id="Ellipse_5-4" data-name="Ellipse 5" fill="#fff" stroke="#707070" stroke-width="1">
-              <circle cx="61.5" cy="61.5" r="61.5" stroke="none"/>
-              <circle cx="61.5" cy="61.5" r="61" fill="none"/>
-            </g>
-          </g>
-          <g id="Component_2_1-4" data-name="Component 2 – 1" transform="translate(314 2822.185)">
-            <text id="CMYK-4" data-name="CMYK" transform="translate(0 19)" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">CMYK</tspan></text>
-            <text id="_0_0_0_0" data-name=" 0/0/0/0" transform="translate(52 19)" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" xml:space="preserve"> 0/0/0/0</tspan></text>
-          </g>
-        </g>
-        <g transform="translate(624 -2677.185)">
-          <g id="Component_1_1-5" data-name="Component 1 – 1" transform="translate(314 2677.185)">
-            <circle id="Ellipse_5-5" data-name="Ellipse 5" cx="61.5" cy="61.5" r="61.5" fill="#1b1b1b"/>
-          </g>
-          <g id="Component_2_1-5" data-name="Component 2 – 1" transform="translate(292 2822.185)">
-            <text id="CMYK-5" data-name="CMYK" transform="translate(0 19)" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">CMYK</tspan></text>
-            <text id="_73_66_65_77" data-name=" 73/66/65/77" transform="translate(52 19)" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" xml:space="preserve"> 73/66/65/77</tspan></text>
+        <g id="Component_2_1-2" data-name="Component 2 – 1" transform="translate(293 2822.185)">
+          <text id="CMYK-2" data-name="CMYK" transform="translate(0 19)" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">CMYK</tspan></text>
+          <g id="Component_3_1" data-name="Component 3 – 1" transform="translate(52)">
+            <text id="_92_78_47_48" data-name=" 92/78/47/48" transform="translate(0 19)" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" xml:space="preserve"> 92/78/47/48</tspan></text>
           </g>
         </g>
       </g>
-      <text id="Color_Palette" data-name="Color Palette" transform="translate(712 3022.185)" font-size="30" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="0.1em"><tspan x="0" y="0">Color Palette</tspan></text>
-      <text id="Typography" transform="translate(722 3443.185)" font-size="30" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="0.1em"><tspan x="0" y="0">Typography</tspan></text>
-      <text id="Antonio" transform="translate(287 3547.185)" font-size="23" font-family="Antonio-Regular, Antonio"><tspan x="0" y="0">Antonio</tspan></text>
-      <text id="Antonio-2" data-name="Antonio" transform="translate(1054 3547.185)" font-size="23" font-family="ArialNarrow, Arial Narrow"><tspan x="0" y="0">Antonio</tspan></text>
-      <text id="A_B_C_D_E_F_G_H_I_J_K_L_M_N_O_P_Q_R_S_T_U_V_W_X_Y_Z" data-name="A B C D E F G H I J K L M N 
-O P Q R S T U V W X Y Z" transform="translate(285 3600.185)" font-size="30" font-family="Antonio-Regular, Antonio"><tspan x="0" y="34">A B C D E F G H I J K L M N </tspan><tspan x="0" y="77">O P Q R S T U V W X Y Z</tspan></text>
-      <text id="A_B_C_D_E_F_G_H_I_J_K_L_M_N_O_P_Q_R_S_T_U_V_W_X_Y_Z-2" data-name="A B C D E F G H I J K L M N 
-O P Q R S T U V W X Y Z" transform="translate(1052 3600.185)" font-size="30" font-family="ArialNarrow, Arial Narrow"><tspan x="0" y="28">A B C D E F G H I J K L M N </tspan><tspan x="0" y="62">O P Q R S T U V W X Y Z</tspan></text>
-      <text id="Regular" transform="translate(287 3570.185)" font-size="15" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Regular</tspan></text>
-      <g id="Group_2" data-name="Group 2" transform="translate(-31 50)">
-        <text id="Antonio-3" data-name="Antonio" transform="translate(704 3497.185)" font-size="23" font-family="Antonio-Bold, Antonio" font-weight="700"><tspan x="0" y="0">Antonio</tspan></text>
-        <text id="A_B_C_D_E_F_G_H_I_J_K_L_M_N_O_P_Q_R_S_T_U_V_W_X_Y_Z-3" data-name="A B C D E F G H I J K L M N 
-O P Q R S T U V W X Y Z" transform="translate(702 3550.185)" font-size="30" font-family="Antonio-Bold, Antonio" font-weight="700"><tspan x="0" y="34">A B C D E F G H I J K L M N </tspan><tspan x="0" y="77">O P Q R S T U V W X Y Z</tspan></text>
-        <text id="Bold" transform="translate(704 3520.185)" font-size="15" font-family="Roboto-Bold, Roboto" font-weight="700"><tspan x="0" y="0">Bold</tspan></text>
+      <g transform="translate(162 -2677.185)">
+        <g id="Component_1_1-3" data-name="Component 1 – 1" transform="translate(314 2677.185)">
+          <circle id="Ellipse_5-3" data-name="Ellipse 5" cx="61.5" cy="61.5" r="61.5" fill="#fedb00"/>
+        </g>
+        <g id="Component_2_1-3" data-name="Component 2 – 1" transform="translate(304 2822.185)">
+          <text id="CMYK-3" data-name="CMYK" transform="translate(0 19)" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">CMYK</tspan></text>
+          <text id="_2_11_97_0" data-name=" 2/11/97/0" transform="translate(52 19)" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" xml:space="preserve"> 2/11/97/0</tspan></text>
+        </g>
       </g>
-      <text id="Regular-2" data-name="Regular" transform="translate(1054 3570.185)" font-size="15" font-family="ArialNarrow, Arial Narrow"><tspan x="0" y="0">Regular</tspan></text>
+      <g transform="translate(393 -2677.185)">
+        <g id="Component_1_1-4" data-name="Component 1 – 1" transform="translate(314 2677.185)">
+          <g id="Ellipse_5-4" data-name="Ellipse 5" fill="#fff" stroke="#707070" stroke-width="1">
+            <circle cx="61.5" cy="61.5" r="61.5" stroke="none"/>
+            <circle cx="61.5" cy="61.5" r="61" fill="none"/>
+          </g>
+        </g>
+        <g id="Component_2_1-4" data-name="Component 2 – 1" transform="translate(314 2822.185)">
+          <text id="CMYK-4" data-name="CMYK" transform="translate(0 19)" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">CMYK</tspan></text>
+          <text id="_0_0_0_0" data-name=" 0/0/0/0" transform="translate(52 19)" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" xml:space="preserve"> 0/0/0/0</tspan></text>
+        </g>
+      </g>
+      <g transform="translate(624 -2677.185)">
+        <g id="Component_1_1-5" data-name="Component 1 – 1" transform="translate(314 2677.185)">
+          <circle id="Ellipse_5-5" data-name="Ellipse 5" cx="61.5" cy="61.5" r="61.5" fill="#1b1b1b"/>
+        </g>
+        <g id="Component_2_1-5" data-name="Component 2 – 1" transform="translate(292 2822.185)">
+          <text id="CMYK-5" data-name="CMYK" transform="translate(0 19)" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">CMYK</tspan></text>
+          <text id="_73_66_65_77" data-name=" 73/66/65/77" transform="translate(52 19)" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0" xml:space="preserve"> 73/66/65/77</tspan></text>
+        </g>
+      </g>
     </g>
+    <text id="Color_Palette" data-name="Color Palette" transform="translate(712 3022.185)" font-size="30" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="0.1em"><tspan x="0" y="0">Color Palette</tspan></text>
+    <text id="Typography" transform="translate(722 3443.185)" font-size="30" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="0.1em"><tspan x="0" y="0">Typography</tspan></text>
+    <text id="Antonio" transform="translate(287 3547.185)" font-size="23" font-family="Antonio-Regular, Antonio"><tspan x="0" y="0">Antonio</tspan></text>
+    <text id="Arial_Narrow" data-name="Arial Narrow" transform="translate(1054 3547.185)" font-size="23" font-family="ArialNarrow, Arial Narrow"><tspan x="0" y="0">Arial Narrow</tspan></text>
+    <text id="A_B_C_D_E_F_G_H_I_J_K_L_M_N_O_P_Q_R_S_T_U_V_W_X_Y_Z" data-name="A B C D E F G H I J K L M N 
+O P Q R S T U V W X Y Z" transform="translate(285 3600.185)" font-size="30" font-family="Antonio-Regular, Antonio"><tspan x="0" y="34">A B C D E F G H I J K L M N </tspan><tspan x="0" y="77">O P Q R S T U V W X Y Z</tspan></text>
+    <text id="A_B_C_D_E_F_G_H_I_J_K_L_M_N_O_P_Q_R_S_T_U_V_W_X_Y_Z-2" data-name="A B C D E F G H I J K L M N 
+O P Q R S T U V W X Y Z" transform="translate(1052 3600.185)" font-size="30" font-family="ArialNarrow, Arial Narrow"><tspan x="0" y="28">A B C D E F G H I J K L M N </tspan><tspan x="0" y="62">O P Q R S T U V W X Y Z</tspan></text>
+    <text id="Regular" transform="translate(287 3570.185)" font-size="15" font-family="Antonio-Regular, Antonio"><tspan x="0" y="0">Regular</tspan></text>
+    <g id="Group_2" data-name="Group 2" transform="translate(-31 50)">
+      <text id="Antonio-2" data-name="Antonio" transform="translate(704 3497.185)" font-size="23" font-family="Antonio-Bold, Antonio" font-weight="700"><tspan x="0" y="0">Antonio</tspan></text>
+      <text id="A_B_C_D_E_F_G_H_I_J_K_L_M_N_O_P_Q_R_S_T_U_V_W_X_Y_Z-3" data-name="A B C D E F G H I J K L M N 
+O P Q R S T U V W X Y Z" transform="translate(702 3550.185)" font-size="30" font-family="Antonio-Bold, Antonio" font-weight="700"><tspan x="0" y="34">A B C D E F G H I J K L M N </tspan><tspan x="0" y="77">O P Q R S T U V W X Y Z</tspan></text>
+      <text id="Bold" transform="translate(704 3520.185)" font-size="15" font-family="Antonio-Bold, Antonio" font-weight="700"><tspan x="0" y="0">Bold</tspan></text>
+    </g>
+    <text id="Regular-2" data-name="Regular" transform="translate(1054 3570.185)" font-size="15" font-family="ArialNarrow, Arial Narrow"><tspan x="0" y="0">Regular</tspan></text>
   </g>
 </svg>
