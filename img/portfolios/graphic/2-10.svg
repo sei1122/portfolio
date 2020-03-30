@@ -1,0 +1,94 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1272.681" height="1139.671" viewBox="0 0 1272.681 1139.671">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="660" height="187" fill="none"/>
+    </clipPath>
+    <clipPath id="clip-path-2">
+      <rect width="626" height="187" fill="none"/>
+    </clipPath>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(-223.163 -2926.085)">
+    <path id="Path_262" data-name="Path 262" d="M0,0H1272.681V1139.671H0Z" transform="translate(223.163 2926.085)" fill="#fff"/>
+    <g id="Repeat_Grid_1" data-name="Repeat Grid 1" transform="translate(555 3146.185)" clip-path="url(#clip-path)">
+      <g transform="translate(-300 -2677.185)">
+        <g id="Component_1_1" data-name="Component 1 – 1" transform="translate(314 2677.185)">
+          <g id="Ellipse_5" data-name="Ellipse 5" fill="#2e2a25" stroke="#707070" stroke-width="1">
+            <circle cx="61.5" cy="61.5" r="61.5" stroke="none"/>
+            <circle cx="61.5" cy="61.5" r="61" fill="none"/>
+          </g>
+        </g>
+        <g id="Component_2_1" data-name="Component 2 – 1" transform="translate(312 2820.185)">
+          <text id="Pantone_Black_C" data-name="Pantone Black C" transform="translate(0 19)" fill="#2e2a25" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Pantone Black C</tspan></text>
+        </g>
+      </g>
+      <g transform="translate(-69 -2677.185)">
+        <g id="Component_1_1-2" data-name="Component 1 – 1" transform="translate(314 2677.185)">
+          <circle id="Ellipse_5-2" data-name="Ellipse 5" cx="61.5" cy="61.5" r="61.5" fill="#a3b1c9"/>
+        </g>
+        <g id="Component_2_1-2" data-name="Component 2 – 1" transform="translate(312 2820.185)">
+          <text id="Pantone_536C" data-name="Pantone 536C" transform="translate(0 19)" fill="#2e2a25" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Pantone 536C</tspan></text>
+        </g>
+      </g>
+      <g transform="translate(162 -2677.185)">
+        <g id="Component_1_1-3" data-name="Component 1 – 1" transform="translate(314 2677.185)">
+          <circle id="Ellipse_5-3" data-name="Ellipse 5" cx="61.5" cy="61.5" r="61.5" fill="#b8c7d4"/>
+        </g>
+        <g id="Component_2_1-3" data-name="Component 2 – 1" transform="translate(312 2820.185)">
+          <text id="Pantone_5445C" data-name="Pantone 5445C" transform="translate(0 19)" fill="#2e2a25" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">Pantone 5445C</tspan></text>
+        </g>
+      </g>
+    </g>
+    <g id="Repeat_Grid_2" data-name="Repeat Grid 2" transform="translate(554 3455.185)" clip-path="url(#clip-path-2)">
+      <g transform="translate(-300 -2677.185)">
+        <g id="Component_1_2" data-name="Component 1 – 2" transform="translate(314 2677.185)">
+          <circle id="Ellipse_5-4" data-name="Ellipse 5" cx="61.5" cy="61.5" r="61.5" fill="#2d2a26"/>
+        </g>
+        <g id="Component_2_2" data-name="Component 2 – 2" transform="translate(302 2822.185)">
+          <text id="CMYK_67_64_67_67" data-name="CMYK 67/64/67/67" transform="translate(0 19)" fill="#2e2a24" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">CMYK 67/64/67/67</tspan></text>
+        </g>
+      </g>
+      <g transform="translate(-69 -2677.185)">
+        <g id="Component_1_3" data-name="Component 1 – 3" transform="translate(314 2677.185)">
+          <g id="Ellipse_5-5" data-name="Ellipse 5" fill="#a1b1c8" stroke="#707070" stroke-width="1">
+            <circle cx="61.5" cy="61.5" r="61.5" stroke="none"/>
+            <circle cx="61.5" cy="61.5" r="61" fill="none"/>
+          </g>
+        </g>
+        <g id="Component_2_3" data-name="Component 2 – 3" transform="translate(293 2822.185)">
+          <text id="CMYK_37_23_11_0" data-name="CMYK 37/23/11/0" transform="translate(0 19)" fill="#2e2a25" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">CMYK 37/23/11/0</tspan></text>
+        </g>
+      </g>
+      <g transform="translate(162 -2677.185)">
+        <g id="Component_1_4" data-name="Component 1 – 4" transform="translate(314 2677.185)">
+          <g id="Ellipse_5-6" data-name="Ellipse 5" fill="#fff" stroke="#707070" stroke-width="1">
+            <circle cx="61.5" cy="61.5" r="61.5" stroke="none"/>
+            <circle cx="61.5" cy="61.5" r="61" fill="none"/>
+          </g>
+        </g>
+        <g id="Component_2_4" data-name="Component 2 – 4" transform="translate(304 2822.185)">
+          <text id="CMYK_0_0_0_0" data-name="CMYK 0/0/0/0" transform="translate(0 19)" fill="#2e2a25" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">CMYK 0/0/0/0</tspan></text>
+        </g>
+      </g>
+    </g>
+    <text id="Color_Palette" data-name="Color Palette" transform="translate(762 3022.185)" font-size="30" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="0.1em"><tspan x="0" y="0">Color Palette</tspan></text>
+    <text id="Typography" transform="translate(772 3733.185)" font-size="30" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="0.1em"><tspan x="0" y="0">Typography</tspan></text>
+    <text id="Bell_MT" data-name="Bell MT" transform="translate(287 3837.185)" font-size="23" font-family="BellMTBold, Bell MT"><tspan x="0" y="0">Bell MT</tspan></text>
+    <text id="Century_Gothic" data-name="Century Gothic" transform="translate(1054 3837.185)" font-size="23" font-family="CenturyGothic, Century Gothic"><tspan x="0" y="0">Century Gothic</tspan></text>
+    <text id="A_B_C_D_E_F_G_H_I_J_K_L_M_N_O_P_Q_R_S_T_U_V_W_X_Y_Z" data-name="A B C D E F G H I J K L 
+M N O P Q R S T U V 
+W X Y Z" transform="translate(285 3915.185)" font-size="30" font-family="BellMTBold, Bell MT"><tspan x="0" y="0">A B C D E F G H I J K L </tspan><tspan x="0" y="33">M N O P Q R S T U V </tspan><tspan x="0" y="66">W X Y Z</tspan></text>
+    <text id="A_B_C_D_E_F_G_H_I_J_K_L_M_N_O_P_Q_R_S_T_U_V_W_X_Y_Z-2" data-name="A B C D E F G H I J K L 
+M N O P Q R S T U V W X Y Z" transform="translate(1052 3920.185)" font-size="30" font-family="CenturyGothic, Century Gothic"><tspan x="0" y="0">A B C D E F G H I J K L </tspan><tspan x="0" y="37">M N O P Q R S T U V W X Y Z</tspan></text>
+    <text id="Bold" transform="translate(287 3860.185)" font-size="15" font-family="BellMTBold, Bell MT"><tspan x="0" y="0">Bold</tspan></text>
+    <g id="Group_2" data-name="Group 2" transform="translate(-31 340)">
+      <text id="Century_Gothic-2" data-name="Century Gothic" transform="translate(704 3497.185)" font-size="23" font-family="CenturyGothic-Bold, Century Gothic" font-weight="700"><tspan x="0" y="0">Century Gothic</tspan></text>
+      <text id="A_B_C_D_E_F_G_H_I_J_K_L_M_N_O_P_Q_R_S_T_U_V_W_X_Y_Z-3" data-name="A B C D E F G H I J K L 
+M N O P Q R S T U V 
+W X Y Z" transform="translate(702 3580.185)" font-size="30" font-family="CenturyGothic-Bold, Century Gothic" font-weight="700"><tspan x="0" y="0">A B C D E F G H I J K L </tspan><tspan x="0" y="37">M N O P Q R S T U V </tspan><tspan x="0" y="74">W X Y Z</tspan></text>
+      <text id="Bold-2" data-name="Bold" transform="translate(704 3520.185)" font-size="15" font-family="CenturyGothic-Bold, Century Gothic" font-weight="700"><tspan x="0" y="0">Bold</tspan></text>
+    </g>
+    <text id="Regular" transform="translate(1054 3860.185)" font-size="15" font-family="CenturyGothic, Century Gothic"><tspan x="0" y="0">Regular</tspan></text>
+    <text id="Luna_Charclay_Mask" data-name="Luna Charclay Mask" transform="translate(555 3110.185)" fill="#2e2a25" font-size="20" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Luna Charclay Mask</tspan></text>
+    <text id="Primrose_Eminence" data-name="Primrose &amp; Eminence" transform="translate(551 3421.185)" fill="#2e2a25" font-size="20" font-family="Roboto-Medium, Roboto" font-weight="500"><tspan x="0" y="0">Primrose &amp; Eminence</tspan></text>
+  </g>
+</svg>
