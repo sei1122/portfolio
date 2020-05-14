@@ -84,10 +84,34 @@ ul.nav-main.mrg {
     margin-top: 0;
 }
 
-/*img{
+img{
     display:block;
     width:100%;
-}*/
+}
+
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+[class*="col-"] {
+    float: left;
+    padding: 15px;
+  }
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
 
 /***************** HOME *******************/
 
@@ -182,6 +206,16 @@ span.filter.active {
 
 mark {
     background: linear-gradient(to top, #CFEEEF 50%, transparent 50%);
+}
+
+img.jlogo{
+    width: 40%;
+    margin: 5% auto;
+}
+
+img.w80res{
+    width: 80%;
+    margin: 0 auto;
 }
 
 /***************** ABOUT *******************/
@@ -453,7 +487,7 @@ img.work-project.tile {
     padding: 18px;
 }
 
-img.work-project.ptf_mockup {
+.grayoutline {
     border: solid 1px #CCCCCC;
 }
 
@@ -485,6 +519,12 @@ hr{
 
 h2.hrLinespace{
     margin-top:10%;
+}
+
+video.prototype{
+    width: 30%;
+    margin: 3% 0 10% 0;
+    border: solid 1px #CCCCCC;
 }
 
 /***************** Thank you *******************/
@@ -683,8 +723,8 @@ h2.hrLinespace{
 @media (max-width:740px) {
     img.aki_inlogo {
     float: none;
-    width: 30%;
-    margin-right: 0;
+    width: 40%;
+    margin: 0 auto;
 }
     
 }
@@ -721,10 +761,6 @@ h2.hrLinespace{
     padding: 10% 0;
     }
 
-   /* .container-about p{
-        line-height: 1.5em;
-    }*/
-
     .container-footer {
         height: 18em;
     }
@@ -743,6 +779,9 @@ h2.hrLinespace{
         font-size: 16px;
     }
 
-    
+    img.jlogo{
+        width: 100%;
+        margin: 5% auto;
+    }
 
 }
