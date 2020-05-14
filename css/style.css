@@ -726,7 +726,20 @@ video.prototype{
     width: 40%;
     margin: 0 auto;
 }
-    
+
+.col-6 {width: 100%;}
+
+.row {
+    display: flex;
+    display: -ms-flex;
+    flex-direction: column;
+  }
+  .sw-first {
+    order: 2;
+  }
+  .sw-second {
+    order: 1;
+  }
 }
 
 @media (max-width:560px) {
