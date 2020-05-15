@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1272.681" height="1139.671" viewBox="0 0 1272.681 1139.671">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="837" height="187" fill="none"/>
+    </clipPath>
+    <linearGradient id="linear-gradient" x1="0.236" y1="0.177" x2="0.74" y2="0.909" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#4ea7f3" stop-opacity="0.251"/>
+      <stop offset="0.518" stop-color="#8991ee" stop-opacity="0.251"/>
+      <stop offset="1" stop-color="#837fd7" stop-opacity="0.251"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_1" data-name="Group 1" transform="translate(-223.163 -2926.085)">
+    <path id="Path_262" data-name="Path 262" d="M0,0H1272.681V1139.671H0Z" transform="translate(223.163 2926.085)" fill="#fff"/>
+    <g id="Repeat_Grid_1" data-name="Repeat Grid 1" transform="translate(415 3136.185)" clip-path="url(#clip-path)">
+      <g transform="translate(-300 -2677.185)">
+        <g id="Component_1_4" data-name="Component 1 – 4" transform="translate(314 2677.185)">
+          <g id="Ellipse_5" data-name="Ellipse 5" fill="#9013fe" stroke="#707070" stroke-width="1">
+            <circle cx="61.5" cy="61.5" r="61.5" stroke="none"/>
+            <circle cx="61.5" cy="61.5" r="61" fill="none"/>
+          </g>
+        </g>
+        <g id="Component_2_4" data-name="Component 2 – 4" transform="translate(334 2821.185)">
+          <text id="_9013FE" data-name="#9013FE" transform="translate(0 19)" fill="#2e2a25" stroke="#707070" stroke-width="1" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">#</tspan><tspan y="0" fill="#000">9013FE</tspan></text>
+        </g>
+      </g>
+      <g transform="translate(-69 -2677.185)">
+        <g id="Component_1_5" data-name="Component 1 – 5" transform="translate(314 2677.185)">
+          <circle id="Ellipse_5-2" data-name="Ellipse 5" cx="61.5" cy="61.5" r="61.5" fill="#6b5cff"/>
+        </g>
+        <g id="Component_2_5" data-name="Component 2 – 5" transform="translate(334 2821.185)">
+          <text id="_6B5CFF" data-name="#6B5CFF" transform="translate(0 19)" fill="#2e2a25" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">#6B5CFF</tspan></text>
+        </g>
+      </g>
+      <g transform="translate(162 -2677.185)">
+        <g id="Component_1_6" data-name="Component 1 – 6" transform="translate(314 2677.185)">
+          <circle id="Ellipse_5-3" data-name="Ellipse 5" cx="61.5" cy="61.5" r="61.5" fill="#3f3d56"/>
+        </g>
+        <g id="Component_2_6" data-name="Component 2 – 6" transform="translate(334 2821.185)">
+          <text id="_3F3D56" data-name="#3F3D56" transform="translate(0 19)" fill="#2e2a25" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">#3F3D56</tspan></text>
+        </g>
+      </g>
+      <g transform="translate(393 -2677.185)">
+        <g id="Component_1_7" data-name="Component 1 – 7" transform="translate(314 2677.185)">
+          <path id="Path_263" data-name="Path 263" d="M61.5,0A61.5,61.5,0,1,1,0,61.5,61.5,61.5,0,0,1,61.5,0Z" fill="url(#linear-gradient)"/>
+        </g>
+        <g id="Component_2_7" data-name="Component 2 – 7" transform="translate(334 2821.185)">
+          <text id="_4EA7F3" data-name="#4EA7F3" transform="translate(0 19)" fill="#2e2a25" font-size="20" font-family="Roboto-Regular, Roboto"><tspan x="0" y="0">#4EA7F3</tspan></text>
+        </g>
+      </g>
+    </g>
+    <text id="Color_Palette" data-name="Color Palette" stroke="#707070" transform="translate(762 3022.185)" stroke-width="1" font-size="30" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="0.1em"><tspan x="0" y="0">Color Palette</tspan></text>
+    <text id="Typography" transform="translate(772 3433.185)" stroke="#707070" stroke-width="1" font-size="30" font-family="Roboto-Medium, Roboto" font-weight="500" letter-spacing="0.1em"><tspan x="0" y="0">Typography</tspan></text>
+    <text id="Calluna" transform="translate(307 3537.185)" stroke="#707070" stroke-width="1" font-size="23" font-family="Calluna-Bold, Calluna" font-weight="700"><tspan x="0" y="0">Calluna</tspan></text>
+    <text id="SF_Pro_Text" data-name="SF Pro Text" transform="translate(1074 3537.185)" stroke="#707070" stroke-width="1" font-size="23" font-family="SFProText-Regular, SF Pro Text"><tspan x="0" y="0">SF Pro Text</tspan></text>
+    <text id="A_B_C_D_E_F_G_H_I_J_K_L_M_N_O_P_Q_R_S_T_U_V_W_X_Y_Z" data-name="A B C D E F G H I J K L 
+M N O P Q R S T U V 
+W X Y Z" transform="translate(305 3615.185)" stroke="#707070" stroke-width="1" font-size="30" font-family="Calluna-Bold, Calluna" font-weight="700"><tspan x="0" y="0">A B C D E F G H I J K L </tspan><tspan x="0" y="43">M N O P Q R S T U V </tspan><tspan x="0" y="86">W X Y Z</tspan></text>
+    <text id="A_B_C_D_E_F_G_H_I_J_K_L_M_N_O_P_Q_R_S_T_U_V_W_X_Y_Z-2" data-name="A B C D E F G H I J K L 
+M N O P Q R S T U V W X Y Z" transform="translate(1072 3616.185)" stroke="#707070" stroke-width="1" font-size="30" font-family="SFProText-Regular, SF Pro Text"><tspan x="0" y="0">a b c d e f g h i j k l </tspan><tspan x="0" y="36">m n o p q r s t u v w x y z</tspan></text>
+    <text id="Bold" transform="translate(307 3584.185)" stroke="#707070" stroke-width="1" font-size="15" font-family="Calluna-Bold, Calluna" font-weight="700"><tspan x="0" y="0">Bold</tspan></text>
+    <g id="Group_2" data-name="Group 2" transform="translate(19 20)">
+      <text id="SF_Pro_Display" data-name="SF Pro Display" transform="translate(704 3497.185)" stroke="#707070" stroke-width="1" font-size="23" font-family="SFProDisplay-Bold, SF Pro Display" font-weight="700"><tspan x="0" y="0">SF Pro Display</tspan></text>
+      <text id="A_B_C_D_E_F_G_H_I_J_K_L_M_N_O_P_Q_R_S_T_U_V_W_X_Y_Z-3" data-name="A B C D E F G H I J K L 
+M N O P Q R S T U V 
+W X Y Z" transform="translate(702 3576.185)" stroke="#707070" stroke-width="1" font-size="30" font-family="SFProDisplay-Bold, SF Pro Display" font-weight="700"><tspan x="0" y="0">a b c d e f g h i j k l </tspan><tspan x="0" y="36">m n o p q r s t u v </tspan><tspan x="0" y="72">w x y z</tspan></text>
+      <text id="A_B_C_D_E_F_G_H_I_J_K_L_M_N_O_P_Q_R_S_T_U_V_W_X_Y_Z-4" data-name="A B C D E F G H I J K L 
+M N O P Q R S T U V 
+W X Y Z" transform="translate(702 3736.185)" stroke="#707070" stroke-width="1" font-size="30" font-family="SFProDisplay-Semibold, SF Pro Display" font-weight="600"><tspan x="0" y="0">a b c d e f g h i j k l </tspan><tspan x="0" y="36">m n o p q r s t u v </tspan><tspan x="0" y="72">w x y z</tspan></text>
+      <text id="A_B_C_D_E_F_G_H_I_J_K_L_M_N_O_P_Q_R_S_T_U_V_W_X_Y_Z-5" data-name="A B C D E F G H I J K L 
+M N O P Q R S T U V 
+W X Y Z" transform="translate(702 3908.185)" stroke="#707070" stroke-width="1" font-size="30" font-family="SFProDisplay-Medium, SF Pro Display" font-weight="500"><tspan x="0" y="0">a b c d e f g h i j k l </tspan><tspan x="0" y="36">m n o p q r s t u v </tspan><tspan x="0" y="72">w x y z</tspan></text>
+      <text id="Bold-2" data-name="Bold" transform="translate(704 3537.185)" stroke="#707070" stroke-width="1" font-size="15" font-family="SFProDisplay-Bold, SF Pro Display" font-weight="700"><tspan x="0" y="0">Bold</tspan></text>
+      <text id="Semi_Bold" data-name="Semi Bold" transform="translate(704 3697.185)" stroke="#707070" stroke-width="1" font-size="15" font-family="SFProDisplay-Semibold, SF Pro Display" font-weight="600"><tspan x="0" y="0">Semi Bold</tspan></text>
+      <text id="Medium" transform="translate(704 3869.185)" stroke="#707070" stroke-width="1" font-size="15" font-family="SFProDisplay-Medium, SF Pro Display" font-weight="500"><tspan x="0" y="0">Medium</tspan></text>
+    </g>
+    <text id="Regular" transform="translate(1074 3569.185)" stroke="#707070" stroke-width="1" font-size="15" font-family="SFProText-Regular, SF Pro Text"><tspan x="0" y="0">Regular</tspan></text>
+    <text id="_837FD7" data-name="#837FD7" transform="translate(1143 3326.185)" fill="#2e2a25" stroke="#707070" stroke-width="1" font-size="20" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">#837FD7</tspan></text>
+    <text id="Linear_Gradient" data-name="Linear Gradient" transform="translate(1110 3116.185)" fill="#2e2a25" stroke="#707070" stroke-width="1" font-size="20" font-family="HelveticaNeue, Helvetica Neue"><tspan x="0" y="0">Linear Gradient</tspan></text>
+  </g>
+</svg>
