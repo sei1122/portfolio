@@ -819,4 +819,15 @@ ul.ic{
         margin: 5% auto;
     }
 
+    .container-work p{
+        width:100%;
+    }
+
+    ul.ic{
+        width:100%;
+    }
+
+    video.prototype{
+        width:80%;
+
 }
