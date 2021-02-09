@@ -250,6 +250,7 @@ text-align: right;
 
 .resume a:link, .resume a:visited{
     color: #ad74ed;
+    text-decoration: underline;
 }
 
 /***************** DRIBBBLE *******************/
