@@ -241,6 +241,17 @@ h3.ic_h3{
     font-size: 15px;
 }
 
+.resume{
+font-weight: 700;
+font-size: 13px;
+letter-spacing: 3px;
+text-align: right;
+}
+
+.resume a:link, .resume a:visited{
+    color: #ad74ed;
+}
+
 /***************** DRIBBBLE *******************/
 
 .dribbble {
