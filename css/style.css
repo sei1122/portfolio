@@ -549,7 +549,7 @@ video.prototype{
     border: solid 1px #CCCCCC;
 }
 
-ul.ic{
+ul.ic, ol.ic{
     text-align: left;
     letter-spacing: 1px;
     line-height: 2em;
