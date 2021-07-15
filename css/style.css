@@ -557,6 +557,26 @@ ul.ic, ol.ic{
     margin: 0 auto;
 }
 
+a.colored_link{
+    color:#ad74ed;
+}
+
+.imgw50cen{
+    width:50%;
+    margin:0 auto;
+}
+
+.imgw60cen{
+    width:60%;
+    margin:0 auto;
+}
+
+p.userfeedback{
+    font-size: 20px;
+    font-style: italic;
+    margin: 35% auto 0 auto;
+}
+
 /***************** Thank you *******************/
 
 .wrapper-work.thanks {
@@ -743,6 +763,7 @@ ul.ic, ol.ic{
 
 }
 
+
 @media (max-width:793px) {
     nav ul li a {
         font-size: 12px;
@@ -752,7 +773,11 @@ ul.ic, ol.ic{
     h3.ic_h3{
         margin: 5% auto 5% auto;
     }
+    p.userfeedback{
+        margin: 18% auto 0 auto;
+    }
 }
+
 
 @media (max-width:740px) {
     img.aki_inlogo {
@@ -841,5 +866,9 @@ ul.ic, ol.ic{
 
     video.prototype{
         width:80%;
-
+    }
+    
+    p.userfeedback {
+        margin: 0 auto 0 auto;
+    }
 }
