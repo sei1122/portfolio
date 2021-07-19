@@ -799,6 +799,9 @@ p.userfeedback{
   .sw-second {
     order: 1;
   }
+  p.userfeedback {
+    margin: 0 auto 0 auto;
+    }
 }
 
 @media (max-width:560px) {
@@ -867,8 +870,6 @@ p.userfeedback{
     video.prototype{
         width:80%;
     }
-    
-    p.userfeedback {
-        margin: 0 auto 0 auto;
-    }
+
+   
 }

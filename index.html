@@ -8,11 +8,11 @@
 This is her personal portfolio site. Have a look at her designs.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
         integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="css/style.css">
     <!--[if lt IE 9]>
         <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>a
@@ -75,14 +75,28 @@ This is her personal portfolio site. Have a look at her designs.">
     <div class="container" id="portfolio">
         <div class="wrapper">
             <h3>PORTFOLIO</h3>
-            <h4>THERE ARE MY PREVIOUS WORKS OF WEB AND GRAPHIC</h4>
+            <h4>THERE ARE MY PREVIOUS WORKS</h4>
             <ul id="filters" class="clearfix">
-                <li><span class="filter active" data-filter=".web, .graphic, .animation, .mobile">ALL</span></li>
+                <li><span class="filter active" data-filter=".web, .graphic, .animation, .mobile, .branding">ALL</span></li>
                 <li><span class="filter" data-filter=".web">WEB</span></li>
                 <li><span class="filter" data-filter=".graphic">GRAPHIC</span></li>
                 <li><span class="filter" data-filter=".mobile">MOBILE</span></li>
+                <li><span class="filter" data-filter=".branding">BRANDING</span></li>
             </ul>
             <div id="portfoliolist">
+                <div class="portfolio branding" data-cat="branding">
+                    <div class="portfolio-wrapper">
+                        <a href="portfolio_brandguide.html"><img src="img/portfolios/branding/1.png" alt="" />
+                            <div class="label">
+                                <div class="label-text">
+                                    <div class="text-title">UX WIZARDS BRAND GUIDE</div>
+                                    <span class="text-category">BRANDING</span>
+                                </div>
+                                <div class="label-bg"></div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
                 <div class="portfolio mobile" data-cat="mobile">
                     <div class="portfolio-wrapper">
                         <a href="portfolio_starrlearner.html"><img src="img/portfolios/mobile/1.png" alt="" />
