@@ -20,7 +20,7 @@ light purple:#cdcdffde
 
 
 section title mark
-<mark></mark>
+
 mark {
     background: linear-gradient(to top, #CFEEEF 50%, transparent 50%);
 }
@@ -187,7 +187,7 @@ h2 {
     font-weight: 500;
 }
 
-<mark></mark>
+
 mark {
     background: linear-gradient(to top, #CFEEEF 50%, transparent 50%);
 }
