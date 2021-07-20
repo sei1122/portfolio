@@ -19,13 +19,6 @@ light purple:#cdcdffde
 (This color code has opacity setting color. This color code is not working Ai and Photoshop )
 
 
-section title mark
-
-mark {
-    background: linear-gradient(to top, #CFEEEF 50%, transparent 50%);
-}
-
-
 ************************************
 TEXT 
 Roboto
@@ -36,13 +29,18 @@ h2 subtitle to the section font-size: 14px;
 h3 18px
 p font-size: 15px;
 
+Navigation - 16px font-weight:700
+Resume
 
 portfolio
-h1 project name font-size: 20px;
-h2 section font-size: 18px; font-weight:500;
-h3 title under neath of the h2 section font-size:16px; font-weight:500;
-h4 under h3's section
-p font-size: 15px;
+h1 project name 36px font-weight:400
+h2 section font-size: 24px; 
+h3 20px
+p font-size: 18px;
+
+Button  13px font-weight:700;
+Footer link 11px
+Copyright  10px
 
 
 ************************************
@@ -53,206 +51,4 @@ STRUCTURE
 
 ************************************
 INDEX PAGE
-
-navigation
-font-size: 13px;
-nav ul li a {
-font-size: 12px;
-font-weight: 700;
-}
-
-seiko igi
-h1.myname {
-    font-size: 30px;
-    letter-spacing: 11px;
-    margin-bottom: 20px;
-}
-
-PRODUCT DESIGNER BASED IN BAY AREA, CALIFORNIA
-h2.title {
-    font-size: 14px;
-    letter-spacing: 3px;
-} 
-
-section titile
-h3 {
-    font-size: 18px;
-    font-weight: 700;
-    margin: 0 0 2em 0;
-    letter-spacing: 3px;
-}
-
-description
-h4 {
-    font-size: 14px;
-    font-weight: 500;
-    letter-spacing: 3px;
-}
-
-FILTER
-#filters li span {
-    color: #000;
-    font-weight: 700;
-    letter-spacing: 3px;
-    padding: 10px 25px;
-    font-size: 13px;
-}
-
-button{
-	width: 215px;
-    display: block;
-    margin: 0 auto;
-    border: 2px solid #000;
-    padding: 12px;
-    font-weight: 700;
-    font-size: 13px;
-    letter-spacing: 3px;
-}
-
-.dribbble h4 {
-    width: 215px;
-    display: block;
-    margin: 0 auto;
-    border: 2px solid #000;
-    padding: 12px;
-    font-size:13px;
-}
-
-EMAIL SUBMIT
-.wrapper form input, .wrapper input#submit {
-    height: 3.2em;
-    font-weight: 700;
-    border: 2.0px solid #fff;
-    padding: 5px;
-    letter-spacing: 2px;
-}
-
-.wrapper input#submit
-.wrapper input#submit {
-    width: 30%;
-    background: #fff;
-    border: 2.0px solid #333;
-    font-size: 13px;
-}
-
-
-footer nav
-ul.footer {
-    list-style: none;
-    padding: 0;
-    margin-top: 35px;
-    float: left;
-}
-
-copy right
-font-size: 10px;
-************************************
-INDIVISUAL PORTFOLIO PAGE
-
-navigation
-
-project name
-h1 {
-    font-size: 20px;
-    font-weight:500;
-    letter-spacing: 3px;
-    margin-bottom: 20px;
-    text-transform: uppercase;
-
-}
-
-
-description
-.container-work p {
-    text-align: left;
-    letter-spacing: 1px;
-    line-height: 2em;
-    width: 80%;
-    margin: 0 auto;
-    font-size: 14px;
-}
-
-image
-img.work-project, video.work-project {
-    width: 80%;
-    margin: 1.2% 0 10% 0;
-    max-width: 980px;
-}
-
-section title
-h2 {
-    font-size: 18px;
-    letter-spacing: 3px;
-    text-transform: uppercase;
-    font-weight: 500;
-}
-
-
-mark {
-    background: linear-gradient(to top, #CFEEEF 50%, transparent 50%);
-}
-
-.btn
-{
-	width: 215px;
-    display: block;
-    margin: 0 auto;
-    border: 2px solid #000;
-    padding: 12px;
-    font-weight: 700;
-    font-size: 13px;
-    letter-spacing: 3px;
-}
-
-
-data
-.data {
-    width: 40%;
-    margin: 0 auto 50px auto;
-    border: 1.5px solid #333;
-    padding: 5px;
-    min-width: 220px;
-}
-
-
-************************************
-FOOTER
-
-footer navi
-ul.footer li a {
-    font-weight: 700;
-    font-size: 11px;
-}
-
-
-************************************
-MOBILE
-
-nav font size
-12px
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 

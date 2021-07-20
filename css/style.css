@@ -157,7 +157,7 @@ nav ul li {
 }
 
 nav ul li a {
-    font-size: 13px;
+    font-size: 16px;
     font-weight: 700;
 }
 
@@ -575,12 +575,12 @@ a.colored_link{
 }
 
 .imgw50cen{
-    width:50%;
+    width:80%;
     margin:0 auto;
 }
 
 .imgw60cen{
-    width:60%;
+    width:80%;
     margin:0 auto;
 }
 
@@ -605,7 +605,7 @@ p.userfeedback{
 
 /********* HUMBERGER MENU *********/
 
-@media (max-width:817px) {
+@media (max-width:885px) {
     .hamburgler-icon-wrapper {
         position: absolute;
         top: 1em;
@@ -789,6 +789,15 @@ p.userfeedback{
     p.userfeedback{
         margin: 18% auto 0 auto;
     }
+
+    .imgw60cen{
+        width:100%;
+    }
+
+    .imgw50cen{
+        width:100%;
+    }
+
 }
 
 
@@ -842,11 +851,12 @@ p.userfeedback{
 @media (max-width:425px) {
 
     h1 {
-        font-size: 19px;
+        font-size: 20px;
+        font-weight:700;
     }
 
     h2 {
-        font-size: 15px;
+        font-size: 18px;
     }
 
     #filters li {
@@ -892,5 +902,6 @@ p.userfeedback{
         width:80%;
     }
 
+   
    
 }
