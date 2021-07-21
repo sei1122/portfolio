@@ -80,8 +80,8 @@ h4 {
 p{
     letter-spacing: 1px;
     line-height: 2em;
-    margin: 0 auto;
     font-size: 18px;
+    /* margin-bottom: 2%; */
 }
 
 ul.nav-main {
@@ -125,8 +125,8 @@ img{
     margin-bottom:10%;
   }
 
-  .space-20t{
-    margin-top:20%;
+  .space-10t{
+    margin-top:10%;
   }
 
 /***************** HOME *******************/
@@ -471,9 +471,7 @@ ul.footer li a:hover {
 
 .container-work p {
     text-align: left;
-    letter-spacing: 1px;
-    line-height: 2em;
-    /* width: 80%; */
+    /* margin-bottom: 2%; */
 }
 
 .wrapper-work {
@@ -507,7 +505,7 @@ img.work-cards {
     width: 40%;
     margin: 0 auto 50px auto;
     border: 1.5px solid #333;
-    padding: 5px;
+    padding: 2%;
     min-width: 220px;
 }
 
@@ -568,6 +566,7 @@ ul.ic, ol.ic{
     letter-spacing: 1px;
     line-height: 2em;
     margin: 0 auto;
+    font-size:18px;
 }
 
 a.colored_link{
