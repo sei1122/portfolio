@@ -459,7 +459,7 @@ ul.footer li a:hover {
     text-align: center;
     letter-spacing: 2px;
     padding-top: 1.68em;
-    font-size: 10px;
+    font-size: 11px;
 }
 
 /***************** INDIVISUAL PORTFOLIO WORK PAGE *******************/
@@ -574,15 +574,16 @@ ul.ic, ol.ic{
 
 a.colored_link{
     color:#ad74ed;
-}
+}r
 
-.imgw50cen{
+
+.imgw80cen{
     width:80%;
     margin:0 auto;
 }
 
-.imgw60cen{
-    width:80%;
+.w60cen{
+    width:60%;
     margin:0 auto;
 }
 
@@ -793,10 +794,6 @@ p.userfeedback{
     }
 
     .imgw60cen{
-        width:100%;
-    }
-
-    .imgw50cen{
         width:100%;
     }
 
