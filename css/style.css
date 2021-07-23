@@ -223,7 +223,6 @@ span.filter.active {
 }
 
 mark {
-    /* background: linear-gradient(to top, #CFEEEF 50%, transparent 50%); */
     background:none;
 }
 
@@ -239,6 +238,10 @@ h3.ic_h3{
     letter-spacing: 3px;
     width: 80%;
     margin: 15% auto 5% auto;
+}
+
+img.w50{
+    width:50%;
 }
 
 
