@@ -599,6 +599,10 @@ p.userfeedback{
     display:block; width: 100%"
 }
 
+img.bgshadow{
+    box-shadow: 0 4px 8px 0 rgb(0 0 0 / 20%), 0 6px 20px 0 rgb(0 0 0 / 19%);
+}
+
 /***************** Thank you *******************/
 
 .wrapper-work.thanks {
