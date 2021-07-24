@@ -593,6 +593,12 @@ p.userfeedback{
     margin: 35% auto 0 auto;
 }
 
+.ifr_scale{
+    padding-bottom:56.25%;
+    position:relative; 
+    display:block; width: 100%"
+}
+
 /***************** Thank you *******************/
 
 .wrapper-work.thanks {
@@ -901,6 +907,13 @@ p.userfeedback{
         width:80%;
     }
 
+    img.w50{
+        width:100%;
+    }
+
+    .data{
+        width:100%;
+    }
    
    
 }
