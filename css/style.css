@@ -64,7 +64,7 @@ h2 {
 }
 
 h3 {
-    font-size: 18px;
+    font-size: 20px;
     font-weight: 700;
     /* margin: 0 0 1em 0; */
     letter-spacing: 3px;
@@ -231,14 +231,14 @@ img.jlogo{
     margin: 5% auto;
 }
 
-h3.ic_h3{
+/* h3.ic_h3{
     text-align: left;
     font-size: 17px;
     font-weight: 500;
     letter-spacing: 3px;
     width: 80%;
     margin: 15% auto 5% auto;
-}
+} */
 
 img.w50{
     width:50%;
@@ -796,9 +796,9 @@ img.bgshadow{
         font-weight: 700;
     }
 
-    h3.ic_h3{
+    /* h3.ic_h3{
         margin: 5% auto 5% auto;
-    }
+    } */
     p.userfeedback{
         margin: 18% auto 0 auto;
     }
@@ -860,12 +860,12 @@ img.bgshadow{
 @media (max-width:425px) {
 
     h1 {
-        font-size: 20px;
-        font-weight:700;
+        font-size: 32px;
+        font-weight:400;
     }
 
     h2 {
-        font-size: 18px;
+        font-size: 24px;
     }
 
     #filters li {
