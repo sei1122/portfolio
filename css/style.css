@@ -121,6 +121,10 @@ img{
     display: table;
   }
 
+  .space-5b{
+    margin-bottom:5%;
+  }
+
   .space-10b{
     margin-bottom:10%;
   }
@@ -273,7 +277,7 @@ text-align: right;
 /***************** DRIBBBLE *******************/
 
 .dribbble {
-    padding: 5% 0;
+    padding: 2% 0;
 }
 
 .btn {
