@@ -501,13 +501,18 @@ img.work-cards {
     margin-right: 30px;
 }
 
-.data {
-    /* width: 40%;
+/***************** Project data *******************/
+/* .data {
+    width: 40%;
     margin: 0 auto 50px auto;
-    border: 1.5px solid #333; */
+    border: 1.5px solid #333;
     padding: 2%;
     min-width: 220px;
-}
+} */
+/* .data{
+    width: 80%;
+    margin: 0 auto 10% auto;
+} */
 
 .data p {
     font-size: 14px;
@@ -520,6 +525,8 @@ p.data_title{
    color:#888888;
    margin-bottom:0p;
 }
+
+/***************** Project data end *******************/
 
 img.work-project.tile {
     border: solid 1px #CCCCCC;
@@ -539,20 +546,49 @@ img.aki_inlogo{
 section{
     width:80%;
     margin:0 auto 10% auto;
-    /* margin-bottom:10%; */
 }
 
-.arrow {
+/* .arrow {
     font-size: 20px;
 }
 
 .arrow a:hover {
     color: #ad74ed;
+} */
+
+/* .fa.fa-chevron-left {
+    margin-right: 16em;
+} */
+
+/***************** Arrow near footer *******************/
+
+.arrow_row{
+    width:100%;
+    content: "";
+    clear: both;
+    display: table;
+    font-size: 20px;
 }
 
-.fa.fa-chevron-left {
-    margin-right: 16em;
+.arrow_row a:hover {
+    color: #ad74ed;
 }
+
+
+.fa.fa-chevron-left, .fa.fa-chevron-right {
+   display:block;
+}
+
+.fa.fa-chevron-left{
+    text-align: right;
+}
+
+.fa.fa-chevron-right{
+    text-align:left;
+}
+
+/***************** Arrow near footer end *******************/
+
 
 hr{
     border: 0.5px solid #b8b8b8;
