@@ -67,7 +67,7 @@ h3 {
     font-size: 20px;
     font-weight: 500;
     letter-spacing: 2px;
-    color:#888888;
+    color:#555555;
     line-height: 1.5em;
     /* text-transform: uppercase; */
     text-align: left;
@@ -123,6 +123,11 @@ img{
     display: table;
   }
 
+  .space-5t{
+    margin-top:5%;
+  }
+
+
   .space-5b{
     margin-bottom:5%;
   }
@@ -138,6 +143,11 @@ img{
   .space-10tb{
     margin:10% 0;
   }
+
+ .section-bg-color-lgray{
+    background:#eee;
+    padding-top:5%;
+ }
 
 /***************** HOME *******************/
 
@@ -486,11 +496,6 @@ ul.footer li a:hover {
     padding-bottom: 6.5%;
 }
 
-/* .wrapper-work h3 {
-    line-height: 1.5em;
-    text-transform: uppercase;
-} */
-
 img.work-project,
 video.work-project {
     width: 100%;
@@ -552,17 +557,12 @@ section{
     margin:0 auto 10% auto;
 }
 
-/* .arrow {
-    font-size: 20px;
+img.dev-icon{
+    display:inline;
+    width:16px;
+    height:16px;
+    margin-right:8px;
 }
-
-.arrow a:hover {
-    color: #ad74ed;
-} */
-
-/* .fa.fa-chevron-left {
-    margin-right: 16em;
-} */
 
 /***************** Arrow near footer *******************/
 
