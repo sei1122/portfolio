@@ -69,8 +69,8 @@ h3 {
     letter-spacing: 2px;
     color:#555555;
     line-height: 1.5em;
-    /* text-transform: uppercase; */
     text-align: left;
+    margin-top: 10%;
 }
 
 h4 {
