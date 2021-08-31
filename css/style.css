@@ -240,7 +240,7 @@ span.filter.active {
     color: #000;
     letter-spacing: 3px;
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 18px;
 }
 
 #portfoliolist .portfolio {
@@ -999,6 +999,13 @@ img.bgshadow{
     .data{
         width:100%;
     }
+
+    .portfolio .label-text{
+        font-size:14px;
+    }
    
+    .portfolio .label-textcategory{
+        font-size:12px;
+    }
    
 }
