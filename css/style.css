@@ -31,7 +31,7 @@ body {
 }
 
 .wrapper {
-    max-width: 980px;
+    max-width: 1140px;
     margin: 0 auto;
     text-align: center;
     width: 90%;
@@ -424,7 +424,7 @@ p.message-error {
 }
 
 .wrapper-footer {
-    max-width: 980px;
+    max-width: 1140px;
     width: 90%;
     margin: 0 auto;
 }
@@ -489,7 +489,7 @@ ul.footer li a:hover {
 }
 
 .wrapper-work {
-    max-width: 980px;
+    max-width: 1140px;
     margin: 0 auto;
     text-align: center;
     width: 90%;
@@ -500,7 +500,7 @@ img.work-project,
 video.work-project {
     width: 100%;
     margin: 3% 0 10% 0;
-    max-width: 980px;
+    max-width: 1140px;
 }
 
 img.work-cards {
