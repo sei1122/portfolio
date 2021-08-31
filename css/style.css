@@ -154,7 +154,8 @@ img{
 /***************** HOME *******************/
 
 header.name {
-    margin-top: 200px;
+    /* margin-top: 200px; */
+    margin-top:12%;
 }
 
 h1.myname {
@@ -803,7 +804,7 @@ img.bgshadow{
 
     /***** NAME *****/
     header.name {
-        margin-top: 7em;
+        margin-top: 0;
     }
 
     /***** PORTFOLIO FILTER *****/
