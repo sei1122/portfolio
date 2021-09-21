@@ -196,9 +196,9 @@ nav ul li a:hover {
 
 /***************** PORTFOLIO *******************/
 
-#portfoliolist {
+/* #portfoliolist {
     overflow: auto;
-}
+} */
 
 #portfoliolist .portfolio {
     width: 45%;
@@ -244,7 +244,7 @@ span.filter.active {
 }
 
 #portfoliolist .portfolio {
-    margin: 2%
+    margin: 2%;
 }
 
 mark {
@@ -260,6 +260,23 @@ img.w50{
     width:50%;
 }
 
+.portfolio-wrapper{
+  margin: auto;
+  /* margin-top: 5%;
+  padding: 20px 50px; */
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+
+.portfolio-wrapper:hover{
+    /* border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px; */
+    animation-name: example;
+    animation-duration: 0.50s;
+    border-top: 8px solid #cdcdff;
+    box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+}
 
 /***************** ABOUT *******************/
 
@@ -816,7 +833,7 @@ img.bgshadow{
     }
 
     #portfoliolist .portfolio {
-        width: 100%;
+        /* width: 100%; */
         max-width: 400px;
         /* margin-left: 30px;*/
         float: none;
@@ -945,9 +962,18 @@ img.bgshadow{
         font-weight:400;
     }
 
+    #portfoliolist .portfolio {
+        margin: 2% auto;
+    }
+    
+
     /* h2 {
         font-size: 24px;
     } */
+
+    #portfoliolist .portfolio{
+        width:100%;
+    }
 
     #filters li {
         margin-right: 0;
