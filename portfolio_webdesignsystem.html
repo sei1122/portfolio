@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <title>Seiko Igi Portfolio</title>
@@ -11,6 +10,7 @@
         integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,400&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
@@ -69,15 +69,28 @@
     <div class="container-work">
         <div class="wrapper-work">
             <h1>UX Wizards Web Design System</h1>
-            <P><a href="https://www.meetup.com/UX-WIZARDS" class="colored_link" target="a_black">UX Wizards</a> is a
-                design community for enthusiasts of all levels to share knowledge and grow together. This web design
-                system project was made to centralize the group’s resources on the web and build out future content
-                faster. We used the UX Wizards Brand Guide content and brought it into the Design System site as an MVP.
-            </P>
-            <p>7 designers and developers joined this project and everyone was assigned a page to design and build. I
-                was in charge of the <a href="https://designsystem.uxwizards.org/#/logos" class="colored_link" target="a_black">Logo and
-                    Icons Page</a>.</p>
+                <P><a href="https://www.meetup.com/UX-WIZARDS" class="colored_link" target="a_black">UX Wizards</a> is a design community for enthusiasts of all levels to share knowledge and grow together. This web design system project was made to centralize the group’s resources on the web and build out future content faster. We used the UX Wizards Brand Guide content and brought it into the Design System site as an MVP.
+                </P>
+                <p>7 designers and developers joined this project and everyone was assigned a page to design and build. I was in charge of the <a href="https://designsystem.uxwizards.org/#/logos" class="colored_link" target="a_black">Logo and Icons Page</a>.</p>
             <img class="work-project" src="img/portfolios/web/1-2.png">
+            <section>
+                <div class="row data">
+                    <div class="col-6">
+                        <p class="data_title">YEAR</p>
+                        <p>2021, 10 weeks</p>
+                        <br>
+                        <p class="data_title">ROLE</p>
+                        <p>Design and Frontent Development</p>
+                    </div>
+                    <div class="col-6">
+                        <p class="data_title">TEAM</p>
+                        <p>Seiko (self), Kaisen, Laura, Max, Sidney, Javier, Dhruv</p>
+                        <br>
+                        <p class="data_title">TOOLS</p>
+                        <p>Adobe XD, React, Github, Tailwind</p>
+                    </div>
+                </div>
+            </section>
             <section>
                 <h2>Challenge</h2>
                 <p>
@@ -115,7 +128,7 @@
                     <li>Tone of Voice</li>
                     <li>Color</li>
                     <li>Typography</li>
-                    <li><b>Logos and Icons (my section)</b></li>
+                    <li>Logos and Icons</li>
                     <li>Downloadable Brand Guide</li>
                     <li>Contributors</li>
                 </ul>
@@ -145,10 +158,10 @@
                     standardize the colors code and create a reusable component. </p>
                 <p>I was in charge of the Logos and Icons page. The section below is focused on this page.</p>
                 <br>
-                <h3>Page Content</h3>
+                <h3>Page content</h3>
                 <p>As I mentioned above, the majority of the content was brought from <a
-                        href="https://xd.adobe.com/view/5aa8686f-bd10-4dfa-a7ae-4f8ed7b0b34b-0ffb/"
-                        class="colored_link" target="a_black"> Brand Guide</a>. One difference from Brand Guide was to include a section
+                        href="https://xd.adobe.com/view/5aa8686f-bd10-4dfa-a7ae-4f8ed7b0b34b-0ffb/" class="colored_link"
+                        target="a_black"> Brand Guide</a>. One difference from Brand Guide was to include a section
                     of <b>downloadable graphic assets</b>. We received feedback that volunteers didn’t know where to
                     access logo files and often needed to ask around for them. A downloadable assets section was added
                     to this page to avoid this problem. I decided a separate page was not needed for this section
@@ -177,18 +190,14 @@
                 <br>
                 <div class="ifr_scale">
                     <iframe width="100%" height="100%" src="https://www.youtube.com/embed/RO2OpvmB3Ps"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen style="position:absolute; top:0; left: 0"></iframe>
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen style="position:absolute; top:0; left: 0"></iframe>
                 </div>
-                <!-- <iframe width="560" height="315" src="https://www.youtube.com/embed/RO2OpvmB3Ps"
-                    title="YouTube video player" frameborder="0"
-                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                    allowfullscreen></iframe> -->
                 <br>
                 <br>
                 <br>
-                <h3>Key behaviors</h3>
+                <p>Behavior of the prototype</p>
                 <ol class="ic">
                     <li>Clicking a top-level navigation menu item will cause the sub-level navigation items to show
                         underneath. Clicking a sub-level navigation menu item will jump you to the desired section.
@@ -214,7 +223,8 @@
                 <ol class="ic">
                     <li>React & Material UI - Javascript framework</li>
                     <li>TailWind - Utility-first CSS framework </li>
-                    <li><a href="https://github.com/UX-Wizards/design-system-web/commits/main" class="colored_link" target="_blank">Github</a> - Source control</li>
+                    <li><a href="https://github.com/UX-Wizards/design-system-web/commits/main" class="colored_link"
+                            target="_blank">Github</a> - Source control</li>
                 </ol>
                 <br>
                 <h3>Design updates during the development phase</h3>
@@ -244,28 +254,29 @@
             </section>
             <section>
                 <h2>Launch</h2>
-                <p>This project was completed in 10 weeks as scheduled and we deployed our first version on April 15, 2021.</p>
-                <a href="https://designsystem.uxwizards.org/#/introduction" class="btn drb" target="_blank">VIEW <br>
+                <p>This project was completed in 10 weeks as scheduled and we deployed our first version on April 15,
+                    2021.</p>
+                <a href="https://designsystem.uxwizards.org/#/introduction" class="btn drb" target="_blank">
                     WEB DESIGN SYSTEM</a>
             </section>
             <section>
-                <h2>Next Step</h2>
+                <h2>Next Steps</h2>
                 <p>We achieved our goal to build a Design System MVP based on the Brand Guide. The next step will be
                     adding more components like buttons, input states and the spacing guides for the digital products.
                 </p>
             </section>
-            <div class="data">
-                <P>PROJECT: UX Wizards Web Design System</P>
-                <p>YEAR: 2021, 10 weeks</p>
-                <p>ROLE: Design and Frontent Development</p>
-                <p>TEAM: Seiko (self), Kaisen, Laura, Max, Sidney, Javier, Dhruv
-                </p>
-                <p>Adobe XD, React, Github, Tailwind</p>
-            </div>
-
-            <div class="arrow">
+            <!-- <div class="arrow">
                 <a href="portfolio_luna.html"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
                 <a href="portfolio_brandguide.html"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+            </div> -->
+            <div class="arrow_row">
+                <div class="col-4">
+                    <a href="portfolio_luna.html"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+                </div>
+                <div class="col-4"></div>
+                <div class="col-4">
+                    <a href="portfolio_brandguide.html"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                </div>
             </div>
         </div>
     </div>
