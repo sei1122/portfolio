@@ -532,6 +532,25 @@ img.work-cards {
     margin-right: 30px;
 }
 
+.web_visuals_data a{
+    font-family:"crimson text";
+    font-size: 18px;
+}
+
+.web_visuals_data a:hover{
+    color:#ad74ed
+}
+
+.web_visuals_data p{
+    text-align: center;
+}
+
+.web_visuals_data p{
+    margin-bottom:0;
+}
+
+
+
 /***************** Project data *******************/
 /* .data {
     width: 40%;
@@ -600,7 +619,6 @@ img.dev-icon{
 .arrow_row a:hover {
     color: #ad74ed;
 }
-
 
 .fa.fa-chevron-left, .fa.fa-chevron-right {
    display:block;
