@@ -535,6 +535,7 @@ img.work-cards {
 .web_visuals_data a{
     font-family:"crimson text";
     font-size: 18px;
+    word-wrap: break-word;
 }
 
 .web_visuals_data a:hover{
@@ -605,6 +606,8 @@ img.dev-icon{
     height:16px;
     margin-right:8px;
 }
+
+
 
 /***************** Arrow near footer *******************/
 
