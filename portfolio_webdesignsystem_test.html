@@ -81,7 +81,7 @@
             color:#888888;
         }
 
-       ul li a.active, ul.submenu li a:hover{
+       ul li a.active, a.toc:hover, ul.submenu li a:hover{
             color: #555555;
             font-weight: 600;
         }
@@ -128,7 +128,7 @@
             <h1>Web Design System</h1>
             <img class="work-project" src="img/portfolios/web/1b.png">
             <div class="wrapper-work">
-            <dev class="subnav">
+            <dev class="subnav" style="display:none">
                 <ul>
                     <li><a href="#challenge" class="toc">Challenge</a>
                         <ul class="submenu">
@@ -396,115 +396,20 @@
 </body>
 <script>
     // show the sub menu after 800 px from top
-    $(document).scroll(function () {
-    var y = $(this).scrollTop();
-    if (y > 800) {
-        $('.subnav').fadeIn();
-    } else {
-        $('.subnav').fadeOut();
-    }
-});
+    $( document ).ready(function() {
+        $(document).scroll(function () {
+        var y = $(this).scrollTop();
+        if (y > 800) {
+            $('.subnav').fadeIn();
+        } else {
+            $('.subnav').fadeOut();
+        }
+        });
+    });
+    
 </script>
 
 <script>
-    //highlight the nav when mouse enter the section
-    //original
-    // $(document).ready(function(){
-    //     $("section").mouseenter(function(){
-    //         var id = $(this).attr('id');
-    //         $('a').removeClass('active');
-    //         $("[href=#"+id+"]").addClass('active');
-    //         });
-    //     $(".toc").click(function(){
-    //         //console.log($(this))
-    //         $('.toc').removeClass('active');
-    //         $(this).addClass('active');
-            
-    //     });
-    // });
-
-//Scott code
-    // $(document).ready(function(){
-    //     $("section").mouseenter(function(){
-    //         var id = $(this).attr('id');
-    //         $(".toc").removeClass("active");
-    //         $(".toc").next().hide();
-    //         var toc = $("[href=#"+id+"]");
-    //         toc.addClass("active");
-    //         toc.next().show(400);
-    //         });
-       
-    //     $(".toc").click(function(){
-    //         $('.toc').removeClass('active');
-    //         $(this).addClass('active');
-    //     });
-
-    //     $(".toc").mouseenter(function(){
-    //         $('.toc').removeClass('active');
-    //         $(".toc").next().hide();
-    //         $(this).addClass("active");
-    //         $(this).next().show(400);
-    //     });
-
-    // });
-
-//scott code last night
-    // $(document).ready(function(){
-    //     //mounse enter the project area, highlight the menu
-    //     $("section").mouseenter(function(){
-    //         var id = $(this).attr('id');
-    //         $(".toc .submenu").removeClass("active");
-    //         $(".toc").next().hide();
-    //         var found = $("[href=#"+id+"]");
-    //         if(found.hasClass("toc")) {
-    //             var toc = found;
-    //             var submenu = toc.next();
-    //             toc.addClass("active");
-    //             submenu.fadeIn(500);
-    //         } else {
-    //             var toc = found.closest(".toc");
-    //             var submenu = found.closest(".submenu");
-    //             toc.addClass("active");
-    //             found.addClass("active");
-    //             submenu.fadeIn(500);
-    //         }
-    //         });
-       
-    //     //when click the toc navigation, hightlight the menu
-    //     $(".toc .submenu").click(function(){
-    //         $(".toc .submenu").removeClass("active");
-    //         var found = $(this);
-    //         if(found.hasClass("toc")) {
-    //             var toc = found;
-    //             var submenu = toc.next();
-    //             toc.addClass("active");
-    //         } else {
-    //             var toc = found.closest(".toc");
-    //             toc.addClass("active");
-    //             found.addClass("active");
-    //         }
-    //     });
-
-    //     // mouse enter the toc navigation and highlight 
-    //     $(".toc .submenu a").mouseenter(function(){
-    //         $(".toc .submenu").removeClass("active");
-    //         $(".toc").next().hide();
-    //         var found = $(this);
-    //         if(found.hasClass("toc")) {
-    //             var toc = found;
-    //             var submenu = toc.next();
-    //             toc.addClass("active");
-    //             submenu.fadeIn(500);
-    //         } else {
-    //             var toc = found.closest(".toc");
-    //             var submenu = found.closest(".submenu");
-    //             toc.addClass("active");
-    //             found.addClass("active");
-    //             submenu.fadeIn(500);
-    //         }
-    //     });
-
-    // });
 
 // // Oct 20 night before change
 //     $(document).ready(function(){
@@ -573,90 +478,75 @@
 
 //     });
 
+    var gPrevToc = null;
+    function changeMenu(found) {
+        if(found.length == 0) {
+            return;
+        }
+        //remove highlight when switch the submenu
+        $("ul.submenu li a.active").removeClass("active");
 
-//Scott today's change
+        if(found.hasClass("toc")) {
+            var toc = found;
+            // only update if PrevToc is different than new toc
+            if(gPrevToc == null || toc.text() != gPrevToc.text()) {
+                $("a.toc.active").removeClass("active");
+                var submenu = toc.next();
+                if(gPrevToc != null) {
+                    gPrevToc.next().hide();
+                    gPrevToc = toc;
+                }
+                else {
+                    gPrevToc = toc;
+                }
+                toc.addClass("active");
+                submenu.fadeIn(500);
+                //console.log("f = "+found.text() + " = " + found[0].tagName);
+                //console.log("toc = "+toc.text() + " = " + toc[0].tagName);
+                //console.log("gPrevToc = "+gPrevToc.text() + " = " + gPrevToc[0].tagName);
+                //console.log("submenu = "+submenu.length);
+            }
+        } else {
+            var toc = found.parent().parent().parent().find(".toc");
+            found.addClass("active");
+
+            // only update if PrevToc is different than new toc
+            if(gPrevToc == null || toc.text() != gPrevToc.text()) {
+                $("a.toc.active").removeClass("active");
+                if(gPrevToc != null) {
+                    gPrevToc.next().hide();
+                    gPrevToc = toc;
+                }
+                else {
+                    gPrevToc = toc;
+                }
+                var submenu = found.closest(".submenu");
+                toc.addClass("active");
+                submenu.fadeIn(500);
+                //console.log("f = "+found.text() + " = " + found[0].tagName);
+                //console.log("toc = "+toc.text() + " = " + toc[0].tagName);
+                //console.log("gPrevToc = "+gPrevToc.text() + " = " + gPrevToc[0].tagName);
+                //console.log("submenu = "+submenu.length);
+            }
+        }
+    }
+
+    //Scott today's change
     $(document).ready(function(){
         //mounse enter the project area, highlight the menu
         $("section").mouseenter(function(){
             var id = $(this).attr('id');
-            $("a.toc.active").removeClass("active");
-            $("ul.submenu li a.active").removeClass("active");
-            $(".toc").next().hide();
             var found = $("[href=#"+id+"]");
-            if(found.hasClass("toc")) {
-                var toc = found;
-                var submenu = toc.next();
-                toc.addClass("active");
-                submenu.fadeIn(500);
-            } else {
-                var toc = found.parent().parent().parent().find(".toc");
-                var submenu = found.closest(".submenu");
-                // console.log("f = "+found.text() + " = " + found.get(0).tagName);
-                // console.log("toc = "+toc.length);
-                // console.log("submenu = "+submenu.length);
-                toc.addClass("active");
-                found.addClass("active");
-                submenu.fadeIn(500);
-            }
+            changeMenu(found);
             });
        
         //when click the toc, hightlight the menu
-        $(".toc").click(function(){
-            $("a.toc.active").removeClass("active");
-            //remove highlight when switch the submenu
-            $("ul.submenu li a.active").removeClass("active");
-            $(".toc").next().hide();
-         
+        $(".toc,.submenu a").click(function(){         
             var found = $(this);
-            if(found.hasClass("toc")) {
-                var toc = found;
-                var submenu = toc.next();
-                //when click toc, if(toc.active), display=block;
-                var toc = found;
-                var submenu = toc.next();
-                toc.addClass("active");
-                submenu.fadeIn(500);
-            } else {
-                var toc = found.parent().parent().parent().find(".toc");
-                toc.addClass("active");
-                found.addClass("active");
-            }
+            changeMenu(found);
         });
 
-        // mouse enter the toc navigation and highlight 
-        $(".toc,.submenu a").mouseenter(function() {
-            // , means search both
-            // " " means search in
-            $("a.toc.active").removeClass("active");
-            $("ul.submenu li a.active").removeClass("active");
-            $(".toc").next().hide();
-            var found = $(this);
-            if(found.hasClass("toc")) {
-                var toc = found;
-                var submenu = toc.next();
-                toc.addClass("active");
-                submenu.fadeIn(500);
-            } else {
-                var toc = found.parent().parent().parent().find(".toc");
-                var submenu = found.closest(".submenu");
-                console.log("f = "+found.text() + " = " + found.get(0).tagName);
-                console.log("toc = "+toc.length);
-                console.log("submenu = "+submenu.length);                
-                toc.addClass("active");
-                found.addClass("active");
-                submenu.fadeIn(500);
-            }
-        });
 
     });
 </script>
-
-<!-- function myFunction() {
-    var x = document.getElementById("myDIV");
-    if (x.style.display === "none") {
-      x.style.display = "block";
-    } else {
-      x.style.display = "none";
-    }
-  } -->
 </html>
