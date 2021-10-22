@@ -41,7 +41,7 @@ body {
 
 a:link,
 a:visited {
-    color: #333;
+    color: #888888;
 }
 
 a {
@@ -52,16 +52,16 @@ h1 {
     font-family: 'Crimson Text', serif;
     font-size: 48px;
     font-weight: 400;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     margin-bottom: 20px;
-    /* text-transform: uppercase; */
+    text-transform: capitalize;
 }
 
 h2 {
     font-family: 'Crimson Text', serif;
     font-size: 40px;
-    letter-spacing: 2px;
-    /* text-transform: uppercase; */
+    letter-spacing: 1px;
+    text-transform: capitalize;
     font-weight: 500;
 }
 
@@ -89,7 +89,7 @@ p{
 }
 
 ul.nav-main {
-    margin-top: 3.5%;
+    /* margin-top: 3.5%; */
 }
 
 ul.nav-main.mrg {
@@ -498,7 +498,7 @@ ul.footer li a:hover {
 /***************** INDIVISUAL PORTFOLIO WORK PAGE *******************/
 
 #top.container-ind {
-    max-height: 130px;
+    /* max-height: 130px; */
 }
 
 .container-work nav ul.nav-main {
@@ -521,8 +521,8 @@ ul.footer li a:hover {
 img.work-project,
 video.work-project {
     width: 100%;
-    margin: 3% 0 10% 0;
-    max-width: 1140px;
+    /* margin: 3% 0 10% 0; */
+    /* max-width: 1140px; */
 }
 
 img.work-cards {
