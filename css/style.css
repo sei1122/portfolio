@@ -41,7 +41,7 @@ body {
 
 a:link,
 a:visited {
-    color: #888888;
+    color: #333333;
 }
 
 a {
@@ -73,6 +73,8 @@ h3 {
     line-height: 1.5em;
     text-align: left;
     margin-top: 10%;
+    text-transform: capitalize;
+}
 }
 
 h4 {
@@ -89,7 +91,7 @@ p{
 }
 
 ul.nav-main {
-    /* margin-top: 3.5%; */
+    margin-top: 3.5%;
 }
 
 ul.nav-main.mrg {
@@ -183,7 +185,7 @@ nav ul li {
 
 nav ul li a {
     font-size: 16px;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 nav ul li a:hover {
@@ -193,6 +195,57 @@ nav ul li a:hover {
 .hamburgler-menu {
     display: none;
 }
+
+/***************** SUB NAVIGATION *******************/
+/* ul.nav-main li a{
+    color:#888888;
+} */
+
+/* ul.nav-main{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+} */
+
+/* nav ul li{
+    letter-spacing: 2px;
+    padding-right:20px;
+} */
+
+.subnav{
+    position:fixed;
+    top:300px;
+    left:0;
+    font-size:16px;
+}
+
+.subnav ul{
+    list-style: none;
+    text-align: left;
+}
+
+.subnav ul li{
+    margin-bottom: 10px;
+}
+
+.subnav ul li a{
+    font-weight: 300;
+    color:#888888;
+}
+
+ul li a.active, a.toc:hover, ul.submenu li a:hover{
+    color: #555555;
+    font-weight: 400;
+}
+
+.submenu{
+    display:none;
+    padding-left: 12px;
+    padding-top: 8px;
+    color:#888888;
+}
+
+
 
 /***************** PORTFOLIO *******************/
 
@@ -514,7 +567,7 @@ ul.footer li a:hover {
     max-width: 1140px;
     margin: 0 auto;
     text-align: center;
-    width: 90%;
+    /* width: 90%; */
     padding-bottom: 6.5%;
 }
 
@@ -698,6 +751,12 @@ img.bgshadow{
 }
 
 /***************** MEDIA QUERY *******************/
+@media screen and (max-width: 1190px) {
+    .subnav ul{
+        display:none;
+    }
+}
+
 @media (max-width:930px) {
     img.work-cards {
         margin-right: 0;
@@ -705,6 +764,7 @@ img.bgshadow{
 }
 
 /********* HUMBERGER MENU *********/
+
 
 @media (max-width:885px) {
     .hamburgler-icon-wrapper {
