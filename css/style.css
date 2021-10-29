@@ -75,7 +75,6 @@ h3 {
     margin-top: 10%;
     text-transform: capitalize;
 }
-}
 
 h4 {
     font-size: 14px;
@@ -215,8 +214,8 @@ nav ul li a:hover {
 .subnav{
     position:fixed;
     top:300px;
-    left:0;
-    font-size:16px;
+    left: -20px;
+    font-size: 16px;
 }
 
 .subnav ul{
@@ -567,15 +566,15 @@ ul.footer li a:hover {
     max-width: 1140px;
     margin: 0 auto;
     text-align: center;
-    /* width: 90%; */
+    width: 90%;
     padding-bottom: 6.5%;
 }
 
 img.work-project,
 video.work-project {
     width: 100%;
-    /* margin: 3% 0 10% 0; */
-    /* max-width: 1140px; */
+    margin: 3% 0 10% 0;
+    max-width: 1140px;
 }
 
 img.work-cards {
@@ -650,7 +649,7 @@ img.aki_inlogo{
 
 section{
     width:80%;
-    margin:0 auto 10% auto;
+    margin: 0 auto 10% auto;
 }
 
 img.dev-icon{
