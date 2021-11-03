@@ -62,6 +62,10 @@
             font-size:"18px";
         } */
 
+        #top.wrapper-work {
+            text-align: left;
+        }
+
         img.logo{
             width: 5%;
             float: left;
@@ -69,8 +73,13 @@
             margin: 3%;
         }
 
-       h1{
+        .page-title-area{
+           text-align: center;
            margin-top: 20%;
+       }
+       
+
+       .page-title-area h1{
            font-weight:600;
        }
 
@@ -82,21 +91,43 @@
            margin-top:5%;
        }
 
-       p.title-copy{
+       .page-title-area p{
            font-weight: 500;
            color:#333333;
        }
 
-       /* @media (max-width: 885px){
-        .hamburgler-icon-wrapper {
-        position:absolute;
-        top: 1em;
-        right: 50em;
+      
+    @media (max-width:885px) {
+    
+    .wrapper-work{
+        padding-top:0;
+    }
+
+    .hamburgler-icon-wrapper {
+        position: relative;
+        float:right;
         height: 26px;
         width: 26px;
-        cursor:pointer;
-        }  */
+        cursor: pointer;
+        margin:3%;
     }
+
+    .hamburgler-icon,
+    .hamburgler-icon:before,
+    .hamburgler-icon:after {
+        content: '';
+        /* position: absolute;
+        top: 1em;
+        right: 1em; */
+        border-radius: 1em;
+        height: 2px;
+        width: 26px;
+        background: black;
+        -webkit-transition: all 0.2s ease;
+        transition: all 0.2s ease
+    }
+}
+    
     </style>
 
 </head>
@@ -120,48 +151,52 @@
             <div id="hamburgler" class="hamburgler-icon-wrapper">
                 <span class="hamburgler-icon"></span>
             </div>
-            <nav>
-                <ul class="nav-main">
-                    <!-- <li><a href="index.html#top">HOME</a></li> -->
-                    <li><a href="index.html#portfolio">Portfolio</a></li>
-                    <li><a href="index.html#about">About</a></li>
-                    <!-- <li><a href="https://dribbble.com/seikoigi" target="_blank">DRIBBBLE</a></li> -->
-                    <li><a href="index.html#contact">Contact</a></li>
-                </ul>
-            </nav>
-            <div class="clearfix"></div>
-            <h1 >Web Design System</h1>
-            <p class="title-copy">Centralizing UX Wizards’ design guidelines on the web.</p>
-            <img src="img/portfolios/web/1b.png">
-            <div class="subnav">
-                <ul>
-                    <li><a href="#overview" class="toc" >Overview</a></li>
-                    <li><a href="#challenge" class="toc">Challenge</a>
-                    </li>
-                    <li><a href="#goals" class="toc">Goals</a>
-                    </li>
-                    <li><a href="#process" class="toc">Process</a>
-                        <ul class="submenu">
-                            <li><a href="#scope">Scope</a></li>
-                            <li><a href="#discovery">Discovery</a></li>
-                        </ul>
-                    </li>
-                    <li><a href="#scope" class="toc">Scope</a>
-                    </li>
-                    <li><a href="#design" class="toc">Design</a>
-                    </li>
-                    <li><a href="#discovery" class="toc">Discovery</a>
-                    </li>
-                    <li><a href="#team_review" class="toc">Team Review</a>
-                    </li>
-                    <li><a href="#launch" class="toc">Launch</a>
-                    </li>
-                    <li><a href="#next_steps" class="toc">Next Steps</a>
-                    </li>
-                </ul>
+            <div>
+                <nav>
+                    <ul class="nav-main">
+                        <!-- <li><a href="index.html#top">HOME</a></li> -->
+                        <li><a href="index.html#portfolio">Portfolio</a></li>
+                        <li><a href="index.html#about">About</a></li>
+                        <!-- <li><a href="https://dribbble.com/seikoigi" target="_blank">DRIBBBLE</a></li> -->
+                        <li><a href="index.html#contact">Contact</a></li>
+                    </ul>
+                </nav>
             </div>
-        </div>
-    </div>
+            <div class="clearfix"></div>
+            <div class="page-title-area">
+                <h1 >Web Design System</h1>
+                <p>Centralizing UX Wizards’ design guidelines on the web.</p>
+            </div>
+                <img src="img/portfolios/web/1b.png">
+                <div class="subnav">
+                    <ul>
+                        <li><a href="#overview" class="toc" >Overview</a></li>
+                        <li><a href="#challenge" class="toc">Challenge</a>
+                        </li>
+                        <li><a href="#goals" class="toc">Goals</a>
+                        </li>
+                        <li><a href="#process" class="toc">Process</a>
+                            <ul class="submenu">
+                                <li><a href="#scope">Scope</a></li>
+                                <li><a href="#discovery">Discovery</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="#scope" class="toc">Scope</a>
+                        </li>
+                        <li><a href="#design" class="toc">Design</a>
+                        </li>
+                        <li><a href="#discovery" class="toc">Discovery</a>
+                        </li>
+                        <li><a href="#team_review" class="toc">Team Review</a>
+                        </li>
+                        <li><a href="#launch" class="toc">Launch</a>
+                        </li>
+                        <li><a href="#next_steps" class="toc">Next Steps</a>
+                        </li>
+                    </ul>
+                </div>  <!--end submenu-->
+        </div> <!--end top-->
+    </div>  <!--end header-->
     <div class="container-work">
         <div class="wrapper-work">
             <section></section>
