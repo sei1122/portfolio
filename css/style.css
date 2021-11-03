@@ -55,6 +55,7 @@ h1 {
     letter-spacing: 1px;
     margin-bottom: 20px;
     text-transform: capitalize;
+    text-align: center;
 }
 
 h2 {
@@ -63,6 +64,7 @@ h2 {
     letter-spacing: 1px;
     text-transform: capitalize;
     font-weight: 500;
+    text-align: center;
 }
 
 h3 {
@@ -91,6 +93,7 @@ p{
 
 ul.nav-main {
     margin-top: 3.5%;
+    text-align: center;
 }
 
 ul.nav-main.mrg {
@@ -549,10 +552,6 @@ ul.footer li a:hover {
 
 /***************** INDIVISUAL PORTFOLIO WORK PAGE *******************/
 
-#top.container-ind {
-    /* max-height: 130px; */
-}
-
 .container-work nav ul.nav-main {
     padding-top: 0;
 }
@@ -565,7 +564,6 @@ ul.footer li a:hover {
 .wrapper-work {
     max-width: 1140px;
     margin: 0 auto;
-    text-align: center;
     width: 90%;
     padding-bottom: 6.5%;
 }
@@ -767,9 +765,6 @@ img.bgshadow{
 
 @media (max-width:885px) {
     .hamburgler-icon-wrapper {
-        /* position: absolute; */
-        /* top: 1em; */
-        /* left: 1em; */
         height: 26px;
         width: 26px;
         cursor: pointer;
