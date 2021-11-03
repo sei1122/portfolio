@@ -37,100 +37,89 @@
         ga('create', 'UA-71694781-1', 'auto');
         ga('send', 'pageview');
     </script>
+    <style>
 
-<!-- <style>
+       
 
-    /* navigation and top header image */
-    img.work-project, video.work-project{
-        width: 100%;
-    }
-
-    /* navbar */
-
-    ul.nav-main li a{
-        color:#888888;
-    }
-
-    ul.nav-main{
-        position: absolute;
-        top: 20px;
-        right: 20px;
-    }
-
-    nav ul li{
-        letter-spacing: 2px;
-        padding-right:20px;
-    }
-
-    /* h1{
-        text-align: center;
-        position: absolute;
-        top: 15%;
-        left: 50%;
-        transform: translate(-50%, -50%);
-    } */
-
-
-    .subnav{
-        position:fixed;
-        top:300px;
-        left:0;
-        font-size:16px;
-    }
-
-    .subnav ul{
-        list-style: none;
-        text-align: left;
-    }
-
-    .subnav ul li{
-        margin-bottom: 10px;
-    }
-
-    .subnav ul li a{
-        font-weight: 300;
-        color:#888888;
-    }
-
-    ul li a.active, a.toc:hover, ul.submenu li a:hover{
-        color: #555555;
-        font-weight: 400;
-    }
-
-    .submenu{
-        display:none;
-        padding-left: 12px;
-        padding-top: 8px;
-        color:#888888;
-    }
-
-    @media screen and (max-width: 1024px) {
-        .subnav ul{
-            display:none;
+        .header{
+            background:#E1E5EF;
         }
-    }
 
-</style> -->
+        #top.wrapper-work{
+            padding-bottom:0;
+        }
+
+        ul.nav-main{
+            float: right;
+        }
+
+        /* nav ul.nav-main li{
+            letter-spacing:2px;
+            font-family: 'Crimson Text', serif;
+        }
+
+        nav ul.nav-main li a{
+            font-size:"18px";
+        } */
+
+        img.logo{
+            width: 5%;
+            float: left;
+            position: relative;
+            margin: 3%;
+        }
+
+       h1{
+           margin-top: 20%;
+           font-weight:600;
+       }
+
+       .clearfix{
+        overflow: auto;
+       }
+
+       ul.nav-main{
+           margin-top:5%;
+       }
+
+       p.title-copy{
+           font-weight: 500;
+           color:#333333;
+       }
+
+       /* @media (max-width: 885px){
+        .hamburgler-icon-wrapper {
+        position:absolute;
+        top: 1em;
+        right: 50em;
+        height: 26px;
+        width: 26px;
+        cursor:pointer;
+        }  */
+    }
+    </style>
 
 </head>
-
 <body>
-    <div class="container-ind" id="top">
-        <div class="hamburgler-menu">
-            <nav>
-                <ul class="hamburgler-menu-list">
-                    <li><a href="index.html#top">HOME</a></li>
-                    <li><a href="index.html#portfolio">PORTFOLIO</a></li>
-                    <li><a href="index.html#about">ABOUT</a></li>
-                    <li><a href="https://dribbble.com/seikoigi" target="_blank">DRIBBBLE</a></li>
-                    <li><a href="index.html#contact">CONTACT</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div id="hamburgler" class="hamburgler-icon-wrapper">
-            <span class="hamburgler-icon"></span>
-        </div>
-        <div>
+    <div class="header">
+        <div id="top" class="wrapper-work">
+            <a href="index.html">
+                <img src="img/logo.svg" alt="" class="logo">
+            </a>
+            <div class="hamburgler-menu">
+                <nav>
+                    <ul class="hamburgler-menu-list">
+                        <li><a href="index.html#top">HOME</a></li>
+                        <li><a href="index.html#portfolio">PORTFOLIO</a></li>
+                        <li><a href="index.html#about">ABOUT</a></li>
+                        <li><a href="https://dribbble.com/seikoigi" target="_blank">DRIBBBLE</a></li>
+                        <li><a href="index.html#contact">CONTACT</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div id="hamburgler" class="hamburgler-icon-wrapper">
+                <span class="hamburgler-icon"></span>
+            </div>
             <nav>
                 <ul class="nav-main">
                     <!-- <li><a href="index.html#top">HOME</a></li> -->
@@ -140,12 +129,10 @@
                     <li><a href="index.html#contact">Contact</a></li>
                 </ul>
             </nav>
-        </div>
-    </div>
-    <div class="container-work">
-            <!-- <h1>Web Design System</h1> -->
-            <img class="work-project" src="img/portfolios/web/1b2.png">
-            <div class="wrapper-work">
+            <div class="clearfix"></div>
+            <h1 >Web Design System</h1>
+            <p class="title-copy">Centralizing UX Wizards’ design guidelines on the web.</p>
+            <img src="img/portfolios/web/1b.png">
             <div class="subnav">
                 <ul>
                     <li><a href="#overview" class="toc" >Overview</a></li>
@@ -164,7 +151,6 @@
                     <li><a href="#design" class="toc">Design</a>
                     </li>
                     <li><a href="#discovery" class="toc">Discovery</a>
-                        
                     </li>
                     <li><a href="#team_review" class="toc">Team Review</a>
                     </li>
@@ -174,8 +160,13 @@
                     </li>
                 </ul>
             </div>
+        </div>
+    </div>
+    <div class="container-work">
+        <div class="wrapper-work">
+            <section></section>
             <section id="overview">
-                <h1>Brand Guide</h1>
+                <h2>Overview</h2>
                 <P><a href="https://www.meetup.com/UX-WIZARDS" class="colored_link" target="a_black">UX Wizards</a> is a design community for enthusiasts of all levels to share knowledge and grow together. This web design system project was made to centralize the group’s resources on the web and build out future content faster. We used the UX Wizards Brand Guide content and brought it into the Design System site as an MVP.
                 </P>
                 <p>7 designers and developers joined this project and everyone was assigned a page to design and build. I was in charge of the <a href="https://designsystem.uxwizards.org/#/logos" class="colored_link" target="a_black">Logo and Icons Page</a>.</p>
@@ -413,87 +404,4 @@
     </footer>
     <script src="js/index.js"></script>
 </body>
-<!-- <script>
-    // show the sub menu after 800 px from top
-    $( document ).ready(function() {
-        $('.subnav').hide();
-        $(document).scroll(function () {
-        var y = $(this).scrollTop();
-        if (y > 800) {
-            $('.subnav').fadeIn();
-        } else {
-            $('.subnav').fadeOut();
-        }
-        });
-    });
-    
-    //sub navigations
-    var gPrevToc = null;
-    function changeMenu(found) {
-        if(found.length == 0) {
-            return;
-        }
-        //remove highlight when switch the submenu
-        $("ul.submenu li a.active").removeClass("active");
-
-        if(found.hasClass("toc")) {
-            var toc = found;
-            // only update if PrevToc is different than new toc
-            if(gPrevToc == null || toc.text() != gPrevToc.text()) {
-                $("a.toc.active").removeClass("active");
-                var submenu = toc.next();
-                if(gPrevToc != null) {
-                    gPrevToc.next().hide();
-                    gPrevToc = toc;
-                }
-                else {
-                    gPrevToc = toc;
-                }
-                toc.addClass("active");
-                submenu.fadeIn(500);
-                //console.log("f = "+found.text() + " = " + found[0].tagName);
-                //console.log("toc = "+toc.text() + " = " + toc[0].tagName);
-                //console.log("gPrevToc = "+gPrevToc.text() + " = " + gPrevToc[0].tagName);
-                //console.log("submenu = "+submenu.length);
-            }
-        } else {
-            var toc = found.parent().parent().parent().find(".toc");
-            found.addClass("active");
-
-            // only update if PrevToc is different than new toc
-            if(gPrevToc == null || toc.text() != gPrevToc.text()) {
-                $("a.toc.active").removeClass("active");
-                if(gPrevToc != null) {
-                    gPrevToc.next().hide();
-                    gPrevToc = toc;
-                }
-                else {
-                    gPrevToc = toc;
-                }
-                var submenu = found.closest(".submenu");
-                toc.addClass("active");
-                submenu.fadeIn(500);
-                //console.log("f = "+found.text() + " = " + found[0].tagName);
-                //console.log("toc = "+toc.text() + " = " + toc[0].tagName);
-                //console.log("gPrevToc = "+gPrevToc.text() + " = " + gPrevToc[0].tagName);
-                //console.log("submenu = "+submenu.length);
-            }
-        }
-    }
-
-    $(document).ready(function(){
-        //mounse enter the project area, highlight the menu
-        $("section").mouseenter(function(){
-            var id = $(this).attr('id');
-            var found = $("[href=#"+id+"]");
-            changeMenu(found);
-            });
-       
-        //when click the toc, hightlight the menu
-        $(".toc,.submenu a").click(function(){         
-            var found = $(this);
-            changeMenu(found);
-        });
-    });
-</script> -->
 </html>

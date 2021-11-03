@@ -99,7 +99,7 @@ ul.nav-main.mrg {
 
 img{
     display:block;
-    width:100%;
+    width: 100%;
 }
 
 .col-1 {width: 8.33%;}
@@ -179,7 +179,7 @@ nav ul li {
     list-style: none;
     display: inline-block;
     padding-right: 50px;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
 }
 
 nav ul li a {
@@ -789,7 +789,7 @@ img.bgshadow{
     }
 
     .hamburgler-icon {
-        top: 0.75em
+        top: 0.75em;
     }
 
     .hamburgler-icon:before {
