@@ -91,12 +91,14 @@ p{
 }
 
 ul.nav-main {
-    margin-top: 3.5%;
+    /* padding-top: 3.5%; */
     text-align: center;
+    float: right;
 }
 
 ul.nav-main.mrg {
     margin-top: 0;
+    float: right;
 }
 
 img{
@@ -159,11 +161,6 @@ img{
 header.name {
     /* margin-top: 200px; */
     margin-top: 22%;
-    /* text-align: center; */
-    /* position: absolute; */
-    /* top: 50%; */
-    /* left: 50%; */
-    /* transform: translate(-50%, -50%); */
 }
 
 h1.myname {
@@ -182,6 +179,17 @@ h2.title {
 }
 
 /***************** NAVIGATION *******************/
+img.logo{
+    width: 48px;
+    float: left;
+    position: relative;
+    /* margin: 3%; */
+}
+
+.mobile-nav{
+    padding-top:5%;
+}
+
 nav ul li {
     list-style: none;
     display: inline-block;
@@ -202,6 +210,14 @@ nav ul li a:hover {
     display: none;
 }
 
+.clearfix{
+    overflow: auto;
+   }
+
+   /* ul.nav-main{
+        float: right;
+} */
+
 /***************** SUB NAVIGATION *******************/
 /* ul.nav-main li a{
     color:#888888;
@@ -217,6 +233,7 @@ nav ul li a:hover {
     letter-spacing: 2px;
     padding-right:20px;
 } */
+
 
 .subnav{
     position:fixed;
@@ -250,6 +267,7 @@ ul li a.active, a.toc:hover, ul.submenu li a:hover{
     padding-top: 8px;
     color:#888888;
 }
+
 
 
 
@@ -404,6 +422,7 @@ a.btn:hover {
 
 .row {
     width: 100%;
+    margin-top: 10;
 }
 
 .column-half {
@@ -556,6 +575,28 @@ ul.footer li a:hover {
 
 /***************** INDIVISUAL PORTFOLIO WORK PAGE *******************/
 
+.header{
+    background:#E1E5EF;
+}
+
+#top.wrapper-work{
+    padding-bottom:0;
+}
+
+.page-title-area{
+    text-align: center;
+    padding-top: 10%;
+}
+
+.page-title-area p{
+    font-weight: 500;
+    color:#333333;
+}
+
+.page-title-area h1{
+    font-weight:600;
+}
+
 .container-work nav ul.nav-main {
     padding-top: 0;
 }
@@ -586,6 +627,10 @@ img.work-cards {
     margin-right: 30px;
 }
 
+.web_visuals_data, .web_visuals_data p{
+    text-align: center;
+}
+
 .web_visuals_data a{
     font-family:"crimson text";
     font-size: 18px;
@@ -594,10 +639,6 @@ img.work-cards {
 
 .web_visuals_data a:hover{
     color:#ad74ed
-}
-
-.web_visuals_data p{
-    text-align: center;
 }
 
 .web_visuals_data p{
@@ -651,7 +692,7 @@ img.aki_inlogo{
 
 section{
     width:80%;
-    margin: 0 auto 10% auto;
+    margin: 0px auto 20% auto;
 }
 
 img.dev-icon{
@@ -704,6 +745,9 @@ video.prototype{
     width: 30%;
     margin: 3% 0 10% 0;
     border: solid 1px #CCCCCC;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 ul.ic, ol.ic{
@@ -768,10 +812,14 @@ img.bgshadow{
 
 
 @media (max-width:885px) {
+    
     .hamburgler-icon-wrapper {
+        position: relative;
+        float:right;
         height: 26px;
         width: 26px;
         cursor: pointer;
+        z-index:20;
     }
 
     .hamburgler-icon,
@@ -872,9 +920,9 @@ img.bgshadow{
     }
 
     /*STACK ORDER*/
-    #hamburgler.hamburgler-icon-wrapper {
+    /* #hamburgler.hamburgler-icon-wrapper {
         z-index: 20;
-    }
+    } */
 
     .hamburgler-menu {
         z-index: 5;
@@ -892,6 +940,11 @@ img.bgshadow{
         display: block;
     }
 
+    .mobile-nav{
+        padding-top: 5%;
+        padding-bottom:5%;
+    }
+
     /* Fill up the background*/
     .container-top {
         padding-top: 10px;
@@ -900,7 +953,7 @@ img.bgshadow{
 
     /***** NAME *****/
     header.name {
-        margin-top: 0;
+    margin-top: 0;
     }
 
     /***** PORTFOLIO FILTER *****/
@@ -930,10 +983,16 @@ img.bgshadow{
 
     /***** WORK *****/
     .wrapper-work {
-        padding-top: 6.5%;
+        /* padding-top: 6.5%; */
     }
 
-    
+    img.logo{
+        width: 48px;
+        float: left;
+        position: relative;
+        /* margin:3%; */
+    }
+
 
 }
 
@@ -973,7 +1032,7 @@ img.bgshadow{
     }
 
     h2.title{
-        font-size:20px;
+        font-size: 16px;
         letter-spacing: 1px;
     }
     
@@ -1035,11 +1094,25 @@ img.bgshadow{
 
 }
 
+@media (max-width:480px){
+    img.logo{
+        width:32px;
+    }
+}
+
 @media (max-width:425px) {
 
     h1 {
         font-size: 32px;
         font-weight:400;
+    }
+
+    h1.myname{
+        font-size:40px;
+    }
+
+    header.name{
+        margin-top: 15%;
     }
 
     #portfoliolist .portfolio {
