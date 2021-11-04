@@ -43,11 +43,30 @@ This is her personal portfolio site. Have a look at her designs.">
         ga('create', 'UA-71694781-1', 'auto');
         ga('send', 'pageview');
     </script>
+
+    <style>
+        img.logo{
+            width: 48px;
+            float: left;
+            position: relative;
+            margin: 3%;
+        }
+
+       .clearfix{
+        overflow: auto;
+       }
+
+       ul.nav-main{
+            float: right;
+            margin-top:5%;
+        }
+
+    </style>
 </head>
 
 <body>
     <div class="container-top" id="top">
-        <div class="hamburgler-menu">
+        <!-- <div class="hamburgler-menu">
             <nav>
                 <ul class="hamburgler-menu-list">
                     <li><a href="#top">HOME</a></li>
@@ -60,9 +79,9 @@ This is her personal portfolio site. Have a look at her designs.">
         </div>
         <div id="hamburgler" class="hamburgler-icon-wrapper">
             <span class="hamburgler-icon"></span>
-        </div>
-        <div class="wrapper">
-            <nav>
+        </div> -->
+        <div class="wrapper-work">
+            <!-- <nav>
                 <ul class="nav-main mrg">
                     <li><a href="#top">HOME</a></li>
                     <li><a href="#portfolio">PORTFOLIO</a></li>
@@ -70,25 +89,48 @@ This is her personal portfolio site. Have a look at her designs.">
                     <li><a href="https://dribbble.com/seikoigi" target="_blank">DRIBBBLE</a></li>
                     <li><a href="#contact">CONTACT</a></li>
                 </ul>
-            </nav>
+            </nav> -->
+            <div class="mobile-nav">
+                <a href="index.html">
+                    <img src="img/logo.svg" alt="" class="logo">
+                </a>
+                <div class="hamburgler-menu">
+                    <nav>
+                        <ul class="hamburgler-menu-list">
+                            <li><a href="index.html#top">HOME</a></li>
+                            <li><a href="index.html#portfolio">PORTFOLIO</a></li>
+                            <li><a href="index.html#about">ABOUT</a></li>
+                            <!-- <li><a href="https://dribbble.com/seikoigi" target="_blank">DRIBBBLE</a></li> -->
+                            <li><a href="index.html#contact">CONTACT</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="hamburgler" class="hamburgler-icon-wrapper">
+                    <span class="hamburgler-icon"></span>
+                </div>
+                <div>
+                    <nav>
+                        <ul class="nav-main">
+                            <!-- <li><a href="index.html#top">HOME</a></li> -->
+                            <li><a href="index.html#portfolio">Portfolio</a></li>
+                            <li><a href="index.html#about">About</a></li>
+                            <!-- <li><a href="https://dribbble.com/seikoigi" target="_blank">DRIBBBLE</a></li> -->
+                            <li><a href="index.html#contact">Contact</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="clearfix"></div>
             <header class="name">
                 <h1 class="myname">Seiko Igi</h1>
                 <h2 class="title">Product Designer based in Bay Area, California</h2>
             </header>
         </div>
     </div>
+
     <div class="container" id="portfolio">
         <div class="wrapper">
             <h2>Portfolio</h2>
-            <!-- <ul id="filters" class="clearfix">
-                <li><span class="filter active" data-filter=".web, .graphic, .animation, .mobile, .branding">ALL</span>
-                </li>
-                <li><span class="filter" data-filter=".web">WEB</span></li>
-                <li><span class="filter" data-filter=".mobile">MOBILE</span></li>
-                <li><span class="filter" data-filter=".branding">BRANDING</span></li>
-                <li><span class="filter" data-filter=".graphic">GRAPHIC</span></li>
-            </ul> -->
-            <!-- <div id="portfoliolist"> -->
             <div id="portfoliolist">
                 <div class="portfolio">
                     <div class="portfolio-wrapper">
