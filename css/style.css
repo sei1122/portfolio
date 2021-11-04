@@ -88,7 +88,6 @@ p{
     letter-spacing: 1px;
     line-height: 2em;
     font-size: 18px;
-    /* margin-bottom: 2%; */
 }
 
 ul.nav-main {
@@ -963,8 +962,9 @@ img.bgshadow{
     }
 
     h1.myname{
-        font-size:48px;
+        font-size: 48px;
         letter-spacing:4px;
+        /* text-align: center; */
     }
     
     h2 {
