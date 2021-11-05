@@ -40,37 +40,44 @@
         ga('send', 'pageview');
     </script>
 </head>
-
 <body>
-    <div class="container-ind" id="top">
-        <div class="hamburgler-menu">
-            <nav>
-                <ul class="hamburgler-menu-list">
-                    <li><a href="index.html#top">HOME</a></li>
-                    <li><a href="index.html#portfolio">PORTFOLIO</a></li>
-                    <li><a href="index.html#about">ABOUT</a></li>
-                  <!-- <li><a href="https://dribbble.com/seikoigi" target="_blank">DRIBBBLE</a></li> -->
-                    <li><a href="index.html#contact">CONTACT</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div id="hamburgler" class="hamburgler-icon-wrapper">
-            <span class="hamburgler-icon"></span>
-        </div>
-        <div class="wrapper-work">
-            <nav>
-                <ul class="nav-main">
-                    <li><a href="index.html#top">HOME</a></li>
-                    <li><a href="index.html#portfolio">PORTFOLIO</a></li>
-                    <li><a href="index.html#about">ABOUT</a></li>
-                  <!-- <li><a href="https://dribbble.com/seikoigi" target="_blank">DRIBBBLE</a></li> -->
-                    <li><a href="index.html#contact">CONTACT</a></li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-    <div class="container-work">
-        <div class="wrapper-work">
+    <div class="header">
+        <div id="top" class="wrapper-work">
+            <div class="mobile-nav">
+                <a href="index.html">
+                    <img src="img/logo.svg" alt="" class="logo">
+                </a>
+                <div class="hamburgler-menu">
+                    <nav>
+                        <ul class="hamburgler-menu-list">
+                            <li><a href="index.html#top">HOME</a></li>
+                            <li><a href="index.html#portfolio">PORTFOLIO</a></li>
+                            <li><a href="index.html#about">ABOUT</a></li>
+                       
+                            <li><a href="index.html#contact">CONTACT</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="hamburgler" class="hamburgler-icon-wrapper">
+                    <span class="hamburgler-icon"></span>
+                </div>
+                <div>
+                    <nav>
+                        <ul class="nav-main">
+                            <!-- <li><a href="index.html#top">HOME</a></li> -->
+                            <li><a href="index.html#portfolio">PORTFOLIO</a></li>
+                            <li><a href="index.html#about">ABOUT</a></li>
+                            <li><a href="index.html#contact">CONTACT</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="page-title-area">
+                <h1>Brand Guide</h1>
+                <p>Standardizing design and content across UX Wizards teams.</p>
+            </div>
+            <img src="img/portfolios/branding/1a.png">
             <div class="subnav">
                 <ul>
                     <li><a href="#overview" class="toc">Overview</a></li>
@@ -100,17 +107,23 @@
                     </li>
                 </ul>
             </div>
+            <!--end submenu-->
+        </div>
+        <!--end top-->
+    </div>
+    <!--end header-->
+    <div class="container-work">
+        <div class="wrapper-work">
+            <section></section>
             <section id="overview">
-                <h1>Brand Guide</h1>
+                <h2>Overview</h2>
                 <P><a href="https://www.meetup.com/UX-WIZARDS" class="colored_link" target="a_black">UX Wizards</a> is a
                     design community for enthusiasts of all levels to share knowledge and grow together. UX Wizards
                     hosts various events for designers like Design Hackathons, UX Talks, and Book Clubs. This is the
                     first Brand Guide to standardize design guidelines across the whole team. I was in charge of 2 of
                     the 4 sections, <b>Logo and Colors</b>.
                 </P>
-                <img class="work-project" src="img/portfolios/branding/1-2.png">
-            </section>
-            <section>
+                <!-- <img class="work-project" src="img/portfolios/branding/1-2.png"> -->
                 <div class="row data">
                     <div class="col-6">
                         <p class="data_title">YEAR</p>
@@ -328,7 +341,7 @@
             </div> -->
             <div class="arrow_row">
                 <div class="col-4">
-                    <a href="portfolio_webdesignsystem.html"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+                    <a href="portfolio_designsystem2.html"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
                 </div>
                 <div class="col-4"></div>
                 <div class="col-4">
@@ -365,5 +378,4 @@
     </footer>
     <script src="js/index.js"></script>
 </body>
-
 </html>

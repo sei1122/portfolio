@@ -40,37 +40,44 @@
         ga('send', 'pageview');
     </script>
 </head>
-
 <body>
-    <div class="container-ind" id="top">
-        <div class="hamburgler-menu">
-            <nav>
-                <ul class="hamburgler-menu-list">
-                    <li><a href="index.html#top">HOME</a></li>
-                    <li><a href="index.html#portfolio">PORTFOLIO</a></li>
-                    <li><a href="index.html#about">ABOUT</a></li>
-                  <!-- <li><a href="https://dribbble.com/seikoigi" target="_blank">DRIBBBLE</a></li> -->
-                    <li><a href="index.html#contact">CONTACT</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div id="hamburgler" class="hamburgler-icon-wrapper">
-            <span class="hamburgler-icon"></span>
-        </div>
-        <div class="wrapper-work">
-            <nav>
-                <ul class="nav-main">
-                    <li><a href="index.html#top">HOME</a></li>
-                    <li><a href="index.html#portfolio">PORTFOLIO</a></li>
-                    <li><a href="index.html#about">ABOUT</a></li>
-                  <!-- <li><a href="https://dribbble.com/seikoigi" target="_blank">DRIBBBLE</a></li> -->
-                    <li><a href="index.html#contact">CONTACT</a></li>
-                </ul>
-            </nav>
-        </div>
-    </div>
-    <div class="container-work">
-        <div class="wrapper-work">
+    <div class="header">
+        <div id="top" class="wrapper-work">
+            <div class="mobile-nav">
+                <a href="index.html">
+                    <img src="img/logo.svg" alt="" class="logo">
+                </a>
+                <div class="hamburgler-menu">
+                    <nav>
+                        <ul class="hamburgler-menu-list">
+                            <li><a href="index.html#top">HOME</a></li>
+                            <li><a href="index.html#portfolio">PORTFOLIO</a></li>
+                            <li><a href="index.html#about">ABOUT</a></li>
+                       
+                            <li><a href="index.html#contact">CONTACT</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="hamburgler" class="hamburgler-icon-wrapper">
+                    <span class="hamburgler-icon"></span>
+                </div>
+                <div>
+                    <nav>
+                        <ul class="nav-main">
+                            <!-- <li><a href="index.html#top">HOME</a></li> -->
+                            <li><a href="index.html#portfolio">PORTFOLIO</a></li>
+                            <li><a href="index.html#about">ABOUT</a></li>
+                            <li><a href="index.html#contact">CONTACT</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="page-title-area">
+                <h1>Web Design System</h1>
+                <p>Centralizing UX Wizards’ design guidelines on the web.</p>
+            </div>
+            <img src="img/portfolios/web/1b.png">
             <div class="subnav">
                 <ul>
                     <li><a href="#overview" class="toc">Overview</a></li>
@@ -92,8 +99,41 @@
                     <li><a href="#next-steps" class="toc">Next Steps</a></li>
                 </ul>
             </div>
+            <!--end submenu-->
+        </div>
+        <!--end top-->
+    </div>
+    <!--end header-->
+    <!-- <div class="container-ind" id="top">
+        <div class="hamburgler-menu">
+            <nav>
+                <ul class="hamburgler-menu-list">
+                    <li><a href="index.html#top">HOME</a></li>
+                    <li><a href="index.html#portfolio">PORTFOLIO</a></li>
+                    <li><a href="index.html#about">ABOUT</a></li>
+                    <li><a href="index.html#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div id="hamburgler" class="hamburgler-icon-wrapper">
+            <span class="hamburgler-icon"></span>
+        </div>
+        <div class="wrapper-work">
+            <nav>
+                <ul class="nav-main">
+                    <li><a href="index.html#top">HOME</a></li>
+                    <li><a href="index.html#portfolio">PORTFOLIO</a></li>
+                    <li><a href="index.html#about">ABOUT</a></li>
+                    <li><a href="index.html#contact">CONTACT</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div> -->
+    <div class="container-work">
+        <div class="wrapper-work">
+            <section></section>
             <section id="overview">
-                <h1>Web Design System</h1>
+                <h2>Overview</h2>
                 <P>
                     <a href="https://www.meetup.com/UX-WIZARDS" class="colored_link" target="a_black">UX Wizards</a> is
                     a design community for enthusiasts of all levels to share knowledge and grow together. This web
@@ -117,9 +157,6 @@
                     <a href="https://designsystem.uxwizards.org/#/introduction" class="btn drb" target="_blank">
                         VIEW DESIGN SYSTEM</a>
                 </div>
-                <img class="work-project" src="img/portfolios/web/1-2a.png">
-            </section>
-            <section>
                 <div class="row data">
                     <div class="col-6">
                         <p class="data_title">YEAR</p>
@@ -136,7 +173,27 @@
                         <p>Adobe XD, React, Github, Tailwind, Visual Studio Code</p>
                     </div>
                 </div>
+                
+                <!-- <img class="work-project" src="img/portfolios/web/1-2a.png"> -->
             </section>
+            <!-- <section>
+                <div class="row data">
+                    <div class="col-6">
+                        <p class="data_title">YEAR</p>
+                        <p>2021, 10 weeks</p>
+                        <br>
+                        <p class="data_title">ROLE</p>
+                        <p>Design and Frontend Development</p>
+                    </div>
+                    <div class="col-6">
+                        <p class="data_title">TEAM</p>
+                        <p>Seiko (self), Kaisen, Laura, Max, Sidney, Javier, Dhruv</p>
+                        <br>
+                        <p class="data_title">TOOLS</p>
+                        <p>Adobe XD, React, Github, Tailwind, Visual Studio Code</p>
+                    </div>
+                </div>
+            </section> -->
             <section id="challenge">
                 <h2>Challenge</h2>
                 <p>
