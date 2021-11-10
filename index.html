@@ -43,9 +43,27 @@ This is her personal portfolio site. Have a look at her designs.">
         ga('create', 'UA-71694781-1', 'auto');
         ga('send', 'pageview');
     </script>
+    <style>
+        /* Paste this css to your style sheet file or under head tag */
+    /* This only works with JavaScript, 
+    if it's not present, don't show loader */
+    .no-js #loader { display: none;  }
+    .js #loader { display: block; position: absolute; left: 100px; top: 0; }
+    .se-pre-con {
+        position: fixed;
+        left: 0px;
+        top: 0px;
+        width: 100%;
+        height: 100%;
+        z-index: 9999;
+        /* background: url(https://smallenvelop.com/wp-content/uploads/2014/08/Preloader_11.gif) center no-repeat #fff; */
+         background: url(img/loading.png) center no-repeat #fff;
+    }
+    </style>xw
 </head>
 
 <body>
+    <div class="se-pre-con"></div>
     <div class="container-top" id="top">
         <div class="wrapper-work">
             <div class="mobile-nav">
@@ -238,6 +256,14 @@ This is her personal portfolio site. Have a look at her designs.">
                 goToAnchor();
             }
         );
+    </script>
+    <script>
+        //paste this code under the head tag or in a separate js file.
+        // Wait for window load
+        $(window).load(function() {
+            // Animate loader off screen
+            $(".se-pre-con").fadeOut("slow");;
+        });
     </script>
 </body>
 

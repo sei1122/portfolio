@@ -399,6 +399,7 @@ text-align: right;
 
 .btn.drb {
     margin: 0 auto 0 auto;
+    text-align: center;
 }
 
 a.btn:hover {
@@ -643,6 +644,11 @@ img.work-cards {
 
 .web_visuals_data p{
     margin-bottom:0;
+}
+
+img.recipebook{
+    width:80%;
+    margin: 3% auto 10% auto;
 }
 
 
