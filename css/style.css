@@ -169,14 +169,14 @@ if it's not present, don't show loader */
     height: 100%;
     z-index: 9999;
     /* background: url(https://smallenvelop.com/wp-content/uploads/2014/08/Preloader_11.gif) center no-repeat #fff; */
-        background: url(../img/loading.png) center no-repeat #fff;
+    background: url(../img/loading.png) center no-repeat #fff;
 }
 
 /***************** HOME *******************/
 
 header.name {
     /* margin-top: 200px; */
-    margin-top: 22%;
+    margin-top: 18%;
 }
 
 h1.myname {
@@ -289,15 +289,55 @@ ul li a.active, a.toc:hover, ul.submenu li a:hover{
 
 /***************** PORTFOLIO *******************/
 
-/* #portfoliolist {
-    overflow: auto;
-} */
-
-#portfoliolist .portfolio {
-    width: 45%;
+.portfolio-wrapper {
+    text-align: left;
 }
 
-#filters {
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.portfolio {
+    display: flex;
+    width: 46%;
+    background: #E1E5EF;
+    margin: auto;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.portfolio:hover {
+    animation-name: example;
+    animation-duration: 0.50s;
+    border-top: 8px solid #cdcdff;
+    box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
+}
+
+.portfolio-wrapper h2 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+.portfolio-wrapper p {
+    margin-block-start: 0.5em;
+    margin-block-end: 0.5em;
+    line-height: 1.4em;
+}
+
+.portfolio-wrapper img {
+    margin: 0 auto;
+}
+
+i.fas.fa-chevron-right {
+    vertical-align: text-bottom;
+}
+
+.disc {
+    padding: 2em;
+}
+
+/* #filters {
     display: inline-block;
     margin: 3% 0 5% 0;
 }
@@ -327,7 +367,7 @@ ul li a.active, a.toc:hover, ul.submenu li a:hover{
 span.filter.active {
     background: #cdcdffde;
     color: #000;
-}
+} */
 
 .portfolio .label-text {
     color: #000;
@@ -357,19 +397,19 @@ img.w50{
   margin: auto;
   /* margin-top: 5%;
   padding: 20px 50px; */
-  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
-  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+  /* box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1); */
 }
 
 
-.portfolio-wrapper:hover{
-    /* border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px; */
+/* .portfolio-wrapper:hover{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
     animation-name: example;
     animation-duration: 0.50s;
     border-top: 8px solid #cdcdff;
     box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
-}
+} */
 
 /***************** ABOUT *******************/
 
@@ -780,7 +820,7 @@ ul.ic, ol.ic{
     font-size:18px;
 }
 
-a.colored_link{
+a.colored_link, .colored_link{
     color:#ad74ed;
 }r
 
@@ -986,12 +1026,12 @@ img.bgshadow{
         margin-right: 0;
     }
 
-    #portfoliolist .portfolio {
-        /* width: 100%; */
+    /* #portfoliolist .portfolio {
+        width: 100%;
         max-width: 400px;
-        /* margin-left: 30px;*/
+        margin: 1.5em auto;
         float: none;
-    }
+    } */
 
     /***** CONTACT *****/
     input,
@@ -1078,11 +1118,10 @@ img.bgshadow{
 
 .col-6 {width: 100%;}
 
-.row {
+/* .row {
     display: flex;
-    display: -ms-flex;
     flex-direction: column;
-  }
+  } */
   .sw-first {
     order: 2;
   }
@@ -1100,6 +1139,12 @@ img.bgshadow{
   .space-10b{
     margin-bottom:0;
   }
+}
+
+@media (max-width: 600px) {
+    .portfolio{
+        width:100%;
+    }
 }
 
 @media (max-width:560px) {

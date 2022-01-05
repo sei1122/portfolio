@@ -9,12 +9,14 @@ This is her personal portfolio site. Have a look at her designs.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="shortcut icon" href="favicon.ico" />
-    <link rel="stylesheet" href="css/layout.css">
+    <!-- <link rel="stylesheet" href="css/layout.css"> -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
         integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
     <link href='https://fonts.googleapis.com/css?family=Roboto:400,500,700' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="css/style.css">
     <!--[if lt IE 9]>
@@ -42,33 +44,41 @@ This is her personal portfolio site. Have a look at her designs.">
         ga('send', 'pageview');
     </script>
 </head>
-
 <body>
+    <div class="se-pre-con"></div> <!--loading-->
     <div class="container-top" id="top">
-        <div class="hamburgler-menu">
-            <nav>
-                <ul class="hamburgler-menu-list">
-                    <li><a href="#top">HOME</a></li>
-                    <li><a href="#portfolio">PORTFOLIO</a></li>
-                    <li><a href="#about">ABOUT</a></li>
-                    <!-- <li><a href="https://dribbble.com/seikoigi" target="_blank">DRIBBBLE</a></li> -->
-                    <li><a href="#contact">CONTACT</a></li>
-                </ul>
-            </nav>
-        </div>
-        <div id="hamburgler" class="hamburgler-icon-wrapper">
-            <span class="hamburgler-icon"></span>
-        </div>
-        <div class="wrapper">
-            <nav>
-                <ul class="nav-main mrg">
-                    <li><a href="#top">HOME</a></li>
-                    <li><a href="#portfolio">PORTFOLIO</a></li>
-                    <li><a href="#about">ABOUT</a></li>
-                    <!-- <li><a href="https://dribbble.com/seikoigi" target="_blank">DRIBBBLE</a></li> -->
-                    <li><a href="#contact">CONTACT</a></li>
-                </ul>
-            </nav>
+        <div class="wrapper-work">
+            <div class="mobile-nav">
+                <a href="index.html">
+                    <img src="img/logo.svg" alt="" class="logo">
+                </a>
+                <div class="hamburgler-menu">
+                    <nav>
+                        <ul class="hamburgler-menu-list">
+                            <li><a href="index.html#top">HOME</a></li>
+                            <li><a href="index.html#portfolio">PORTFOLIO</a></li>
+                            <li><a href="index.html#about">ABOUT</a></li>
+                          <!-- <li><a href="https://dribbble.com/seikoigi" target="_blank">DRIBBBLE</a></li> -->
+                            <li><a href="index.html#contact">CONTACT</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="hamburgler" class="hamburgler-icon-wrapper">
+                    <span class="hamburgler-icon"></span>
+                </div>
+                <div>
+                    <nav>
+                        <ul class="nav-main">
+                            <!-- <li><a href="index.html#top">HOME</a></li> -->
+                            <li><a href="index.html#portfolio">PORTFOLIO</a></li>
+                            <li><a href="index.html#about">ABOUT</a></li>
+                          <!-- <li><a href="https://dribbble.com/seikoigi" target="_blank">DRIBBBLE</a></li> -->
+                            <li><a href="index.html#contact">CONTACT</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="clearfix"></div>
             <header class="name">
                 <h1 class="myname">Seiko Igi</h1>
                 <h2 class="title">Product Designer based in Bay Area, California</h2>
@@ -78,124 +88,47 @@ This is her personal portfolio site. Have a look at her designs.">
     <div class="container" id="portfolio">
         <div class="wrapper">
             <h2>Portfolio</h2>
-            <ul id="filters" class="clearfix">
-                <li><span class="filter active" data-filter=".web, .graphic, .animation, .mobile, .branding">ALL</span>
-                </li>
-                <li><span class="filter" data-filter=".web">WEB</span></li>
-                <li><span class="filter" data-filter=".mobile">MOBILE</span></li>
-                <li><span class="filter" data-filter=".branding">BRANDING</span></li>
-                <li><span class="filter" data-filter=".graphic">GRAPHIC</span></li>
-            </ul>
-            <!-- <div id="portfoliolist"> -->
             <div id="portfoliolist">
-                <div class="portfolio web" data-cat="web">
+                <div class="portfolio">
                     <div class="portfolio-wrapper">
-                        <a href="portfolio_designsystem2.html"><img src="img/portfolios/web/1a.png" alt="" />
-                            <div class="label">
-                                <div class="label-text">
-                                    <div class="text-title">UX WIZARDS WEB DESIGN SYSTEM</div>
-                                    <span class="text-category">WEB</span>
-                                </div>
-                                <div class="label-bg"></div>
-                            </div>
+                        <a href="portfolio_designsystem2.html"><img src="img/portfolios/web/test2.png" alt="" />
                         </a>
                     </div>
                 </div>
-                <div class="portfolio branding" data-cat="branding">
+                <div class="portfolio">
                     <div class="portfolio-wrapper">
-                        <a href="portfolio_brandguide.html"><img src="img/portfolios/branding/1.png" alt="" />
-                            <div class="label">
-                                <div class="label-text">
-                                    <div class="text-title">UX WIZARDS BRAND GUIDE</div>
-                                    <span class="text-category">BRANDING</span>
-                                </div>
-                                <div class="label-bg"></div>
-                            </div>
+                        <a href="portfolio_brandguide.html"><img src="img/portfolios/branding/test1.png" alt="" />
                         </a>
                     </div>
                 </div>
-                <div class="portfolio mobile" data-cat="mobile">
+                <div class="portfolio">
                     <div class="portfolio-wrapper">
-                        <a href="portfolio_starrlearner.html"><img src="img/portfolios/mobile/1.png" alt="" />
-                            <div class="label">
-                                <div class="label-text">
-                                    <div class="text-title">Starr Learner</div>
-                                    <span class="text-category">MOBILE</span>
-                                </div>
-                                <div class="label-bg"></div>
-                            </div>
+                        <a href="portfolio_starrlearner.html"><img src="img/portfolios/mobile/test1.png" alt="" />
                         </a>
                     </div>
                 </div>
-                <div class="portfolio mobile" data-cat="mobile">
+                <div class="portfolio">
                     <div class="portfolio-wrapper">
-                        <a href="portfolio_ictherapy.html"><img src="img/portfolios/mobile/4.jpg" alt="" />
-                            <div class="label">
-                                <div class="label-text">
-                                    <div class="text-title">ICtherapy</div>
-                                    <span class="text-category">MOBILE</span>
-                                </div>
-                                <div class="label-bg"></div>
-                            </div>
+                        <a href="portfolio_ictherapy.html"><img src="img/portfolios/mobile/test2.png" alt="" />
+
                         </a>
                     </div>
                 </div>
-                <div class="portfolio web" data-cat="web">
+                <div class="portfolio">
                     <div class="portfolio-wrapper">
-                        <a href="portfolio_aki.html"><img src="img/portfolios/web/10a.jpg" alt="" />
-                            <div class="label">
-                                <div class="label-text">
-                                    <div class="text-title">Blue Palette Website</div>
-                                    <span class="text-category">WEB</span>
-                                </div>
-                                <div class="label-bg"></div>
-                            </div>
+                        <a href="portfolio_websites.html"><img src="img/portfolios/web/test1.png" alt="" />
                         </a>
                     </div>
                 </div>
-                <div class="portfolio graphic" data-cat="graphic">
+                <div class="portfolio">
                     <div class="portfolio-wrapper">
-                        <a href="portfolio_california.html"><img src="img/portfolios/graphic/3.jpg" alt="e-commerce" />
-                            <div class="label">
-                                <div class="label-text">
-                                    <div class="text-title">CALIFORNIA LOGO DESIGN</div>
-                                    <span class="text-category">GRAPHIC</span>
-                                </div>
-                                <div class="label-bg"></div>
-                            </div>
+                        <a href="portfolio_visual_designs.html"><img src="img/portfolios/graphic/test1.png"
+                                alt="Graphic" />
                         </a>
                     </div>
                 </div>
-                <div class="portfolio graphic" data-cat="graphic">
-                    <div class="portfolio-wrapper">
-                        <a href="portfolio_fitlab.html"><img src="img/portfolios/graphic/1.jpg" alt="" />
-                            <div class="label">
-                                <div class="label-text">
-                                    <div class="text-title">FitLab Mango Cleanse</div>
-                                    <span class="text-category">Graphic</span>
-                                </div>
-                                <div class="label-bg"></div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-                <div class="portfolio graphic" data-cat="graphic">
-                    <div class="portfolio-wrapper">
-                        <a href="portfolio_luna.html"><img src="img/portfolios/graphic/2.jpg" alt="" />
-                            <div class="label">
-                                <div class="label-text">
-                                    <div class="text-title">Skincare Package Design</div>
-                                    <span class="text-category">Graphic</span>
-                                </div>
-                                <div class="label-bg"></div>
-                            </div>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <!-- end of portfolio list -->
-        </div>
-        <!-- end of portfolio wrapper -->
+            </div><!-- end of portfolio list -->
+        </div><!-- end of portfolio wrapper -->
     </div>
     <!-- end of portfolio container -->
     <div class="container-about" id="about">
@@ -203,13 +136,20 @@ This is her personal portfolio site. Have a look at her designs.">
             <h2>About</h2>
             <!-- <h4>PRODUCT DESIGNER BASED IN BAY AREA, CALIFORNIA -->
             </h4>
-            <p>I have been working as a product designer since 2016, and have worked on web based products and visual designs. My passion is to create designs that convey ideas and information that positively impact people, businesses, and organizations.
+            <p>I have been working as a product designer since 2016, and have worked on web based products and visual
+                designs. My passion is to create designs that convey ideas and information that positively impact
+                people, businesses, and organizations.
             </p>
-            <p>I believe in community, and am part of the executive board for a Bay Area UX Community, UX Wizards. There, I help manage 30 volunteers who host events for 3,200+ members. I’m also the Design team lead and led the creation of Brand Guide and website.
+            <p>I believe in community, and am part of the executive board for a Bay Area UX Community, UX Wizards.
+                There, I help manage 30 volunteers who host events for 3,200+ members. I’m also the Design team lead and
+                led the creation of Brand Guide and website.
             </p>
-            <p class="space-5b">When I have time, I enjoy going to museums to see amazing artists’ works, casually drawing illustrations with pen and paper, going on hikes to enjoy the scenery and finding coffee shops. :)
+            <p class="space-5b">When I have time, I enjoy going to museums to see amazing artists’ works, casually
+                drawing illustrations with pen and paper, going on hikes to enjoy the scenery and finding coffee shops.
+                :)
             </p>
-            <a href="https://docs.google.com/document/d/1IznfiWKs2nTs0Lfvw5Dc0lf2Zd7iNEr93oQ_nF3IdSs/edit?usp=sharing" target="_blank" class="btn drb">
+            <a href="https://docs.google.com/document/d/1IznfiWKs2nTs0Lfvw5Dc0lf2Zd7iNEr93oQ_nF3IdSs/edit?usp=sharing"
+                target="_blank" class="btn drb">
                 VIEW RESUME </i>
             </a>
         </div>
@@ -258,7 +198,7 @@ This is her personal portfolio site. Have a look at her designs.">
                     <li><a href="#top">HOME</a></li>
                     <li><a href="#portfolio">PORTFOLIO</a></li>
                     <li><a href="#about">ABOUT</a></li>
-                    <!-- <li><a href="https://dribbble.com/seikoigi" target="_blank">DRIBBBLE</a></li> -->
+                  <!-- <li><a href="https://dribbble.com/seikoigi" target="_blank">DRIBBBLE</a></li> -->
                     <li><a href="#contact">CONTACT</a></li>
                 </ul>
                 <div class="icons">
@@ -272,13 +212,13 @@ This is her personal portfolio site. Have a look at her designs.">
                             class="fab fa-instagram fa-2x"></i></a>
                 </div>
                 <div class="copy">
-                    <p>&copy;SEIKO IGI 2021</p>
+                    <p>&copy;SEIKO IGI 2022</p>
                 </div>
             </div>
         </div>
     </footer>
     <script src="js/index.js"></script>
-    <script>
+    <!-- <script>
         function goToAnchor() {
             hash = document.location.hash;
             if (hash != "") {
@@ -298,7 +238,6 @@ This is her personal portfolio site. Have a look at her designs.">
                 goToAnchor();
             }
         );
-    </script>
+    </script> -->
 </body>
-
 </html>
