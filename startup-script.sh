@@ -30,9 +30,10 @@ sudo apt install -y unzip
 sudo apt install git-all
 
 # clone website from git
-git clone https://github.com/sei1122/portfolio portfolio
+git clone -b main https://github.com/sei1122/portfolio
 cd portfolio
-go mod init https://github.com/sei1122/portfolio
+go mod init github.com/sei1122/portfolio
+go mod tidy
 go build
 
 # get ssl for https (has user input?) 
