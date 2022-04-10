@@ -45,6 +45,6 @@ sudo certbot certonly --standalone -d seikoigi.com -d www.seikoigi.com
 # Key is saved at:         /etc/letsencrypt/live/seikoigi.com/privkey.pem
 
 # run the server in the background
-sudo PORT=80 ./portfolio &
+sudo PORT=80 PROJECT_ID=831860464490 ./portfolio &
 
 set +x
