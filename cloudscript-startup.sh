@@ -26,10 +26,19 @@ which apache2
 # install unzip tools
 sudo apt install -y unzip
 
+# install rsync
+apt-get install rsync
+
 # install git
 sudo apt install git-all
 
+# include killall
+apt-get install psmisc
+
 # clone website from git
+sudo killall portfolio
+ps -aux
+rm -rf portfolio
 git clone -b main https://github.com/sei1122/portfolio
 cd portfolio
 go mod init github.com/sei1122/portfolio
@@ -45,6 +54,6 @@ sudo certbot certonly --standalone -d seikoigi.com -d www.seikoigi.com
 # Key is saved at:         /etc/letsencrypt/live/seikoigi.com/privkey.pem
 
 # run the server in the background
-sudo PORT=80 PROJECT_ID=831860464490 ./portfolio &
+nohup sudo PORT=80 PROJECT_ID=831860464490 ./portfolio &
 
 set +x
