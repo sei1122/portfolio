@@ -4,13 +4,12 @@
     // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-        
-
         {
-            "type": "pwa-chrome",
+            "name": "Launch Package",
+            "type": "go",
             "request": "launch",
-            "name": "Open portfolio_webdesignsystem_test.html",
-            "file": "/Users/seikoigi/Desktop/portfolio/portfolio_webdesignsystem_test.html"
+            "mode": "auto",
+            "program": "${fileDirname}"
         }
     ]
 }
