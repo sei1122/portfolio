@@ -857,6 +857,11 @@ img.bgshadow{
     margin-top: 14%;
 }
 
+.wrapper-work.thanks h3{
+    text-align: center;
+}
+
+
 /***************** MEDIA QUERY *******************/
 @media screen and (max-width: 1190px) {
     .subnav ul{
