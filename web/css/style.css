@@ -103,8 +103,7 @@ ul.nav-main.mrg {
 
 img{
     display:block;
-    width: 100%;
-}
+width: 100%;}
 
 .col-1 {width: 8.33%;}
 .col-2 {width: 16.66%;}
@@ -136,7 +135,11 @@ img{
 
 
   .space-5b{
-    margin-bottom:5%;
+    margin-bottom: 5%;
+  }
+
+  .space-5tb{
+    margin: 5% 0;
   }
 
   .space-10b{
@@ -147,9 +150,10 @@ img{
     margin-top:10%;
   }
 
-  .space-10tb{
-    margin:10% 0;
+  .space-15b{
+    margin-bottom:15%;
   }
+
 
  .section-bg-color-lgray{
     background:#eee;
@@ -659,7 +663,7 @@ ul.footer li a:hover {
 }
 
 .container-work p {
-    text-align: left;
+    /* text-align: left; */
     /* margin-bottom: 2%; */
 }
 
