@@ -91,6 +91,12 @@ p{
     color:#333333;
 }
 
+p.section-title{
+    color:#000000;
+    text-transform: capitalize;
+    font-weight:500;
+}
+
 ul.nav-main {
     /* padding-top: 3.5%; */
     text-align: center;
@@ -281,8 +287,17 @@ nav ul li a:hover {
     color:#888888;
 }
 
-ul li a.active, a.toc:hover, ul.submenu li a:hover{
+/* ul li a.active, a.toc:hover, ul.submenu li a:hover{
     color: #555555;
+    font-weight: 400;
+} */
+ul li a.active{
+    color: #555555;
+    font-weight: 400;
+}
+
+ul li a.toc:hover, ul.submenu li a:hover, ol.ic li a:hover{
+    color: #ad74ed;
     font-weight: 400;
 }
 
@@ -719,17 +734,6 @@ img.recipebook{
 
 
 /***************** Project data *******************/
-/* .data {
-    width: 40%;
-    margin: 0 auto 50px auto;
-    border: 1.5px solid #333;
-    padding: 2%;
-    min-width: 220px;
-} */
-/* .data{
-    width: 80%;
-    margin: 0 auto 10% auto;
-} */
 
 .data p {
     font-size: 16px;
@@ -872,7 +876,16 @@ img.bgshadow{
 
 
 /***************** MEDIA QUERY *******************/
-@media screen and (max-width: 1190px) {
+@media screen and (max-width: 1500px){
+    .subnav ul{
+        width: 200px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1200px) {
     .subnav ul{
         display:none;
     }
