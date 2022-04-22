@@ -26,11 +26,20 @@ function openNav() {
 
 
 // show the sub menu after 800 px from top
-$(document).ready(function () {
+$(document).ready(function (){
   $('.subnav').hide();
-  $(document).scroll(function () {
-    var y = $(this).scrollTop();
-    if (y > 800) {
+  $(document).scroll(function (){
+    var y_top_screen = $(this).scrollTop();
+
+    var win_height = $(window).height()
+    var win_scrollTop = $(window).scrollTop()
+    var scroll_bottom = win_scrollTop + win_height;
+    var footer = $('.container-footer');
+    var footer_offset_top = footer.offset().top
+    var footer_top = scroll_bottom - footer_offset_top;
+    var is_on_screen = footer_top > 0
+
+    if (y_top_screen > 800 && !is_on_screen) {
       $('.subnav').fadeIn();
     } else {
       $('.subnav').fadeOut();
@@ -116,3 +125,18 @@ $(window).load(function () {
   $(".se-pre-con").fadeOut("slow");;
 });
 
+
+// go to top code
+$(function(){
+  //Scroll event
+  $(window).scroll(function(){
+  var scrolled = $(window).scrollTop();
+  if (scrolled > 200) $('.go-top').fadeIn('slow');
+  if (scrolled < 200) $('.go-top').fadeOut('slow');
+  });
+
+  //Click event
+  $('.go-top').click(function () {
+  $("html, body").animate({ scrollTop: "0" },  500);
+  });
+  });

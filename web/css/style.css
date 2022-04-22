@@ -187,6 +187,34 @@ if it's not present, don't show loader */
     background: url(../img/loading.png) center no-repeat #fff;
 }
 
+/***************** Go to top arrow *******************/
+.go-top {
+    position:fixed;
+    bottom: 5%;
+    right: 3%;
+    padding:20px;
+    display:none;
+    cursor: pointer;
+        -webkit-font-smoothing: antialiased;
+    }
+
+    .bg-top{
+        /* background-color: rgba(185, 203, 222, 0.6); */
+        background: #E1E5EF;
+        padding: 13px 15px;
+        color: #888888;
+        position: absolute; 
+        bottom:10px;
+        font-size: 18px;
+        border-radius: 50%;
+        box-shadow: 0 2px 8px 0 rgba(185, 203, 222, 0.4);
+    }
+
+    .go-top:hover {
+        transition: all .4s linear;
+        transform: scale(1.1);
+    }
+
 /***************** HOME *******************/
 
 header.name {
@@ -475,6 +503,7 @@ text-align: right;
     font-weight: 700;
     font-size: 13px;
     letter-spacing: 3px;
+    text-transform: uppercase;
 }
 
 .btn.drb {
@@ -1131,6 +1160,10 @@ img.bgshadow{
     
     p{
         font-size:16px;
+    }
+
+    .bg-top{
+        display:none;
     }
 
 }
