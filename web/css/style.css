@@ -1196,9 +1196,9 @@ img.bgshadow{
     margin-top:0;
   }
 
-  .space-10b{
+  /* .space-10b{
     margin-bottom:0;
-  }
+  } */
 }
 
 @media (max-width: 600px) {
