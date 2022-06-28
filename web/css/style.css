@@ -1178,10 +1178,10 @@ img.bgshadow{
 
 .col-6 {width: 100%;}
 
-/* .row {
+.row {
     display: flex;
     flex-direction: column;
-  } */
+  }
   .sw-first {
     order: 2;
   }
