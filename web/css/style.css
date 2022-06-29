@@ -319,6 +319,7 @@ nav ul li a:hover {
     color: #555555;
     font-weight: 400;
 } */
+
 ul li a.active{
     color: #555555;
     font-weight: 400;
@@ -512,7 +513,7 @@ text-align: right;
 }
 
 a.btn:hover {
-    background: #cdcdffde;
+    background: #cdcdff;
     border: none;
     border: 2px solid #fff;
     color: #fff;
@@ -532,7 +533,7 @@ a.btn:hover {
 
 .row {
     width: 100%;
-    margin-top: 10;
+    /* margin-top: 10; */
 }
 
 .column-half {
@@ -711,11 +712,6 @@ ul.footer li a:hover {
     padding-top: 0;
 }
 
-.container-work p {
-    /* text-align: left; */
-    /* margin-bottom: 2%; */
-}
-
 .wrapper-work {
     max-width: 1140px;
     margin: 0 auto;
@@ -758,6 +754,11 @@ img.work-cards {
 img.recipebook{
     width:80%;
     margin: 3% auto 10% auto;
+}
+
+img.w-80{
+ width: 80%;
+ margin:0 auto;
 }
 
 
@@ -1286,9 +1287,9 @@ img.bgshadow{
         margin: 5% auto;
     }
 
-    .container-work p{
+    /* .container-work p{
         width:100%;
-    }
+    } */
 
     ul.ic{
         width:100%;
