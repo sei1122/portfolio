@@ -302,6 +302,7 @@ nav ul li a:hover {
 }
 
 .subnav ul{
+    width:200px;
     list-style: none;
     text-align: left;
 }
@@ -906,16 +907,9 @@ img.bgshadow{
 
 
 /***************** MEDIA QUERY *******************/
-@media screen and (max-width: 1500px){
-    .subnav ul{
-        width: 200px;
-    }
-}
 
 
-
-
-@media screen and (max-width: 1300px) {
+@media screen and (max-width: 1380px) {
     .subnav ul{
         display:none;
     }
