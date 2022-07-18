@@ -295,8 +295,9 @@ nav ul li a:hover {
 
 
 .subnav{
-    position:fixed;
-    top:300px;
+    position:
+    fixed;
+    top:200px;
     left: -20px;
     font-size: 16px;
 }
@@ -803,7 +804,7 @@ img.aki_inlogo{
 
 section{
     width:80%;
-    margin: 7.5% auto 7.5% auto;
+    margin: 15% auto 15% auto;
 }
 
 img.dev-icon{
@@ -912,6 +913,12 @@ img.bgshadow{
 
 
 /***************** MEDIA QUERY *******************/
+
+@media screen and (min-width: 1750px) {
+    .subnav ul{
+        width:400px;
+    }
+}
 
 
 @media screen and (max-width: 1380px) {
