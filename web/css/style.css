@@ -22,7 +22,8 @@ body {
 }
 
 .container-top {
-    background: url(../img/1.jpg) no-repeat center center;
+    /* background: url(../img/1.jpg) no-repeat center center; */
+    background: url(../img/1.webp) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -529,7 +530,7 @@ a.btn:hover {
 /***************** CONTACT *******************/
 
 .container-contact {
-    background: url(../img/2.jpg) no-repeat center center;
+    background: url(../img/2.webp) no-repeat center center;
     background-size: cover;
 }
 
