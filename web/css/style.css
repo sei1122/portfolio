@@ -762,6 +762,11 @@ img.w-80{
  margin:0 auto;
 }
 
+img.w-60{
+    width:60%;
+    margin:0 auto;
+}
+
 
 
 /***************** Project data *******************/
@@ -798,7 +803,7 @@ img.aki_inlogo{
 
 section{
     width:80%;
-    margin: 0px auto 15% auto;
+    margin: 7.5% auto 7.5% auto;
 }
 
 img.dev-icon{
