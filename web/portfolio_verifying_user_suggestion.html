@@ -85,36 +85,27 @@
             <div class="subnav">
                 <ul>
                     <li><a href="#overview" class="toc">Overview</a></li>
-                    <li><a href="#challenges" class="toc">Challenges</a></li>
-                    <li><a href="#goals" class="toc">Goals</a> </li>
-                    <li><a href="#3sections" class="toc">We Worked On 3 Sections</a></li>
-                    <li><a href="#sec1-redesign" class="toc">1.Review The Existing Page And Redesign</a>
+                    <li><a href="#what_solve" class="toc">What are we trying to solve?</a></li>
+                    <li><a href="#workflow" class="toc">Understanding the workflow</a> </li>
+                    <li><a href="#veri_process" class="toc">Info verification process</a></li>
+                    <li><a href="#admin_challenge" class="toc">Admin's current workflow and the challenges</a>
                         <ul class="submenu">
-                            <li><a href="#sec1-challenge">Challenge Of The Redesign</a></li>
-                            <li><a href="#sec1-goal">Goals Of The Redesign</a></li>
-                            <li><a href="#sec1-beofre-after">Before And After</a></li>
-                            <li><a href="#sec1-snippets">Should We Keep The Code Snippets Or Remove Them?</a></li>
-                            <li><a href="#sec1-feedback">User Feedback On Existing Color Page</a></li>
-                            <li><a href="#sec1-list-update">List Of Updates</a></li>
-                            <li><a href="#sec1-iterations">Iterations</a></li>
+                            <li><a href="#step1">Step 1. Tipster sends info</a></li>
+                            <li><a href="#step2">Step 2. Admin reviews info</a></li>
+                            <li><a href="#step3">Step 3. Admin assigns info to a volunteer</a></li>
+                            <li><a href="#step4">Step 4. Volunteer confirms the info</a></li>
+                            <li><a href="#step5">Step 5. Admin reviews the info</a></li>
                         </ul>
                     </li>
-                    <li><a href="#sec2" class="toc">2.Create Semantic Colors</a>
+                    <li><a href="#summary" class="toc">Summary of admin challenges</a></li>
+                    <li><a href="#major_update" class="toc">Major updates to solve challenges</a></li>
                         <ul class="submenu">
-                            <li><a href="#sec2-challenge">Challenge Of The Semantic Colors</a></li>
-                            <li><a href="#sec2-goal">Goals Of The Semantic Colors</a></li>
-                            <li><a href="#sec2-research">Learning From Mature Design Systems</a></li>
-                            <li><a href="#sec2-audit">Audit Existing Products And Categorized Color Use</a></li>
-                            <li><a href="#sec2-categories">Created Semantic Color Categories</a></li>
-                            <li><a href="#sec2-v1design">Design Semantic Color Version 1</a></li>
-                            <li><a href="#sec2-feedback">Feedback Session</a></li>
-                            <li><a href="#sec2-iteration">Iterations</a></li>
+                            <li><a href="#update_1">Update #1: Adding Suggestion column</a></li>
+                            <li><a href="#update_2">Update #2: Adding suggestions to food pantry data</a></li>
                         </ul>
                     </li>
-                    <li><a href="#sec3-dosdonts" class="toc">3.Create Dos And Don’ts</a></li>
-                    <li><a href="#final" class="toc">Final</a></li>
-                    <li><a href="#moretime" class="toc">If We Had More Time</a></li>
-                    <li><a href="#lesson_learned" class="toc">Lesson And Learned</a></li>
+                    <li><a href="#prototype" class="toc">Demo of the Admin flow</a></li>
+                    <li><a href="#lesson_learned" class="toc">Lessons and learned</a></li>
                     </li>
                     
                 </ul>
@@ -153,19 +144,19 @@
                     </div>
                 </div>
             </section>
-            <section>
+            <section id="what_solve">
                 <h2>What are we trying to solve?
                 </h2>
                 <p><b>Our task was to improve the admin’s workflow during the verification process.</b> As we went through the details of the admin’s workflow, we found out it requires a lot of manual work for each task. 
                 </p>
             </section>
-            <section>
+            <section id="workflow">
                 <h2>Understanding the workflow</h2>
                 <p>To understand the workflow, I created the <b>cross functional user flow</b> and took screenshots of the interface we were currently using. <b>This diagram shows each user’s task during the verification process.</b> Later I added the problems and the things we need to clarify in this chart. <b>This helped the team to discuss the problems in each stage.</b> 
                 </p>
                 <img class="bgshadow space-5t" src="img/portfolios/web/7-4.png" alt="cross functional flow chart">
             </section>
-            <section>
+            <section id="veri_process">
                 <h2>Info verification process
                 </h2>
                 <p><b>This is the high level overview of the info verification process.</b>
@@ -185,11 +176,11 @@
                 </ol>
                 <img class="space-5t" src="img/portfolios/web/7-5.svg" alt="verification process">
             </section>
-            <section>
+            <section id="admin_challenge">
                 <h2>Admin's current workflow and the challenges</h2>
                 <p>Now I’d like to take you each process and admin’s challenges. </p>
             </section>
-            <section>
+            <section id="step1">
                 <h3>Step 1. Tipster sends info</h3>
                 <img src="img/portfolios/web/7-22.svg" alt="verification process step 1">
                 <div class="row space-5t">
@@ -204,7 +195,7 @@
                     </div>
                 </div>
             </section>
-            <section>
+            <section id="step2">
                 <h3>Step 2. Admin reviews info</h3>
                 <img src="img/portfolios/web/7-6.svg" alt="verification process step 2">
                 <p>This stage <b>the admin checks the information from a tipster.</b> The image left is the admin view, which is a table of suggestions from tipsters. When a tipster sends a suggestion, the data displays here. When you click a row, it shows the detail of the suggestion, image right.
@@ -228,7 +219,7 @@
                     </div>
                 </div>
             </section>
-            <section>
+            <section id="step3">
                 <h3>Step 3. Admin assigns info to a volunteer</h3>
                 <img src="img/portfolios/web/7-10.svg" alt="step 3">
                 <div class="row space-10tb">
@@ -246,7 +237,7 @@
                 <p class="space-5tb"><b>Challenge 3: Admin doesn’t have a way to share the tipster's suggestion info to volunteer through the site so the admin sends an email manually. </b></p>
                 <img class="" src="img/portfolios/web/7-12.png" alt="send email to volunteer">
             </section>
-            <section>
+            <section id="step4">
                 <h3>Step 4. Volunteer confirms the info</h3>
                 <img src="img/portfolios/web/7-13.svg" alt="step 3">
                 <div class="row space-10tb">
@@ -264,7 +255,7 @@
                     </div>
                 </div>
             </section>
-            <section>
+            <section id="step5">
                 <h3>Step 5. Admin reviews the info</h3>
                 <img class="" src="img/portfolios/web/7-15.svg" alt="step:5 admin review info">
                 <p>Diagram below shows <b>the admin's workflow after the volunteer's confirmation.</b>  
@@ -280,7 +271,7 @@
                 <p><b>Challenge 4: Admin needs to come back to the Suggestion Admin screen and change the suggestion's status to Closed.
                 </b></p>
             </section>
-            <section>
+            <section id="summary">
                 <h2>Summary of admin challenges</h2>
                 <ol class="ic">
                     <li>Switch screens to compare tipster suggestions and the current food pantry's data.</li>
@@ -290,8 +281,10 @@
                     <li>Close the suggestion after approving a volunteer's confirmation.</li>
                 </ol>
             </section>
-            <section>
-               <h2>Major updates to solve challenges </h2> 
+            <section id="major_update">
+               <h2>Major updates to solve challenges </h2>
+            </section> 
+            <section id="update_1">
                <h3>Update #1: Adding Suggestion column</h3>
                <p>After identifying the challenges, we came up with this solution. <b>We combined the suggestion from the tipster table and the food pantries' data overview.</b> The new design, suggestion column is added. 
             </p>
@@ -299,7 +292,7 @@
                <p>Let's zoom into the new design. <b>This column shows a number of suggestions from tipsters.</b> The number is highlighted because these need to be verified. After verification is done and approved, this number is back to 0 and the highlight will be cleared. <b>Now the admin can immediately see how many pending suggestions exist for each food pantry.</b> This solves challenge #2: redundancy check because the admin can now check by food pantry instead of by suggestion. </p>
                <img class="space-5tb" src="img/portfolios/web/7-18.png" alt="">
             </section>
-            <section>
+            <section id="update_2">
                <h3>Update #2: Adding suggestions to food pantry data</h3>
                <p>Here is another design update. <b>We combine the suggestion detail page and the food pantry's data.</b> The new food pantry's data includes tipster's suggestion data with buttons that communicate status.
             </p>
@@ -309,13 +302,14 @@
                <img class="space-10tb" src="img/portfolios/web/7-20.png" alt="">
                <p>Let's look at more detail with the image below.</p>
                <p><b>1. Show the suggestion data on the top of the food pantry's data page. </b><br>This way both <b>admins and volunteers can share the information from the tipster.</b> Now the admin doesn't need to send email to a volunteer to share the information. In addition, admin doesn't switch screens to compare with the tipster suggestion and current food pantry's data. </p>
-               <p><b>2. Have the New, Confirmed, Incorrect status.  </b><br>Volunteer updates this status during the confirmation process and admin checks the status when reviewing the verification. Now, the admin doesn't need to go back to the Suggestion admin page to change the status. </p>
+               <p><b>2. Have the New, Confirmed, Incorrect status. </b><br>Volunteer updates this status during the confirmation process and admin checks the status when reviewing the verification. Now, the admin doesn't need to go back to the Suggestion admin page to change the status. </p>
                <img class="space-10t" src="img/portfolios/web/7-21.png" alt="">
             </section>
-            <section>
+            <section id="prototype">
+                <h2>Demo of the prototype</h2>
                 <div style="position: relative; padding-bottom: 56.25%; height: 0;"><iframe src="https://www.loom.com/embed/ba8c06b2fd584737a4360e641dfa2a00" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;"></iframe></div>
             </section>
-            <section>
+            <section id="lesson_learned">
                 <h2>Lessons and learned</h2>
                 <h3>1. Think holistically instead of focusing on each screen design. </h3>
                 <p>At first, I tried to improve the suggestion table screen but this didn't work well because I didn't look at the whole admin user flow. Once I looked at the workflow and found the problems, we came up with better solutions like merging  together the Suggestion table and the food pantry's overview screen.  </p>
