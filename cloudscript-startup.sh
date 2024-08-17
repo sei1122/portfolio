@@ -27,13 +27,13 @@ which apache2
 sudo apt install -y unzip
 
 # install rsync
-apt-get install rsync
+sudo apt-get install rsync
 
 # install git
 sudo apt install git-all
 
 # include killall
-apt-get install psmisc
+sudo apt-get install psmisc
 
 # clone website from git
 sudo killall portfolio
