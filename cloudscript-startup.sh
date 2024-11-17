@@ -5,10 +5,10 @@ set -x
 sudo apt update
 wget https://golang.org/dl/go1.20.6.linux-amd64.tar.gz
 sudo rm -rf /usr/local/go && sudo tar -C /usr/local -xzf go1.20.6.linux-amd64.tar.gz
-sudo echo "export GOPATH=\$HOME/go" > ~/.profile
-sudo echo "export PATH=\$PATH:/usr/local/go/bin:\$GOPATH/bin:~/bin/"  >> ~/.profile
-sudo echo "export GOBIN=\$GOPATH/bin" >> ~/.profile
-source ~/.profile
+sudo echo "export GOPATH=\$HOME/go" > ~/.bashrc
+sudo echo "export PATH=\$PATH:/usr/local/go/bin:\$GOPATH/bin:~/bin/"  >> ~/.bashrc
+sudo echo "export GOBIN=\$GOPATH/bin" >> ~/.bashrc
+source ~/.bashrc
 mkdir -p ~/go/{bin,src,pkg}
 mkdir -p ~/log
 mkdir -p ~/bin
