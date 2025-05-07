@@ -8,6 +8,12 @@ html {
 *:before,
 *:after {
     box-sizing: inherit;
+    /* display: inline; */
+    /* display: inline-block; */
+    /* text-align: center; */
+    margin: o auto;
+    /* margin: 0 auto; */
+    margin: auto;
 }
 
 input:focus,
@@ -719,7 +725,7 @@ ul.footer li a:hover {
     max-width: 1140px;
     margin: 0 auto;
     width: 90%;
-    /* padding-bottom: 6.5%; */
+    padding-bottom: 6.5%;
 }
 
 img.work-project,
@@ -805,7 +811,7 @@ img.aki_inlogo{
 
 section{
     width:80%;
-    margin: 15% auto 15% auto;
+    margin: 0 auto;
 }
 
 img.dev-icon{
@@ -1109,7 +1115,7 @@ img.bgshadow{
 
     /***** WORK *****/
     .wrapper-work {
-        /* padding-top: 6.5%; */
+        padding-top: 6.5%;
     }
 
     img.logo{
