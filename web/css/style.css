@@ -149,7 +149,7 @@ width: 100%;}
 
 
   .space-5b{
-    margin-bottom: 5%;
+    /* margin-bottom: 5%; */
   }
 
   .space-5tb{
@@ -811,7 +811,7 @@ img.aki_inlogo{
 
 section{
     width:80%;
-    margin: 0 auto;
+    margin: 15% auto 15% auto;
 }
 
 img.dev-icon{
