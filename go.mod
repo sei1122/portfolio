@@ -1,11 +1,11 @@
 module github.com/sei1122/portfolio
 
-go 1.20
+go 1.23.0
 
 require (
 	cloud.google.com/go/secretmanager v1.11.1
 	github.com/sendgrid/sendgrid-go v3.12.0+incompatible
-	golang.org/x/crypto v0.11.0
+	golang.org/x/crypto v0.35.0
 	google.golang.org/genproto v0.0.0-20230711160842-782d3b101e98
 )
 
@@ -21,10 +21,10 @@ require (
 	github.com/googleapis/gax-go/v2 v2.11.0 // indirect
 	github.com/sendgrid/rest v2.6.9+incompatible // indirect
 	go.opencensus.io v0.24.0 // indirect
-	golang.org/x/net v0.10.0 // indirect
+	golang.org/x/net v0.21.0 // indirect
 	golang.org/x/oauth2 v0.8.0 // indirect
-	golang.org/x/sys v0.10.0 // indirect
-	golang.org/x/text v0.11.0 // indirect
+	golang.org/x/sys v0.30.0 // indirect
+	golang.org/x/text v0.22.0 // indirect
 	google.golang.org/api v0.126.0 // indirect
 	google.golang.org/appengine v1.6.7 // indirect
 	google.golang.org/genproto/googleapis/api v0.0.0-20230706204954-ccb25ca9f130 // indirect
