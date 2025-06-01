@@ -187,6 +187,23 @@ if [ ! -f "${PROJECT_DIR_NAME}" ]; then # Assuming the binary is named after the
     exit 1
 fi
 
+log_info "Ensuring port 80 is free..."
+# Attempt to stop and disable Apache2 if it was installed as a dependency
+if dpkg -s apache2 &>/dev/null; then
+    log_info "Apache2 found. Stopping and disabling it..."
+    sudo systemctl stop apache2 || log_warning "Failed to stop apache2 or it was not running."
+    sudo systemctl disable apache2 || log_warning "Failed to disable apache2."
+    # Consider purging it again if it's definitely not needed
+    # sudo apt-get purge -y apache2 apache2-utils apache2.2-bin apache2-common apache2-bin
+    # sudo apt-get autoremove -y
+    log_info "Apache2 stopped and disabled."
+else
+    log_info "Apache2 not found, port 80 should be clear from Apache."
+fi
+
+# Optional: Check if something is listening on port 80
+sudo netstat -tulnp | grep ':80' || log_info "Port 80 is clear."
+
 log_info "Creating 'certs' directory..."
 mkdir -p certs
 log_info "Setting permissions for 'certs' directory..."
