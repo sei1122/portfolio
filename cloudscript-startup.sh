@@ -135,7 +135,7 @@ fi
 
 # 4. Install prerequisite tools
 log_info "Installing prerequisite tools: unzip, rsync, git, psmisc..."
-sudo apt install -y unzip rsync git-all psmisc
+sudo apt install -y unzip rsync git-all psmisc net-tools
 
 # 5. Clone and build website from Git
 log_info "Cloning website from ${PROJECT_REPO} (branch: ${PROJECT_BRANCH})..."
@@ -201,13 +201,20 @@ else
     log_info "Apache2 not found, port 80 should be clear from Apache."
 fi
 
-# Optional: Check if something is listening on port 80
+# Check if something is listening on port 80
 sudo netstat -tulnp | grep ':80' || log_info "Port 80 is clear."
 
-log_info "Creating 'certs' directory..."
+log_info "Recreating 'certs' directory for a clean autocert cache..."
+if [ -d "certs" ]; then
+    log_info "Removing existing 'certs' directory..."
+    sudo rm -rf certs
+fi
+
+# create the certs folder
+log_info "Creating new 'certs' directory..."
 mkdir -p certs
 log_info "Setting permissions for 'certs' directory..."
-chmod 766 certs
+sudo chmod 777 certs
 
 # 7. Run the server in the background
 log_info "Starting the portfolio server in the background..."
