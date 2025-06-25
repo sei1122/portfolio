@@ -724,7 +724,7 @@ ul.footer li a:hover {
     max-width: 1140px;
     margin: 0 auto;
     width: 90%;
-    padding-bottom: 6.5%;
+    /* padding-bottom: 6.5%; */
 }
 
 img.work-project,
