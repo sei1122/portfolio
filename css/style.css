@@ -327,6 +327,8 @@ nav ul li a:hover {
 ul li a.active{
     color: #555555;
     font-weight: 400;
+    padding-left: 8px;
+    border-left: 3px solid #8a5cf5;
 }
 
 ul li a.toc:hover, ul.submenu li a:hover, ol.ic li a:hover{
