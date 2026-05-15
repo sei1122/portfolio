@@ -76,7 +76,7 @@ h3 {
     font-size: 24px;
     font-weight: 500;
     letter-spacing: 1px;
-    color:#555555;
+    color:#333333;
     line-height: 1.5em;
     text-align: left;
     margin-top: 10%;
@@ -145,10 +145,6 @@ width: 100%;}
     margin-top:5%;
   }
 
-
-  .space-5b{
-    /* margin-bottom: 5%; */
-  }
 
   .space-5tb{
     margin: 5% 0;
@@ -219,6 +215,7 @@ if it's not present, don't show loader */
         transition: all .4s linear;
         transform: scale(1.1);
     }
+
 
 /***************** HOME *******************/
 
@@ -453,6 +450,13 @@ img.w50{
     width:50%;
 }
 
+ul li{
+    letter-spacing: 1px;
+    line-height: 2em;
+    font-size: 18px;
+    color:#333333;
+}
+
 .portfolio-wrapper{
   margin: auto;
   /* margin-top: 5%;
@@ -470,6 +474,14 @@ img.w50{
     border-top: 8px solid #cdcdff;
     box-shadow: 0 14px 28px rgb(0 0 0 / 25%), 0 10px 10px rgb(0 0 0 / 22%);
 } */
+
+h2.contrast {
+    background: #595B6B;
+    margin: 0;
+    color: #ffffff;
+    padding: 3% 0 1% 0;
+}
+
 
 /***************** ABOUT *******************/
 
@@ -1179,6 +1191,10 @@ img.bgshadow{
         display:none;
     }
 
+}
+
+.greyouttext{
+    color:#888888
 }
 
 
