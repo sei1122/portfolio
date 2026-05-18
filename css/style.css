@@ -650,11 +650,16 @@ p.message-error {
 
 /***************** FOOTER *******************/
 
-.container-footer {
+footer{
+    background: #edf4f4;
+    padding-bottom:1em;
+}
+
+/* .container-footer {
     height: 10em;
     background: #edf4f4;
     font-size: 12px;
-}
+} */
 
 .wrapper-footer {
     max-width: 1140px;
@@ -1240,9 +1245,11 @@ img.bgshadow{
 @media (max-width:560px) {
 
     /****************** FOOTER *****************/
-    .container-footer {
+
+    
+    /* .container-footer {
         height: 14em;
-    }
+    } */
 
 
     .wrapper input#submit {
@@ -1293,9 +1300,9 @@ img.bgshadow{
     padding: 10% 0;
     }
 
-    .container-footer {
+    /* .container-footer {
         height: 18em;
-    }
+    } */
 
     ul.footer li {
         margin: 0;
