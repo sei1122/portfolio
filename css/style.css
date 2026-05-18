@@ -90,7 +90,7 @@ h4 {
 }
 
 p{
-    letter-spacing: 1px;
+    letter-spacing: 0.02em;
     line-height: 2em;
     font-size: 18px;
     color:#333333;
