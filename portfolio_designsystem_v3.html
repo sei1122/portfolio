@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Seiko Igi Portfolio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="shortcut icon" href="favicon.ico" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,400&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <!--[if lt IE 9]>
+        <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mixitup.min.js"></script>
+</head>
+
+<body>
+    <div class="se-pre-con"></div>
+    <!--loading-->
+    <div class="header">
+        <div id="top" class="wrapper-work">
+            <div class="mobile-nav">
+                <a href="index.html">
+                    <img src="img/logo.svg" alt="" class="logo">
+                </a>
+                <div class="hamburgler-menu">
+                    <nav>
+                        <ul class="hamburgler-menu-list">
+                            <li><a href="index.html#top">HOME</a></li>
+                            <li><a href="index.html#portfolio">PORTFOLIO</a></li>
+                            <li><a href="index.html#about">ABOUT</a></li>
+                            <li><a href="index.html#contact">CONTACT</a></li>
+                        </ul>
+                    </nav>
+                </div>
+                <div id="hamburgler" class="hamburgler-icon-wrapper">
+                    <span class="hamburgler-icon"></span>
+                </div>
+                <div>
+                    <nav>
+                        <ul class="nav-main">
+                            <li><a href="index.html#portfolio">PORTFOLIO</a></li>
+                            <li><a href="index.html#about">ABOUT</a></li>
+                            <li><a href="index.html#contact">CONTACT</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <div class="page-title-area">
+                <h1>Design System</h1>
+                <p>A centralized repository of reusable components, guidelines, and principles to establish visual consistency.</p>
+            </div>
+            <img src="img/portfolios/design_system/1.webp" alt="Design System">
+            <div class="subnav">
+                <ul>
+                    <li><a href="#overview" class="toc">Overview</a></li>
+                    <li><a href="#challenges" class="toc">Challenges & Objectives</a></li>
+                    <li><a href="#process" class="toc">Process</a>
+                        <ul class="submenu">
+                            <li><a href="#roadmap">Roadmap</a></li>
+                            <li><a href="#library-structure">Library Structure</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#foundation" class="toc">Foundation</a>
+                        <ul class="submenu">
+                            <li><a href="#typography">Typography</a></li>
+                            <li><a href="#color">Color</a></li>
+                            <li><a href="#elevation">Elevation</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#components" class="toc">Components</a></li>
+                    <li><a href="#takeaway" class="toc">Take Away</a></li>
+                </ul>
+            </div>
+            <!--end submenu-->
+        </div>
+        <!--end top-->
+    </div>
+    <!--end header-->
+
+    <div class="container-work">
+        <div class="wrapper-work">
+
+            <section id="overview">
+                <h2>Overview</h2>
+                <p>This project focuses on building a unified, scalable design system from the ground up to bridge the gap between design and development. By establishing foundational design tokens (typography, color, and elevation) alongside robust, scalable components, we transformed a fragmented product ecosystem into an efficient workflow. The resulting system successfully accelerated team onboarding, minimized design-to-production mismatches, and significantly decreased overall design-to-development turnaround time.</p>
+                <div class="row data">
+                    <div class="col-6">
+                        <p class="data_title">YEAR</p>
+                        <p>2024, 3 months</p>
+                        <br>
+                        <p class="data_title">ROLE</p>
+                        <p>Lead Designer</p>
+                    </div>
+                    <div class="col-6">
+                        <p class="data_title">TEAM</p>
+                        <p>4 Designers</p>
+                        <br>
+                        <p class="data_title">TOOLS</p>
+                        <p>Figma</p>
+                    </div>
+                </div>
+                <div class="row data space-10tb">
+                    <div class="col-4" style="text-align:center;">
+                        <p style="font-size:2em; font-weight:600;">32+</p>
+                        <p class="data_title">Features</p>
+                    </div>
+                    <div class="col-4" style="text-align:center;">
+                        <p style="font-size:2em; font-weight:600;">60%</p>
+                        <p class="data_title">Time Saved</p>
+                    </div>
+                    <div class="col-4" style="text-align:center;">
+                        <p style="font-size:2em; font-weight:600;">1</p>
+                        <p class="data_title">Single Source</p>
+                    </div>
+                </div>
+            </section>
+
+            <section id="challenges">
+                <h2>Challenges & Objectives</h2>
+                <p>To set a clear path for Design System V1, I mapped our three biggest product bottlenecks directly to our core project objectives:</p>
+
+                <h3>1. The Design-to-Development Gap</h3>
+                <p><strong>🚧 The Challenge:</strong> To speed up the MVP, we let developers use standard Angular library components (like the input field). However, because our initial designs weren't updated to match, it created a gap between Figma and the live site, making future updates confusing.</p>
+                <p><strong>🎯 The Objective — Align Design with Live Code:</strong> Sync Figma assets directly with production components. Matching the live site ensures visual consistency and prevents QA from flagging false bugs during staging tests, keeping our release timeline on track.</p>
+
+                <h3>2. Undocumented UI Patterns and Guidelines</h3>
+                <p><strong>🚧 The Challenge:</strong> Rules for component behavior and styling were never documented; they only existed in the team's heads. This lack of a shared guide created a constant threat of visual and functional inconsistency.</p>
+                <p><strong>🎯 The Objective — Create a Single Source of Truth in Figma:</strong> Build a centralized component library directly in Figma for both designers and developers to follow. This keeps the team aligned and simplifies future onboarding.</p>
+
+                <h3>3. Rigid Components That Don't Scale</h3>
+                <p><strong>🚧 The Challenge:</strong> Components were built for specific, isolated screen layouts rather than a flexible system. This made it incredibly difficult to reuse or adapt them for different screen sizes and mobile views.</p>
+                <p><strong>🎯 The Objective — Design Flexibly for Mobile and Growth:</strong> Move away from fixed-size layouts and build modular UI elements. By designing components that automatically stretch and shrink, we ensure the system scales smoothly across all devices.</p>
+            </section>
+
+            <section id="process">
+                <h2 id="roadmap">Project Roadmap & Library Architecture</h2>
+                <h3>Design Process</h3>
+                <p>Before onboarding other designers to the project, I audited the existing MVP design files and listed the necessary components to include in the new library. To ensure the system was ready for Phase 2, I limited the scope to a solid, highly achievable component set that could be delivered before the kickoff date. This structured workflow relied heavily on continuous collaboration and iterative feedback loops at every stage.</p>
+                <p>Crucially, the evaluation phase included a dedicated engineering review. This allowed us to align our design system guidelines directly with developer constraints and technical requirements before finalizing the version.</p>
+
+                <h3>Timeline</h3>
+                <p>We started the project once the MVP design was completed. The goal was to finish before the Phase 2 kickoff so we would have solid components to start designing with for Phase 2.</p>
+
+                <h3 id="library-structure">Library Structure</h3>
+                <p>The structure is based on the Atomic Design model, which assembles small, reusable components into a scalable system.</p>
+            </section>
+
+            <section id="foundation">
+                <h2>Foundation Styles</h2>
+                <p style="text-align: center; margin-bottom:3%;">The following sections are samples of the foundation styles and components.</p>
+
+                <h3 id="typography">Typography</h3>
+                <p>Our typography system relies on two brand typefaces: Air India Sans for headings and Nunito Sans for body copy and general text.</p>
+                <img src="img/portfolios/design_system/1-2.webp" alt="Typography">
+
+                <h3 id="color">Color</h3>
+                <p>This section outlines our core brand colors, gradients, and comprehensive global scales. We map these to a functional semantic color system to assign a clear meaning and purpose to every token.</p>
+                <img src="img/portfolios/design_system/1-1.webp" alt="Color">
+
+                <h3 id="elevation">Elevation</h3>
+                <p>Elevation in a design system refers to the perceived depth or layering of elements within the design.</p>
+            </section>
+
+            <section id="components">
+                <h2>Components</h2>
+                <p>Here are a few component samples from our design system. We built these components with multiple variants to ensure flexible usage across different layouts.</p>
+                <img src="img/portfolios/design_system/1-3.webp" alt="Button component">
+                <img src="img/portfolios/design_system/1-4.webp" alt="Input Field component">
+                <img src="img/portfolios/design_system/1-5.webp" alt="Additional components">
+                <img src="img/portfolios/design_system/1-6.webp" alt="Scalable components">
+
+                <h3>Scalable Components</h3>
+                <p>Components are built with custom properties, allowing designers to easily tweak and customize specific instances from the design panel.</p>
+                <ul class="ic">
+                    <li><strong>Button</strong> — This core button component supports 215 unique layout and state variants.</li>
+                    <li><strong>Input Field</strong> — Easily toggle states, labels, and helper text parameters.</li>
+                    <li><strong>File Upload</strong> — Control the state of the file upload.</li>
+                </ul>
+
+                <h3>Documentation</h3>
+                <p>We created comprehensive guidelines to standardize layout grids, spacing rules, and component behaviors. These specifications ensure design and development consistency across the entire product.</p>
+            </section>
+
+            <section id="takeaway">
+                <h2>Take Away</h2>
+
+                <h3>Accelerating Team Onboarding</h3>
+                <p>Shortly after launching the system, new designers joined our team. Walking them through the design system documentation as a core part of their onboarding drastically reduced their ramp-up time, allowing them to jump straight into active project designing with total confidence.</p>
+
+                <h3>Continuous Learning & Technical Growth</h3>
+                <p>Advanced Figma features like Auto Layout and Component Properties (Variants) were entirely new to some of our team members. To bridge this gap, we turned the library building process into a collaborative learning experience. Through peer mentorship, open feedback loops, and shared best practices, we leveled up our technical execution as a unified design team.</p>
+            </section>
+
+            <div class="go-top">
+                <i class="bg-top fa fa-regular fa-chevron-up"></i>
+            </div>
+            <div class="arrow_row space-5tb">
+                <div class="col-4">
+                    <a href="portfolio_ai_design_system.html"><i class="fa fa-chevron-left" aria-hidden="true"></i></a>
+                </div>
+                <div class="col-4"></div>
+                <div class="col-4">
+                    <a href="portfolio_visual_websites.html"><i class="fa fa-chevron-right" aria-hidden="true"></i></a>
+                </div>
+            </div>
+        </div> <!-- wrapper end -->
+    </div> <!-- container end -->
+
+    <footer>
+        <div class="wrapper-footer">
+            <ul class="footer">
+                <li><a href="index.html#top">HOME</a></li>
+                <li><a href="index.html#portfolio">PORTFOLIO</a></li>
+                <li><a href="index.html#about">ABOUT</a></li>
+                <li><a href="index.html#contact">CONTACT</a></li>
+            </ul>
+            <div class="icons">
+                <a href="https://ca.linkedin.com/in/seikoigi" target="_blank"><i class="fab fa-linkedin fa-2x"></i></a>
+                <a href="https://dribbble.com/seikoigi" target="_blank"><i class="fab fa-dribbble-square fa-2x"></i></a>
+                <a href="https://github.com/sei1122" target="_blank"><i class="fab fa-github-square fa-2x"></i></a>
+                <a href="https://medium.com/@seikoigi" target="_blank"><i class="fab fa-medium fa-2x"></i></a>
+            </div>
+            <div class="copy">
+                <p>&copy;SEIKO IGI 2026</p>
+            </div>
+        </div>
+    </footer>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
