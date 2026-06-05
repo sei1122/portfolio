@@ -1284,7 +1284,12 @@ img.bgshadow{
     margin: 0 auto;
 }
 
-.col-6 {width: 100%;}
+.col-4, .col-6, .col-8 {width: 100%;}
+
+.col-4 img{
+    width: 50%;
+    margin: 0 auto;
+}
 
 .row {
     display: flex;
