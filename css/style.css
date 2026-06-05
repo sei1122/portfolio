@@ -838,33 +838,41 @@ img.recipebook{
 }
 
 /***************** design system *******************/
-.intro-section {
-  background: #dde2ed;
-  padding: 60px 40px;
+/* Main light colored banner container */
+.banner-section {
+  position: relative; /* REQUIRED: Anchor point for the arrow */
+  background-color: #E1E5EF; 
+  /* padding: 40px 20px;  */
   text-align: center;
+  color: #1a202c;
+  z-index: 1; /* Keep banner content and arrow above adjacent content wrapper */
 }
 
-.arrow-divider {
-  background: darkblue;
-  position: relative;
-}
-
-/* The downward arrow using a CSS triangle */
-.arrow-divider::before {
-  content: '';
+/* Rounded Arrow created using a rotated square pseudo-element */
+.banner-section::after {
+  content: "";
   position: absolute;
-  top: 0;
+  
+  /* Pulls exactly half the square beneath the bottom boundary of the banner */
+  bottom: -16px; 
   left: 50%;
-  transform: translateX(-50%);
-  width: 0;
-  height: 0;
-
-  /* Triangle pointing down */
-  border-left: 22px solid transparent;
-  border-right: 22px solid transparent;
-  border-top: 20px solid #dde2ed; /* match section above */
+  transform: translateX(-50%) rotate(45deg); /* Rotates square to face downwards */
+  
+  width: 32px;
+  height: 32px;
+  background-color: #E1E5EF; /* Match the top banner background */
+  
+  /* Rounds ONLY the corner pointing downwards */
+  border-bottom-right-radius: 4px;
+  
+  z-index: 10; /* Keeps it on top of the section below */
 }
 
+/* Dark grey section sitting directly below the banner */
+/* .next-section {
+  background-color: #3c415c;
+  padding: 60px 20px;
+} */
 
 
 /***************** Project data *******************/
