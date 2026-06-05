@@ -141,6 +141,12 @@ width: 100%;}
     display: table;
   }
 
+  .space-mt{
+    margin-top:0;
+  }
+
+  .space-m
+
   .space-5t{
     margin-top:5%;
   }
@@ -167,10 +173,56 @@ width: 100%;}
   }
 
 
- .section-bg-color-lgray{
+
+ /* .section-bg-color-lgray{
     background:#eee;
     padding-top:5%;
+ } */
+
+
+
+ .bg-lg{
+    background:#E1E5EF
  }
+
+ .bg-subtle-grey{
+    background: #F6F6F6;
+ }
+
+.bg-subtle-purple{
+    background: #E1E5EF;
+ }
+
+.inverse-text, .inverse-text h2, .inverse-text h3, .inverse-text p {
+    color:#E3E3E3
+ }
+
+ .container-work.bg-darkgrey{
+    background:#595B6B
+ }
+
+ .with-bg-spacing{
+    width:80%; 
+    margin:0 auto;
+    padding:10% 0;
+ }
+
+ .comp-video-area{
+    border-bottom: 1px solid #E3E3E360;
+    padding-bottom:4%;
+ }
+
+
+.border-rd {
+    border-radius: 12px;
+    overflow: hidden;
+    transform: translateZ(0); /* Fixes video corner clipping in Safari */
+ }
+
+
+ 
+
+
 
 /* loading */
 /* This only works with JavaScript, 
@@ -782,14 +834,42 @@ img.recipebook{
     margin: 3% auto 10% auto;
 }
 
-img.w-80{
+.w-80{
  width: 80%;
  margin:0 auto;
 }
 
-img.w-60{
+.w-60{
     width:60%;
     margin:0 auto;
+}
+
+/***************** design system *******************/
+.intro-section {
+  background: #dde2ed;
+  padding: 60px 40px;
+  text-align: center;
+}
+
+.arrow-divider {
+  background: darkblue;
+  position: relative;
+}
+
+/* The downward arrow using a CSS triangle */
+.arrow-divider::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+
+  /* Triangle pointing down */
+  border-left: 22px solid transparent;
+  border-right: 22px solid transparent;
+  border-top: 20px solid #dde2ed; /* match section above */
 }
 
 
