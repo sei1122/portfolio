@@ -145,8 +145,6 @@ width: 100%;}
     margin-top:0;
   }
 
-  .space-m
-
   .space-5t{
     margin-top:5%;
   }
@@ -204,7 +202,7 @@ width: 100%;}
  .with-bg-spacing{
     width:80%; 
     margin:0 auto;
-    padding:10% 0;
+    padding: 8% 0 15% 0;
  }
 
  .comp-video-area{
@@ -218,11 +216,6 @@ width: 100%;}
     overflow: hidden;
     transform: translateZ(0); /* Fixes video corner clipping in Safari */
  }
-
-
- 
-
-
 
 /* loading */
 /* This only works with JavaScript, 
@@ -1211,9 +1204,9 @@ img.bgshadow{
     }
 
     /***** WORK *****/
-    .wrapper-work {
+    /* .wrapper-work {
         padding-top: 6.5%;
-    }
+    } */
 
     img.logo{
         width: 48px;
@@ -1240,7 +1233,7 @@ img.bgshadow{
         width:100%;
     }
     
-    section{
+    section, .with-bg-spacing{
         width:100%;
     }
 
