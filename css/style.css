@@ -79,7 +79,7 @@ h3 {
     color: #333333;
     line-height: 1.5em;
     text-align: left;
-    margin-top: 10%;
+    margin: 5% 0 -1% 0;
     text-transform: capitalize;
 }
 
@@ -94,6 +94,22 @@ p {
     line-height: 2em;
     font-size: 18px;
     color: #333333;
+    /* max-width: 65ch; */
+    /* Perfectly sizes the width for optimal reading comfort */
+}
+
+h2,
+h3,
+p,
+ul li {
+    max-width: 1000px;
+}
+
+p.section-summary {
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 140%;
+    margin: 0;
 }
 
 p.section-title {
@@ -168,7 +184,8 @@ img {
 
 [class*="col-"] {
     float: left;
-    padding: 15px;
+    /* padding: 15px; */
+    padding: 16px 16px 16px 16px;
 }
 
 .row::after {
@@ -239,9 +256,9 @@ img {
 }
 
 .with-bg-spacing {
-    width: 80%;
+    /* width: 80%; */
     margin: 0 auto;
-    padding: 8% 0 15% 0;
+    padding: 8% 0 8% 0;
 }
 
 .comp-video-area {
@@ -255,6 +272,20 @@ img {
     overflow: hidden;
     transform: translateZ(0);
     /* Fixes video corner clipping in Safari */
+}
+
+.responsive-video {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.video-frame {
+    background-color: #E1E5EF;
+    padding: 24px;
+    /* border-radius: 12px; */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+    /* border: 1px solid rgba(0, 0, 0, 0.05); */
 }
 
 /* loading */
@@ -439,10 +470,16 @@ ol.ic li a:hover {
     color: #888888;
 }
 
+.highlightblue-text {
+    color: #3B47AC
+}
+
 
 
 
 /***************** PORTFOLIO *******************/
+
+
 
 .portfolio-wrapper {
     text-align: left;
@@ -578,6 +615,25 @@ h2.contrast {
     margin: 0;
     color: #ffffff;
     padding: 3% 0 1% 0;
+}
+
+.card {
+    padding: 24px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
+    border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+
+p.card-title {
+    font-weight: 600;
+    margin: 0;
+    font-size: 24px;
+}
+
+.card p {
+    margin: 0;
 }
 
 
@@ -759,7 +815,7 @@ footer {
 } */
 
 .wrapper-footer {
-    max-width: 1140px;
+    max-width: 1280px;
     width: 90%;
     margin: 0 auto;
 }
@@ -809,6 +865,35 @@ ul.footer li a:hover {
 
 /***************** INDIVISUAL PORTFOLIO WORK PAGE *******************/
 
+/* Tag / Badge Pill Component */
+.tag {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 16px;
+
+    /* Typography */
+    font-family: 'Roboto', 'Helvetica', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: 0.2px;
+
+    /* Colors (Soft Lavender / Slate Blue) */
+    color: #3B47AC;
+    /* Premium indigo/purple-blue text */
+    background-color: rgba(59, 71, 172, 0.2);
+    /* Soft pastel lavender/periwinkle background */
+
+    /* Border Radius */
+    border-radius: 9999px;
+    /* Creates the perfect pill shape */
+
+    /* Spacing */
+    margin-bottom: 16px;
+    /* Vertical spacing before the header below it */
+}
+
 .header {
     background: #E1E5EF;
 }
@@ -839,7 +924,6 @@ ul.footer li a:hover {
     max-width: 1140px;
     margin: 0 auto;
     width: 90%;
-    /* padding-bottom: 6.5%; */
 }
 
 img.work-project,
@@ -921,6 +1005,30 @@ p.data_title {
 
 /***************** Project data end *******************/
 
+.overview-data {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    margin: 5% 0;
+}
+
+.overview-data > div {
+    flex: 1;
+}
+
+.overview-data p {
+    font-size: 16px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+}
+
+@media (min-width: 768px) {
+    .overview-data {
+        flex-direction: row;
+        gap: 48px;
+    }
+}
+
 img.work-project.tile {
     border: solid 1px #CCCCCC;
     padding: 18px;
@@ -937,8 +1045,8 @@ img.aki_inlogo {
 }
 
 section {
-    width: 80%;
-    margin: 15% auto 15% auto;
+    /* width: 80%; */
+    margin: 8% auto 8% auto;
 }
 
 img.dev-icon {
