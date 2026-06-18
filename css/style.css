@@ -98,7 +98,7 @@ p {
     /* Perfectly sizes the width for optimal reading comfort */
 }
 
-h2,
+
 h3,
 p,
 ul li {
@@ -205,6 +205,10 @@ img {
 
 .space-5t {
     margin-top: 5%;
+}
+
+.space-5b {
+    margin-bottom: 5%;
 }
 
 
@@ -403,6 +407,11 @@ nav ul li a:hover {
 
 .clearfix {
     overflow: auto;
+}
+
+.about {
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 /* ul.nav-main{
@@ -847,7 +856,7 @@ footer {
 ul.footer {
     list-style: none;
     padding: 0;
-    margin-top: 35px;
+    /* margin-top: 35px; */
     float: left;
 }
 
