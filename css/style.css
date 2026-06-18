@@ -38,7 +38,7 @@ body {
 .wrapper {
     max-width: 1140px;
     margin: 0 auto;
-    text-align: center;
+    /* text-align: center; */
     width: 90%;
     padding: 6.5% 0;
     overflow: auto;
@@ -1090,10 +1090,10 @@ img.aki_inlogo {
     margin-right: 5%;
 }
 
-section {
-    /* width: 80%; */
+/* section {
+    width: 80%;
     margin: 8% auto 8% auto;
-}
+} */
 
 img.dev-icon {
     display: inline;
@@ -1546,6 +1546,10 @@ img.bgshadow {
 @media (max-width:480px) {
     img.logo {
         width: 32px;
+    }
+
+    .wrapper {
+        padding: 10% 0;
     }
 }
 
