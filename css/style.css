@@ -199,6 +199,10 @@ img {
     margin-top: 0;
 }
 
+.space-2t {
+    margin-top: 2%;
+}
+
 .space-5t {
     margin-top: 5%;
 }
@@ -246,9 +250,9 @@ img {
 }
 
 .inverse-text,
-.inverse-text h2,
-.inverse-text h3,
-.inverse-text p {
+h2.inverse-text,
+h3.inverse-text,
+p.inverse-text {
     color: #E3E3E3
 }
 
@@ -586,6 +590,11 @@ img.w50 {
     width: 50%;
 }
 
+img.w80 {
+    width: 80%;
+    margin: 2% auto;
+}
+
 ul li {
     letter-spacing: 1px;
     line-height: 2em;
@@ -635,6 +644,20 @@ p.card-title {
 
 .card p {
     margin: 0;
+}
+
+.row-flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.row-flex>[class*="col-"] {
+    display: flex;
+    flex-direction: column;
+}
+
+.row-flex .card {
+    flex: 1;
 }
 
 
@@ -895,6 +918,35 @@ ul.footer li a:hover {
     /* Vertical spacing before the header below it */
 }
 
+.tag-white {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 16px;
+
+    /* Typography */
+    font-family: 'Roboto', 'Helvetica', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 1;
+    letter-spacing: 0.2px;
+
+    /* Colors (Soft Lavender / Slate Blue) */
+    color: #ffffff;
+    /* Premium indigo/purple-blue text */
+    background-color: rgba(255, 255, 255, 0.1);
+    /* Soft pastel lavender/periwinkle background */
+
+    /* Border Radius */
+    border-radius: 9999px;
+    /* Creates the perfect pill shape */
+
+    /* Spacing */
+    margin-bottom: 16px;
+    /* Vertical spacing before the header below it */
+
+}
+
 .header {
     background: #E1E5EF;
 }
@@ -988,6 +1040,11 @@ img.recipebook {
     color: #1a202c;
     z-index: 1;
     /* Keep banner content and arrow above adjacent content wrapper */
+}
+
+.banner-section h3 {
+    text-align: center;
+    margin: 0 auto;
 }
 
 
@@ -1446,9 +1503,11 @@ img.bgshadow {
         margin-top: 0;
     }
 
-    /* .space-10b{
-    margin-bottom:0;
-  } */
+    p.section-summary {
+        font-size: 28px;
+    }
+
+
 }
 
 @media (max-width: 600px) {
