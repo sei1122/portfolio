@@ -885,6 +885,7 @@ ul.footer li a:hover {
     text-align: center;
     letter-spacing: 2px;
     font-size: 11px;
+    max-width: 100%;
 }
 
 /***************** INDIVISUAL PORTFOLIO WORK PAGE *******************/
