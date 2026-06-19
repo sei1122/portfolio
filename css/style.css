@@ -995,7 +995,7 @@ ul.footer li a:hover {
 img.work-project,
 video.work-project {
     width: 100%;
-    margin: 3% 0 10% 0;
+    margin: 3% 0 15% 0;
     max-width: 1140px;
 }
 
@@ -1009,6 +1009,7 @@ img.work-cards {
 .web_visuals_data,
 .web_visuals_data p {
     text-align: center;
+    max-width: 100%;
 }
 
 .web_visuals_data a {
@@ -1021,9 +1022,9 @@ img.work-cards {
     color: #ad74ed
 }
 
-.web_visuals_data p {
+/* .web_visuals_data p {
     margin-bottom: 0;
-}
+} */
 
 img.recipebook {
     width: 80%;
