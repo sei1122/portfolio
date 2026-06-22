@@ -54,7 +54,7 @@ a {
 }
 
 h1 {
-    font-family: 'Crimson Text', serif;
+    font-family: 'Crimson Text', 'Times New Roman', Times, serif;
     font-size: 48px;
     font-weight: 400;
     letter-spacing: 1px;
@@ -106,11 +106,18 @@ ul li {
 }
 
 p.section-summary {
-    font-size: 36px;
+    /* font-size: 36px;
     font-weight: 500;
     line-height: 140%;
     margin: 0;
-    color: #000000;
+    color: #000000; */
+    font-family: 'Crimson Text', 'Times New Roman', Times, serif;
+    font-size: 40px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 140%;
+    margin: 0;
+    color: #000;
 }
 
 p.section-title {
