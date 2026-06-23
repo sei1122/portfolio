@@ -657,6 +657,23 @@ p.card-title {
     font-weight: 600;
     margin: 0;
     font-size: 24px;
+    line-height: 140%;
+}
+
+p.card-title.has-icon {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+p.card-title.has-icon i {
+    font-size: 32px;
+    width: 32px;
+    height: 32px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
 }
 
 .card p {
