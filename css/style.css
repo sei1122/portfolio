@@ -8,10 +8,6 @@ html {
 *:before,
 *:after {
     box-sizing: inherit;
-    /* display: inline; */
-    /* display: inline-block; */
-    /* text-align: center; */
-    /* margin: 0 auto; */
 }
 
 input:focus,
@@ -26,13 +22,19 @@ body {
 }
 
 .container-top {
-    /* background: url(../img/1.jpg) no-repeat center center; */
-    background: url(../img/1.webp) no-repeat center center;
+    background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 50%, rgba(255, 255, 255, 1) 100%), url(../img/3.webp) no-repeat center center;
+    background-size: cover;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    /* background-size: cover; */
-    height: 650px;
+    min-height: 600px;
+    padding-bottom: 140px;
+}
+
+#portfolio {
+    margin-top: -100px;
+    position: relative;
+    z-index: 10;
 }
 
 .wrapper {
@@ -127,14 +129,15 @@ p.section-title {
 }
 
 ul.nav-main {
-    /* padding-top: 3.5%; */
-    text-align: center;
-    float: right;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
 }
 
 ul.nav-main.mrg {
     margin-top: 0;
-    float: right;
 }
 
 img {
@@ -360,25 +363,34 @@ if it's not present, don't show loader */
 
 /***************** HOME *******************/
 
-header.name {
-    /* margin-top: 200px; */
-    margin-top: 18%;
-}
-
-h1.myname {
+.name_logo {
     font-family: 'Crimson Text', serif;
-    font-size: 64px;
-    letter-spacing: 8px;
-    margin-bottom: 20px;
-    font-weight: 500;
+    font-weight: 700;
+    font-size: 24px;
+    letter-spacing: 1px;
 }
 
-h2.title {
-    font-family: 'Roboto', sans-serif;
-    font-size: 24px;
-    letter-spacing: 2px;
-    /* text-transform:none; */
+/* header.name {
+    margin-top: 18%;
+} */
+
+
+p.title {
+    font-family: 'Crimson Text', 'Times New Roman';
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 0;
+    line-height: 1.2;
 }
+
+p.speciality {
+    font-size: 24px;
+    margin-top: 0;
+    font-weight: 500;
+    margin: 0;
+}
+
+
 
 /***************** NAVIGATION *******************/
 img.logo {
@@ -389,7 +401,19 @@ img.logo {
 }
 
 .mobile-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     padding-top: 5%;
+}
+
+.mobile-nav>a {
+    display: flex;
+    align-items: center;
+}
+
+.hamburgler-icon-wrapper {
+    display: none;
 }
 
 nav ul li {
@@ -397,6 +421,10 @@ nav ul li {
     display: inline-block;
     padding-right: 50px;
     letter-spacing: 3px;
+}
+
+nav ul li:last-child {
+    padding-right: 0;
 }
 
 nav ul li a {
@@ -590,8 +618,13 @@ span.filter.active {
     font-size: 18px;
 }
 
+#portfoliolist {
+    justify-content: space-between;
+}
+
 #portfoliolist .portfolio {
-    margin: 2%;
+    margin: 2% 0;
+    width: 48%;
 }
 
 mark {
@@ -1275,6 +1308,7 @@ img.bgshadow {
 @media (max-width:885px) {
 
     .hamburgler-icon-wrapper {
+        display: block;
         position: relative;
         float: right;
         height: 26px;
@@ -1377,6 +1411,8 @@ img.bgshadow {
     }
 
     .hamburgler-menu-list li {
+        display: block;
+        padding-right: 0;
         padding-bottom: 20px;
     }
 
@@ -1395,6 +1431,10 @@ img.bgshadow {
         display: none;
     }
 
+    .mobile-nav>div:last-child {
+        display: none;
+    }
+
 
     /* show hamburgler menu */
     .hamburgler-menu {
@@ -1409,7 +1449,13 @@ img.bgshadow {
     /* Fill up the background*/
     .container-top {
         padding-top: 10px;
-        height: 300px;
+        height: auto;
+        min-height: 300px;
+        padding-bottom: 60px;
+    }
+
+    #portfolio {
+        margin-top: -40px;
     }
 
     /***** NAME *****/
@@ -1642,6 +1688,16 @@ img.bgshadow {
         margin-top: 16px;
         margin-bottom: 0;
     }
+
+    p.title {
+        font-size: 32px;
+    }
+
+    p.speciality {
+        font-size: 18px;
+    }
+
+
 }
 
 @media (max-width:425px) {
