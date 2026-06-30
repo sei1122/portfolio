@@ -420,7 +420,7 @@ nav ul li {
     list-style: none;
     display: inline-block;
     padding-right: 50px;
-    letter-spacing: 3px;
+    letter-spacing: 2px;
 }
 
 nav ul li:last-child {
@@ -683,6 +683,10 @@ h2.contrast {
     border-radius: 12px;
     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.04);
     border: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.card-p-width {
+    max-width: 850px;
 }
 
 
@@ -1252,10 +1256,11 @@ r .imgw80cen {
     margin: 0 auto;
 }
 
-p.userfeedback {
-    font-size: 20px;
+.caption {
+    margin-top: 2%;
+    font-size: 16px;
     font-style: italic;
-    margin: 35% auto 0 auto;
+    letter-spacing: 0.5px;
 }
 
 .ifr_scale {
@@ -1278,6 +1283,58 @@ img.bgshadow {
 
 .wrapper-work.thanks h3 {
     text-align: center;
+}
+
+/* List with custom icon */
+ul.list-icon {
+    list-style: none;
+    padding-left: 0;
+    margin: 20px 0;
+}
+
+ul.list-icon li {
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    margin-bottom: 12px;
+    font-size: 18px;
+    line-height: 2em;
+    font-weight: 500;
+}
+
+
+ul.list-icon li i {
+    font-size: 24px;
+    margin-top: 6px;
+    /* align with line-height of text */
+    flex-shrink: 0;
+}
+
+/* Bullet list with custom alignment and color */
+ul.list-bullet {
+    list-style: none;
+    padding-left: 0;
+    margin: 20px 0;
+}
+
+ul.list-bullet li {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    margin-bottom: 12px;
+    font-size: 18px;
+    line-height: 2em;
+}
+
+ul.list-bullet li::before {
+    content: "•";
+    color: #3B47AC;
+    /* Matches the theme icon color */
+    font-size: 24px;
+    line-height: 1;
+    margin-top: 6px;
+    /* Align with first line of text */
+    flex-shrink: 0;
 }
 
 
