@@ -1729,7 +1729,9 @@ ul.list-bullet li::before {
 
     .col-3,
     .col-4,
+    .col-5,
     .col-6,
+    .col-7,
     .col-8 {
         width: 100%;
     }
@@ -1739,7 +1741,8 @@ ul.list-bullet li::before {
         margin: 0 auto;
     }
 
-    .row {
+    .row,
+    .row-flex {
         display: flex;
         flex-direction: column;
     }
