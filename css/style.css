@@ -1747,6 +1747,16 @@ ul.list-bullet li::before {
         flex-direction: column;
     }
 
+    .card.insight .col-7 {
+        margin-top: 2%;
+    }
+
+    .card.insight .col-5,
+    .card.insight .col-7 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
     .sw-first {
         order: 2;
     }
